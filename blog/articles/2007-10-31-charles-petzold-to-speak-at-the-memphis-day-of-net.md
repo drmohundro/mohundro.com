@@ -1,0 +1,6 @@
+
+title: "Charles Petzold to speak at the Memphis Day of .NET!"
+author: David
+date: 2007/10/31
+
+<p>If you live anywhere around Memphis, be sure to be there on November 10. That is when the <a href="http://dayofdotnet.mnug.net/">Memphis Day of .NET is scheduled</a>. It was just <a href="http://dayofdotnet.mnug.net/post/Keynote-Speaker-Announced-Charles-Petzold.aspx">announced today that Charles Petzold will be delivering the keynote</a> as well! <a href="http://www.charlespetzold.com/blog/2007/10/311018.html">Charles has already posted about it on his blog</a>. I'm incredibly jealous of all of you who are planning on being there - I had been planning to go but then when I found out when it was scheduled, I realized I had conflicts and wouldn't be able to make it. Of the other speakers scheduled, I got the chance to meet both <a href="http://keithelder.net/blog/">Keith Elder</a> and <a href="http://www.jeffblankenburg.com/index.html">Jeff Blankenburg</a> at <a href="http://devlink.net/">DevLink</a> and I know their presentations will be great. I know that <a href="http://www.colinneller.com/blog/">Colin</a> and others have put a lot of hard work into making the Day of .NET great, so if you get the chance, go out there and show them your support!</p>
