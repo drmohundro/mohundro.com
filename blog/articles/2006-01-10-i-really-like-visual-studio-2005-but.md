@@ -11,6 +11,6 @@ I don't know exactly what I did to fix it, though. Let's just say heavy use of t
 
 Oh well.
 
-<strong>NOTE</strong>: Don't take this the wrong way. I still love VS2005 as an IDE. However, it still has quite a few issues. The most annoying of which is the flickering while in the designer. And no, I never got that one up in the debugger either.
+**NOTE**: Don't take this the wrong way. I still love VS2005 as an IDE. However, it still has quite a few issues. The most annoying of which is the flickering while in the designer. And no, I never got that one up in the debugger either.
 
-<strong>UPDATE</strong>: For more information on this, see my new post [here](http://www.mohundro.com/blog/PermaLink,guid,a59a8f4f-a64d-431a-95b2-93f924c6a48a.aspx).
+**UPDATE**: For more information on this, see my new post [here](http://www.mohundro.com/blog/PermaLink,guid,a59a8f4f-a64d-431a-95b2-93f924c6a48a.aspx).

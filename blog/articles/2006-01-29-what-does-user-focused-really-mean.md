@@ -4,10 +4,8 @@ author: David
 date: 2006/01/29
 
 I just finished reading an [article](http://www.hacknot.info/hacknot/action/showEntry?eid=82) from [Hacknot](http://www.hacknot.info/hacknot/action/home) that describes the predicament that developers are in while attempting to define a software product's requirements as specified by the user. Here is a quote from the article that I find quite telling:
-<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
 
-<em>In their efforts to be "user focused", guided by simplistic notions of "usability", many managers and programmers uncritically accept whatever users tell them as a mandate. "The customer is always right" makes a nice slogan but a poor substitute for critical thought. If you want to deliver a product that is genuinely useful, it is important to moderate the user feedback you receive with your own knowledge of usability principles, and to seek independent confirmation of the information they relate. For it is a fact seldom acknowledged in the text books that users are frequently uninformed, mistaken or deliberately deceptive.</em>
-</blockquote>
+> In their efforts to be "user focused", guided by simplistic notions of "usability", many managers and programmers uncritically accept whatever users tell them as a mandate. "The customer is always right" makes a nice slogan but a poor substitute for critical thought. If you want to deliver a product that is genuinely useful, it is important to moderate the user feedback you receive with your own knowledge of usability principles, and to seek independent confirmation of the information they relate. For it is a fact seldom acknowledged in the text books that users are frequently uninformed, mistaken or deliberately deceptive.
 
 I work in an organization which is highly user focused, as opposed to product focused. Essentially, whatever the customer says goes. 
 
