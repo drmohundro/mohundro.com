@@ -153,6 +153,9 @@ The above code is working like a charm. I still have no idea why my first exampl
 
 **NOTES:** Here are some resources I found while researching this:
 
-[[http://www.nedbatchelder.com/blog/20050318T070512.html](http://www.nedbatchelder.com/blog/20050318T070512.html)]<br>[[http://www.pinvoke.net/default.aspx/shell32/ShellExecuteEx.html](http://www.pinvoke.net/default.aspx/shell32/ShellExecuteEx.html)]<br>[[http://www.pinvoke.net/default.aspx/Constants/SW.html](http://www.pinvoke.net/default.aspx/Constants/SW.html)]<br>[[http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp)]
+- [http://www.nedbatchelder.com/blog/20050318T070512.html](http://www.nedbatchelder.com/blog/20050318T070512.html)
+- [http://www.pinvoke.net/default.aspx/shell32/ShellExecuteEx.html](http://www.pinvoke.net/default.aspx/shell32/ShellExecuteEx.html)
+- [http://www.pinvoke.net/default.aspx/Constants/SW.html](http://www.pinvoke.net/default.aspx/Constants/SW.html)
+- [http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/shellcc/platform/shell/reference/structures/shellexecuteinfo.asp)
 
-Also, be sure to look at the ShellAPI.h header file!<br>
+Also, be sure to look at the ShellAPI.h header file!

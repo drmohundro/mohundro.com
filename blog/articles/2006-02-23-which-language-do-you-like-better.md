@@ -7,4 +7,4 @@ Larry O'Brien talks about the [myth of better programming languages](http://www.
 
 As a side note, [Kona and the Big Island of Hawaii rule](http://www.mohundro.com/Photos.aspx?gallery=Honeymoon+in+Hawaii).
 
-(found via [the Daily Grind](http://www.larkware.com/dg5/TheDailyGrind825.html))<br>
+(found via [the Daily Grind](http://www.larkware.com/dg5/TheDailyGrind825.html))
