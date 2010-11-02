@@ -1,9 +1,9 @@
 <h1>Archives</h1>
 <ul>
-  <% archives.group_by { |entry| Date.parse(entry.date).year }.sort.each do |year, entries| %>
+  <% archives.group_by { |entry| Date.parse(entry.date).year }.sort { |a,b| b <=> a }.each do |year, entries| %>
     <li><%=year %>
       <ul>
-      <% entries.sort { |a,b| Date.parse(a.date) <=> Date.parse(b.date) }.each do |entry| %>
+      <% entries.sort { |a,b| Date.parse(b.date) <=> Date.parse(a.date) }.each do |entry| %>
         <li>
           <a href="<%= entry.path %>"><%= entry.title %></a>
         </li>
