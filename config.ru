@@ -1,4 +1,8 @@
 require 'toto'
+require 'rack-rewrite'
+
+$LOAD_PATH.unshift File.dirname(__FILE__) + '/lib'
+require 'helpers'
 
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
@@ -6,6 +10,18 @@ use Rack::CommonLogger
 
 if ENV['RACK_ENV'] == 'development'
   use Rack::ShowExceptions
+end
+
+use Rack::Rewrite do
+  r301 %r{/blog/
+    (\d{4})/  # year
+    (\d{2})/  # month
+    (\d{2})/  # day
+    (\w+?)    # slug
+    \.aspx$}x, lambda { |match, rack_env|
+      year, month, day, slug = match[1], match[2], match[3], match[4].underscore
+      "/blog/#{year}/#{month}/#{day}/#{slug}/"
+  }
 end
 
 #
