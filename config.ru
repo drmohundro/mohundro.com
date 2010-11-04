@@ -19,7 +19,7 @@ use Rack::Rewrite do
     (\d{2})/  # day
     (\w+?)    # slug
     \.aspx$}x, lambda { |match, rack_env|
-      year, month, day, slug = match[1], match[2], match[3], match[4].underscore
+      year, month, day, slug = match[1], match[2], match[3], match[4].camelcase_to_dashes
       "/blog/#{year}/#{month}/#{day}/#{slug}/"
   }
 end
