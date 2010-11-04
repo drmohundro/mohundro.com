@@ -2,6 +2,7 @@
 title: "Previous jobs can come back to haunt you in strange ways"
 author: David
 date: 2007/09/05
+categories: general
 
 When I was in high school, my first job was preparing food at a local Taco Mayo. I didn't last long there. Soon afterwards, I began working at a local ISP doing tech support. I still remember all of the problems that brand new 56K modems had, because the v92 standard hadn't really been standardized yet. 
 
@@ -36,3 +37,4 @@ Here are the steps I took:
 Moral of the story - rebooting always fixes the problem. Just try it over and over and over again. Until it starts working. 
 
 \*sigh\*
+

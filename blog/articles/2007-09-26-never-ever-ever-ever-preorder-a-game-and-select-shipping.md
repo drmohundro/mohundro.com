@@ -2,6 +2,7 @@
 title: "Never ever ever ever preorder a game and select shipping"
 author: David
 date: 2007/09/26
+categories: gaming
 
 I am a moron. 
 
@@ -14,3 +15,4 @@ Because it still hasn't shipped to my door.
 I should have chosen in-store pickup. 
 
 \*sigh\*
+

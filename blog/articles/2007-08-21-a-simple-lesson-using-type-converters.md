@@ -2,6 +2,7 @@
 title: "A simple lesson using type converters"
 author: David
 date: 2007/08/21
+categories: .net;programming
 
 I found myself writing the following code this evening:
 
@@ -31,3 +32,4 @@ Don't ever write code like this. [Read the documentation](http://msdn2.microsoft
       string result = node.SelectSingleNode(name).InnerText.Trim();
       return (T)TypeDescriptor.GetConverter(typeof(T)).ConvertFromString(result);
     }
+

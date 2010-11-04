@@ -2,6 +2,7 @@
 title: "Where have I been and what have I been up to?"
 author: David
 date: 2006/08/16
+categories: 
 
 I'm sorry... I've been bad about posting lately. So bad in fact, that I've only posted once this month! But you know what? I've got a good excuse... I was in Alaska on vacation! So there! 
 
@@ -11,3 +12,4 @@ Anyway, I wanted to also say that I've been a [del.icio.us](http://del.icio.us) 
 
 Does anyone else use del.icio.us regularly? If so, leave your del.icio.us IDs! 
 (PS - this post comes to you from Windows Live Writer... too bad it doesn't work through my corporate proxy, either...)
+

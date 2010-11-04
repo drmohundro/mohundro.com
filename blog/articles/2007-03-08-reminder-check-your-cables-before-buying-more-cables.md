@@ -2,6 +2,7 @@
 title: "Reminder: Check your cables before buying more cables..."
 author: David
 date: 2007/03/08
+categories: general;hardware
 
 I'm sure I'm the only one that has ever messed up like this, but anyway... 
 
@@ -30,3 +31,4 @@ The plugs don't work that way.
 What's even better is I didn't realize this until I had already pulled the TV out, unhooked the satellite receiver from the component and rehooked the 360 component back in. 
 
 Moral of the story: double check your cables before you buy new cables.
+

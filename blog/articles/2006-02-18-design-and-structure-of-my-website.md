@@ -2,6 +2,7 @@
 title: "Design and structure of my website"
 author: David
 date: 2006/02/18
+categories: .net;programming
 
 I'd like to talk a little bit about what I did to get my personal site up and running.
 
@@ -14,3 +15,4 @@ The other primary addition to the standard dasBlog setup is that I added a Photo
 I'll be the first one to admit that there are issues with my Photos page (the exported albums' name are exactly the safest for the web), but it works. At some point, I'd like to clean up the names and add the ability to display our comments as well as to take comments from visitors to the site.
 
 That pretty much sums up what I've done with the site. If you'd like to know more, let me know!
+

@@ -2,6 +2,7 @@
 title: "A Hard Copy of the Internet..."
 author: David
 date: 2006/03/11
+categories: 
 
 According to [Gadgetopia](http://www.gadgetopia.com/post/5110), a 
 nine-year old in North Dakota made a bet with his older brother that he could 
@@ -25,3 +26,4 @@ there is a whole lot of stuff on the Internet that is completely inappropriate
 for a nine-year old (much less a 25-year old like myself).
 
 Maybe if his brother is nice, he can get a deadline.
+

@@ -2,6 +2,7 @@
 title: "My Vista stability score is way down lately..."
 author: David
 date: 2007/02/20
+categories: windows vista
 
 Check this out... 
 
@@ -17,3 +18,4 @@ I discovered about [DEP and Internet Explorer 7 via Michael Howard's blog](http:
 
 So, if you're getting a lot of random crashes in IE, don't stress out. It might be DEP. 
 Too bad my stability score had to drop so low, though.
+

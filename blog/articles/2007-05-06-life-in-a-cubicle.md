@@ -2,6 +2,7 @@
 title: "Life in a cubicle"
 author: David
 date: 2007/05/06
+categories: general
 
 I've already shared with you about how [cubicles really can be annoying when you sit next to the loudest two individuals in the world](http://www.mohundro.com/blog/2006/08/27/NoisyWorkingConditions.aspx).
 
@@ -21,3 +22,4 @@ Here are some differences between Intel and where I work:
 4. I haven't ever seen kids on a field trip, though we do have kids come around our cubes to sell cookies sometimes (and on Halloween).
 
 One other thing - I think I've met [Bill Lumbergh's](http://www.imdb.com/title/tt0151804/) clone in our cubicle farm. I'm guessing any and all work environments that make use of cubes have their Bill Lumberghs.
+

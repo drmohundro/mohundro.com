@@ -2,6 +2,7 @@
 title: "Syntax Highlighter for Windows Live Writer"
 author: David
 date: 2006/08/28
+categories: 
 
 Check out the [Syntax Highlighter plugin](http://www.codeplex.com/Project/ListForums.aspx?ProjectName=Highlight4Writer) for Windows Live Writer.
 <pre><span style="color: #808080">///&lt;summary&gt;</span>
@@ -18,3 +19,4 @@ Check out the [Syntax Highlighter plugin](http://www.codeplex.com/Project/ListFo
 }</pre>
 
 Works just like you'd expect! If it had a few more niceties like taking out leading spaces, it'd be even better!
+

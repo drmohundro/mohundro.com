@@ -2,6 +2,7 @@
 title: "Getting the caption of an image programatically"
 author: David
 date: 2006/08/20
+categories: .net;programming
 
 So, this is a little off-topic compared to some of the other posts I have done lately, but it was something new to me and I thought I'd share it for information... and as a means of helping me remember it later! 
 
@@ -37,3 +38,4 @@ If you're interested in more about the PropertyItem class, check out these pages
 
 - [http://www.codeproject.com/cs/media/photoproperties.asp](http://www.codeproject.com/cs/media/photoproperties.asp)
 - [http://www.pixvillage.com/blogs/devblog/archive/2005/03/27/176.aspx](http://www.pixvillage.com/blogs/devblog/archive/2005/03/27/176.aspx)
+

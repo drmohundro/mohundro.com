@@ -2,6 +2,7 @@
 title: "PowerShell FSDNUG Presentation with Slides and Notes"
 author: David
 date: 2008/09/08
+categories: .net user group;speaking
 
 Tonight, I presented on [PowerShell](http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx) to the [Fort Smith .NET User Group](http://fsdnug.org/). It was my first presentation/speech since college! Fortunately, it seems to have gone over well and I think I helped drive some interest in PowerShell. Here are my slides and other relevant links for any of those who attended. 
 
@@ -18,3 +19,4 @@ I've zipped up my PowerPoint presentation along with my demo.txt (to go along wi
 I hope everyone enjoyed the talk! I enjoyed giving it!
 
 Let me know if you have any comments on ways that I could improve.
+

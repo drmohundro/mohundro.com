@@ -2,6 +2,7 @@
 title: "SQL Server 2008 Launch Event&hellip; Locally!"
 author: David
 date: 2009/01/12
+categories: .net user group;speaking
 
 Tonight, the [FSDNUG](http://www.fsdnug.org) group participated in their first launch event ever – for SQL Server 2008! Woo! 
 
@@ -16,3 +17,4 @@ The other code examples that I had all are linked off of [the MSDN overview of S
 The final two links I used were [this one from SQL Skills](http://www.sqlskills.com/resources/Whitepapers/SQL%20Server%20DBA%20Guide%20to%20SQLCLR.htm) and [this one... that provided most of my information](http://www.google.com/search?hl=en&q=sqlclr) :-) Thanks Google!
 
 I enjoyed the chance to present again! If you have any feedback, feel free to let me know.
+

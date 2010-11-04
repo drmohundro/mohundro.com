@@ -2,6 +2,7 @@
 title: "Iron Everything"
 author: David
 date: 2007/08/21
+categories: languages;programming
 
 I was looking through [programming.reddit.com](http://programming.reddit.com/) today and [discovered that IronLisp](http://xacc.wordpress.com/2007/08/21/ironlisp-is-now-open/) now has a website on Codeplex. I haven't coded in LISP since college, but it was certainly an interesting experience. 
 
@@ -19,3 +20,4 @@ So where did the Iron naming scheme come from anyway? Why not Nython<sup>1</sup>
 
 <sup>1</sup> - The Java implementation is Jython.<br />
 <sup>2</sup> - The Java implementation is JRuby.
+

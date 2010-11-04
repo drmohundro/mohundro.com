@@ -2,6 +2,7 @@
 title: "Documents and Settings still exists in Vista..."
 author: David
 date: 2006/09/28
+categories: windows vista
 
 If you've seen some of the Vista screenshots lately or even installed the RC1 for Vista, you will undoubtedly have noticed that Windows Vista makes use of the C:\Users directory instead of C:\Documents and Settings that Windows XP had previously used. 
 
@@ -20,3 +21,4 @@ Thankfully, Vista's excellent Restore previous versions worked great so I didn't
 One note about the Restore previous versions that caught me though is that if you have the folder open, it won't let you restore it. You actually have to collapse the folder in Explorer and right click on it for it to work. Or at least I did. 
 
 **UPDATE:** [Scott Hanselman](http://www.hanselman.com/blog/WindowsVistaJunctionsAndMovingMyDocumentsToAnotherDrive.aspx) and [Rob Boek](http://robboek.com/blog/2006/09/29/JunctionsInWindowsVista.aspx) both provided some great feedback to my post. I hadn't thought to try the "dir /ad" command like Rob did to show the junction... I was mainly basing my prior statements based off of observations. Thanks for the updates guys!
+

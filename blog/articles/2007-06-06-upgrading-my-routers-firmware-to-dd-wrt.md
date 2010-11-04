@@ -2,6 +2,7 @@
 title: "Upgrading my router's firmware to DD-WRT"
 author: David
 date: 2007/06/06
+categories: general;hardware
 
 For the past month or so, my internet connection at home has been dropping constantly. There hasn't really seemed to be any rhyme or reason to it either. What's interesting is that one of my neighbors with a similar network setup was experiencing similar behavior. 
 
@@ -18,3 +19,4 @@ Much snazzier than the "official" firmware.
 If you're interested in trying out DD-WRT, look no further than [http://www.dd-wrt.com/](http://www.dd-wrt.com/). I was able to find plenty of resources online for getting DD-WRT working, too. Hopefully, this will fix some of the connection issues I've been having. 
 
 UPDATE - Interestingly enough, [Lifehacker named DD-WRT their number two network utility](http://lifehacker.com/photogallery/Lifehacker-Top-10%7C-Network-utilities/1993226) of their [top 10 network utilities](http://lifehacker.com/photogallery/lifehacker-top-10%7C-network-utilities/).
+

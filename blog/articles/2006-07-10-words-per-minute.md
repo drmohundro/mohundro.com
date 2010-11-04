@@ -2,6 +2,7 @@
 title: "Words per Minute!!!"
 author: David
 date: 2006/07/10
+categories: general
 
 This will be a short post, but someone at work emailed me a link to a page that will let you see how fast you can type. Check it out [here](http://labs.jphantom.com/wpm)! Here are my results from my last run:
 
@@ -17,3 +18,4 @@ This will be a short post, but someone at work emailed me a link to a page that 
     ---------------------------
 
 Not too bad, eh?
+

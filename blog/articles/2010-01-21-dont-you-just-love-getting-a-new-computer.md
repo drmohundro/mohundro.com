@@ -2,6 +2,7 @@
 title: "Don't you just love getting a new computer?"
 author: David
 date: 2010/01/21
+categories: hardware
 
 I picked up a new computer as a Christmas present to myself last year… hadn't gotten around to seeing what the stats were for it until recently, though. 
 
@@ -12,3 +13,4 @@ Not too shabby at all if I say so myself. It would be amazing with an SSD in the
 ![Task Manager and 8 cores](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Dontyoujustlovegettinganewcomputer_13350/image_4.png)
  
 This thing is awesome.
+

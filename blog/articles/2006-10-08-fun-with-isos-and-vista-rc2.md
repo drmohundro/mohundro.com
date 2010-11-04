@@ -2,6 +2,7 @@
 title: "Fun with ISOs and Vista RC2"
 author: David
 date: 2006/10/08
+categories: utilities;windows vista
 
 I recently updated my Vista installation to RC2 (build 5744), which went fairly smoothly for me. The installation went even better than for RC1, [because I had moved my documents to my D: drive](http://www.mohundro.com/blog/PermaLink,guid,d2103c85-a702-47ae-b149-48c3ba43fcb2.aspx), so once I told Vista where they were, most of my initial configuration was done! I did have one weird problem with installation, but it disappeared when I booted from the DVD instead of attempting to install from within the previous install of Vista. 
 
@@ -14,3 +15,4 @@ Once Virtual CloneDrive was uninstalled, I started up the DAEMON Tools installat
 After the reboot, I started up DAEMON Tools and pointed it to the VS2005 ISO and started up setup. The installation ran great, so everything points to something in Virtual CloneDrive not working as expected under RC2. 
 
 As I mentioned earlier, I still have no idea why Virtual CloneDrive began having problems under RC2. It ran great under RC1 and I really liked the interface it provided. DAEMON Tools is admittedly less user friendly, but it certainly gets the job done, which is what I needed.
+
