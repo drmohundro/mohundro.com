@@ -3,6 +3,7 @@ class String
     self.to_s.gsub(/::/, '/').
       gsub(/([A-Z]+)([A-Z][a-z])/,'\1-\2').
       gsub(/([a-z\d])([A-Z])/,'\1-\2').
-      downcase
+      downcase.
+      gsub('power-shell', 'powershell')
   end
 end
