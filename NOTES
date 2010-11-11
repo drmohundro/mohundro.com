@@ -1,0 +1,61 @@
+# TOP 10 INCOMING LINKS
+
+* /blog/2006/11/06/FindInFilesWithPowerShell.aspx
+* /blog/2010/02/04/SomeTipsOnUsingGitWithWindows.aspx
+* /blog/2008/05/23/RealWorldWalkthroughWithWinDbg.aspx
+
+/blog/CategoryView,category,PowerShell.aspx
+
+* /blog/2009/10/22/PingVPNEtcFromWindowsXPMode.aspx
+
+/blog/CommentView,guid,7945d820-4f60-4ecf-bad1-ff2932e029f5.aspx
+
+* /blog/2008/11/19/ProgrammaticallyAddingEventSettersInWPF.aspx
+
+/blog/CommentView,guid,b3e7081f-8249-4e37-a777-9afdfd0d9b3d.aspx
+
+* /blog/2006/06/27/ALittleBitAboutManualResetEvent.aspx
+
+
+# Posts that very likely will have 301 issues with them...
+
+2007-05-24-should-i-be-worried-when-the-local-news-channel-is-featured-on-worsethanfailure.md:2:title: "Should I be wor
+ried when the local news channel is featured on WorseThanFailure?"
+2007-06-28-a-simple-function-to-get-a-webclient-with-proxy-in-powershell.md:2:title: "A simple function to get a WebCli
+ent (with proxy) in PowerShell"
+2007-07-16-ill-be-at-devlink-2007.md:2:title: "I'll be at devLink 2007"
+2007-08-07-systemwindowsformswebbrowser-and-selenium.md:2:title: "System.Windows.Forms.WebBrowser and Selenium"
+2007-10-10-devlink-here-i-come.md:2:title: "DevLink here I come!"
+2007-10-17-devlink-2007-recap.md:2:title: "devLink 2007 Recap"
+2007-11-06-graphical-powershell-in-the-new-ctp-of-powershell-20.md:2:title: "Graphical PowerShell in the new CTP of Pow
+erShell 2.0"
+2007-12-19-zoomit---great-for-presentations-as-well-as-when-your-eyes-are-dilated.md:2:title: "ZoomIt - Great for prese
+ntations as well as when your eyes are dilated!"
+2008-05-23-real-world-walkthrough-with-windbg.md:2:title: "Real world walkthrough with WinDbg"
+2008-08-20-going-to-devlink-me-too.md:2:title: "Going to DevLink? Me too!"
+2008-08-27-devlink-2008-recap.md:2:title: "devLink 2008 Recap"
+2008-08-27-murfreesboro-sushi-with-a-bunch-of-devlink-attendees.md:2:title: "Murfreesboro Sushi with a bunch of DevLink
+ attendees"
+2008-09-05-speaking-at-fsdnug-on-powershell.md:2:title: "Speaking at FSDNUG on PowerShell"
+2008-09-08-powershell-fsdnug-presentation-with-slides-and-notes.md:2:title: "PowerShell FSDNUG Presentation with Slides
+ and Notes"
+2008-10-11-simple-powershell-script-to-generate-thumbnails.md:2:title: "Simple PowerShell script to generate thumbnails
+"
+2008-11-19-programmatically-adding-eventsetters-in-wpf.md:2:title: "Programmatically adding EventSetters in WPF"
+2008-12-31-powershell-ise-themes.md:2:title: "PowerShell ISE Themes!"
+2009-02-23-getting-started-with-wix-and-major-upgrades.md:2:title: "Getting started with WiX and Major Upgrades!"
+2009-03-30-quickly-extract-files-with-powershell.md:2:title: "Quickly Extract Files with PowerShell"
+2009-06-12-find-stringps1--ack-for-powershell.md:2:title: "Find-String.ps1 ? ack for PowerShell"
+2009-07-12-havent-heard-about-powershell-yet-and-youll-be-in-the-little-rock-area-this-week-too.md:2:title: "Haven't he
+ard about PowerShell yet? And you'll be in the Little Rock area this week, too???"
+2009-08-24-another-year-another-devlink-part-1.md:2:title: "Another year, another devLink (part 1)"
+2009-08-25-another-year-another-devlink-part-2.md:2:title: "Another year, another devLink (part 2)"
+2009-08-26-another-year-another-devlink-part-3.md:2:title: "Another year, another devLink (part 3)"
+2009-10-09-simple-sinatra-example-using-ironruby.md:2:title: "Simple Sinatra example using IronRuby"
+2010-08-23-devlink-2010-recap.md:2:title: "DevLink 2010 Recap"
+
+
+
+# Gems to consider pulling in...
+
+- http://github.com/webficient/rack-coderay
