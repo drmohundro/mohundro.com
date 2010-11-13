@@ -18,5 +18,5 @@ There are a lot of scripts out there that use the System.Net.WebClient and the v
 
 This script makes the assumption that you've already predefined the $global.ProxyUrl and $global.ProxyPort variables in your profile. It is also nice for me because it prompts me for my credentials instead of having them hard-coded in the script or in my profile. 
 
-Now I can also check the weather from PowerShell using the Show-Weather script that the guys at SAPIEN provided in their [Ã¼ber-prompt post](http://blog.sapien.com/current/2007/6/13/one-prompt-to-rule-them-all.html).
+Now I can also check the weather from PowerShell using the Show-Weather script that the guys at SAPIEN provided in their [&#252;ber-prompt post](http://blog.sapien.com/current/2007/6/13/one-prompt-to-rule-them-all.html).
 
