@@ -1,36 +1,10 @@
-# TOP 10 INCOMING LINKS
-
-* /blog/2006/11/06/FindInFilesWithPowerShell.aspx
-* /blog/2010/02/04/SomeTipsOnUsingGitWithWindows.aspx
-* /blog/2008/05/23/RealWorldWalkthroughWithWinDbg.aspx
+# Links that still need to be redirected...
 
 /blog/CategoryView,category,PowerShell.aspx
 
-* /blog/2009/10/22/PingVPNEtcFromWindowsXPMode.aspx
-
 /blog/CommentView,guid,7945d820-4f60-4ecf-bad1-ff2932e029f5.aspx
 
-* /blog/2008/11/19/ProgrammaticallyAddingEventSettersInWPF.aspx
-
 /blog/CommentView,guid,b3e7081f-8249-4e37-a777-9afdfd0d9b3d.aspx
-
-* /blog/2006/06/27/ALittleBitAboutManualResetEvent.aspx
-
-
-# Posts that very likely will have 301 issues with them...
-
-2008-12-31-powershell-ise-themes.md:2:title: "PowerShell ISE Themes!"
-2009-02-23-getting-started-with-wix-and-major-upgrades.md:2:title: "Getting started with WiX and Major Upgrades!"
-2009-03-30-quickly-extract-files-with-powershell.md:2:title: "Quickly Extract Files with PowerShell"
-2009-06-12-find-stringps1--ack-for-powershell.md:2:title: "Find-String.ps1 ? ack for PowerShell"
-2009-07-12-havent-heard-about-powershell-yet-and-youll-be-in-the-little-rock-area-this-week-too.md:2:title: "Haven't he
-ard about PowerShell yet? And you'll be in the Little Rock area this week, too???"
-2009-08-24-another-year-another-devlink-part-1.md:2:title: "Another year, another devLink (part 1)"
-2009-08-25-another-year-another-devlink-part-2.md:2:title: "Another year, another devLink (part 2)"
-2009-08-26-another-year-another-devlink-part-3.md:2:title: "Another year, another devLink (part 3)"
-2009-10-09-simple-sinatra-example-using-ironruby.md:2:title: "Simple Sinatra example using IronRuby"
-2010-08-23-devlink-2010-recap.md:2:title: "DevLink 2010 Recap"
-
 
 
 # Gems to consider pulling in...
