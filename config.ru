@@ -22,6 +22,11 @@ use Rack::Rewrite do
       year, month, day, slug = match[1], match[2], match[3], match[4].camelcase_to_dashes
       "/blog/#{year}/#{month}/#{day}/#{slug}/"
   }
+
+  r301 %r{/blog/CategoryView,category,(\w+?)\.aspx}, lambda { |match, rack_env|
+    category = match[1].downcase
+    "/blog/categories?#{category}"
+  }
 end
 
 #

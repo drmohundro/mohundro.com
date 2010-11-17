@@ -1,0 +1,18 @@
+<% 
+  req = Rack::Request.new @env 
+  category = req.query_string
+
+  matching_posts = @articles.select { |a| a[:categories] =~ /#{category}/ }
+%>
+<h1>All posts tagged: '<%=category%>'</h1>
+<ul>
+<% if matching_posts.length > 0 %>
+  <% matching_posts.each do |entry| %>
+    <li>
+      <a href="<%= entry.path %>"><%= entry.title %></a>
+    </li>
+  <% end %>
+<% else %>
+  <li>No posts were found.</li>
+<% end %>
+</ul>
