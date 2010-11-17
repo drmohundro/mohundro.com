@@ -8,7 +8,7 @@ As many of you are aware, if you attempt to access your Outlook data using some 
 
 Well, with the advent of Office 2007, we can all breathe a huge sigh of relief. Why, you ask? Because the fine folks at Microsoft heard our collective annoyances about the security model and fixed it! For the long story, check out [this MSDN article](http://msdn2.microsoft.com/en-us/ms772422.aspx). Here's the gist of it:
 
-> Outlook 2007 introduces an important change in the way that the Outlook object model guard operates. While the behavior of the object model guard has not changed significantly for Outlook add-ins, Outlook 2007 allows external applications to run without object model guard prompts—**provided that the computer on which your code is running has functional antivirus software installed and that all antivirus definitions are current**."
+> Outlook 2007 introduces an important change in the way that the Outlook object model guard operates. While the behavior of the object model guard has not changed significantly for Outlook add-ins, Outlook 2007 allows external applications to run without object model guard prompts-**provided that the computer on which your code is running has functional antivirus software installed and that all antivirus definitions are current**."
 
 I've bolded the important part for you. Now, you'll only get the warning if your antivirus software is out of date. You also have the option to either always show the warnings (yeah, right) or completely disable the warnings. Your choice.
 

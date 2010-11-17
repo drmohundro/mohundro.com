@@ -24,7 +24,7 @@ Away from the computer, my wife and I took charge of coordinating the LTC (Leade
 
 #### Looking forward...
 
-I'm planning on increasing my Ruby knowledge even more – I realize now that the best way to do this is to work on something. I've already got a project in mind so that's in the works.
+I'm planning on increasing my Ruby knowledge even more - I realize now that the best way to do this is to work on something. I've already got a project in mind so that's in the works.
 
 I feel like there is so much out there to learn, and not in a bad way. I love learning something new every day. I just want to do a better job of helping to dispense that knowledge this year!
 

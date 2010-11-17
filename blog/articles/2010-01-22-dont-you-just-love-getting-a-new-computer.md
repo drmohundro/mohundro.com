@@ -4,7 +4,7 @@ author: David
 date: 2010/01/22
 categories: hardware
 
-I picked up a new computer as a Christmas present to myself last year… hadn't gotten around to seeing what the stats were for it until recently, though. 
+I picked up a new computer as a Christmas present to myself last year... hadn't gotten around to seeing what the stats were for it until recently, though. 
 
 ![Windows Experience Index](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Dontyoujustlovegettinganewcomputer_13350/image_2.png)
 

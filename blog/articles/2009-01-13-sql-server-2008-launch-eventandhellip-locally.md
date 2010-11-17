@@ -4,7 +4,7 @@ author: David
 date: 2009/01/13
 categories: .net user group;speaking
 
-Tonight, the [FSDNUG](http://www.fsdnug.org) group participated in their first launch event ever – for SQL Server 2008! Woo! 
+Tonight, the [FSDNUG](http://www.fsdnug.org) group participated in their first launch event ever - for SQL Server 2008! Woo! 
 
 The gist of it was that 4 of us took about 15 to 20 minutes to talk about different portions of SQL Server. It turned out to be more intro than deep dives, but I think the group got more out of the presentation this way. 
 

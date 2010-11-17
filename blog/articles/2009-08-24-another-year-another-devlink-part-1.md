@@ -8,7 +8,7 @@ I've now attended [devLink](http://devlink.net) three times, with each time gett
 
 #### Ruby Enlightenment
 
-My first session of devLink was with [Leon Gersing](http://fallenrogue.com/) covering Ruby-Koans: Path to Ruby Enlightenment. Let me start this way – I have never been to a session that was presented in quite the way that Leon gave this presentation. Let me give my alternate title for this presentation: "Learning Ruby through Pair Programming using Test Driven Development." It was amazing. The guys at EdgeCase have created an open source library called [Ruby Koans](http://github.com/edgecase/ruby_koans/tree/master). From the project's README: 
+My first session of devLink was with [Leon Gersing](http://fallenrogue.com/) covering Ruby-Koans: Path to Ruby Enlightenment. Let me start this way - I have never been to a session that was presented in quite the way that Leon gave this presentation. Let me give my alternate title for this presentation: "Learning Ruby through Pair Programming using Test Driven Development." It was amazing. The guys at EdgeCase have created an open source library called [Ruby Koans](http://github.com/edgecase/ruby_koans/tree/master). From the project's README: 
 
 > The Ruby Koans walk you along the path to enlightenment in order to learn Ruby. The goal is to learn the Ruby language, syntax, structure, and some common functions and libraries. We also teach you culture. Testing is not just something we pay lip service to, but something we live. It is essential in your quest to learn and do great things in the language.
 
@@ -44,7 +44,7 @@ Josh brought up the thinking that a lot of developers have when they see an appl
 
 That sort of hit me in the gut :-)
 
-He's right, of course – we do this all the time, particularly in "enterprise" development. 
+He's right, of course - we do this all the time, particularly in "enterprise" development. 
 
 Another comment he brought up that was both true and funny at the same time is that we as developers don't speak human, we speak geek. How right he is. 
 

@@ -8,13 +8,13 @@ If you've been writing .NET applications for a while, you're likely aware that [
 
 My problem isn't knowing to not throw Exception. My problem is finding the appropriate exception to throw. 
 
-Just about every time I need to throw an exception in code, I type something like throw new… then wait for intellisense, and then inevitably try to type something like \*Exception. Which fails of course. Then I do a google search for common exception types and will come across a post like [Brad Abram's Common Exception Types](http://blogs.msdn.com/brada/archive/2005/03/27/402801.aspx). Which is somewhat useful, except that his list only contains Exception names including Exceptions like the [InvalidProgramException](http://msdn.microsoft.com/en-us/library/system.invalidprogramexception.aspx), which has a description of "the exception that is thrown when a program contains invalid MSIL." Most likely not what I need :-) [Jeff Atwood has an older post about a console application he wrote to write out Exception types from assemblies](http://www.codinghorror.com/blog/archives/000115.html), but once again, it doesn't provide the description I needed to help make my decision, too. 
+Just about every time I need to throw an exception in code, I type something like throw new... then wait for intellisense, and then inevitably try to type something like \*Exception. Which fails of course. Then I do a google search for common exception types and will come across a post like [Brad Abram's Common Exception Types](http://blogs.msdn.com/brada/archive/2005/03/27/402801.aspx). Which is somewhat useful, except that his list only contains Exception names including Exceptions like the [InvalidProgramException](http://msdn.microsoft.com/en-us/library/system.invalidprogramexception.aspx), which has a description of "the exception that is thrown when a program contains invalid MSIL." Most likely not what I need :-) [Jeff Atwood has an older post about a console application he wrote to write out Exception types from assemblies](http://www.codinghorror.com/blog/archives/000115.html), but once again, it doesn't provide the description I needed to help make my decision, too. 
 
 So, I decided to solve this problem myself. 
 
 I liked Jeff's approach because it was lightweight and could be piped to programs like findstr so that I could look for certain types of exceptions. I essentially wanted what he had, but I wanted summary information as well. I ended up solving the problem with PowerShell. First, check out the output:
 
-    [3] » Get-Exception Null | Format-List
+    [3] > Get-Exception Null | Format-List
 
     Name    : System.ArgumentNullException
     Summary : The exception that is thrown when a null reference (Nothing in Visual Basic) is passed to a method that does not

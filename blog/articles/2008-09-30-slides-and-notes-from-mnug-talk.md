@@ -4,7 +4,7 @@ author: David
 date: 2008/09/30
 categories: .net user group;powershell;speaking
 
-I promised the slides, notes and links from my [Memphis .NET User Group](http://mnug.net) talk, so here they are… and wow, they haven't really changed much from when I gave the [PowerShell talk](http://www.mohundro.com/blog/2008/09/09/PowerShellFSDNUGPresentationWithSlidesAndNotes.aspx) to the [FSDNUG](http://fsdnug.org) group. So, I'll just link to the [zip of the presentation from that talk](http://www.mohundro.com/blog/content/binary/2008-09-08-fsdnug-powershell-presentation.zip). 
+I promised the slides, notes and links from my [Memphis .NET User Group](http://mnug.net) talk, so here they are... and wow, they haven't really changed much from when I gave the [PowerShell talk](http://www.mohundro.com/blog/2008/09/09/PowerShellFSDNUGPresentationWithSlidesAndNotes.aspx) to the [FSDNUG](http://fsdnug.org) group. So, I'll just link to the [zip of the presentation from that talk](http://www.mohundro.com/blog/content/binary/2008-09-08-fsdnug-powershell-presentation.zip). 
  
 The primary slide that I added to my presentation was entirely related to a [StackOverflow](http://stackoverflow.com/) question entitled, "[how do you use PowerShell](http://stackoverflow.com/questions/8722/how-do-you-use-powershell)."
  

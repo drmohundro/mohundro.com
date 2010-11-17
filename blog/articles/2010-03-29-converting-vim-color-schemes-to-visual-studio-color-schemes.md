@@ -18,7 +18,7 @@ Visual Studio:
  
 I left the ReSharper lightbulb icon there so you would believe me :-) 
 
-Now, there are differences – the conversion is not perfect and likely won't be able to be because of differences in how each editor determines things like identifiers and keywords. Still, I consider it a huge headstart in converting a color scheme if you're interested in doing this. 
+Now, there are differences - the conversion is not perfect and likely won't be able to be because of differences in how each editor determines things like identifiers and keywords. Still, I consider it a huge headstart in converting a color scheme if you're interested in doing this. 
 
 For now, the code is a simple ~200 line PowerShell script (with at least 40 lines of comments taken from the vim documentation for reference) so it is pretty basic. The script also assumes that a starting vssettings file lives next to the script as a starting point for the conversion. The brains behind the conversion is a big hash table in the script that maps Visual Studio color scheme settings to vim color scheme settings. 
 

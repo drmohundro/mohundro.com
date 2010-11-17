@@ -1,5 +1,5 @@
 
-title: "NHibernate Unit Testing… with Fluent NHibernate!"
+title: "NHibernate Unit Testing... with Fluent NHibernate!"
 author: David
 date: 2009/05/19
 categories: .net;unit testing

@@ -8,15 +8,15 @@ A coworker swung by a few days ago to ask some questions about using Reflection.
 
 This is a good example of why I like Powershell :-) 
 
-    1 [1] » “haha”.gettype()
+    1 [1] > "haha".gettype()
     2 
     3 IsPublic IsSerial Name BaseType
-    4 ———— ———— —— ————
+    4 ---- ---- -- ----
     5 True True String System.Object
     6 
     7 
-    8 [2] » $temp = “haha”.gettype()
-    9 [3] » $temp.GetProperties()
+    8 [2] > $temp = "haha".gettype()
+    9 [3] > $temp.GetProperties()
     10 
     11 
     12 MemberType : Property
@@ -45,7 +45,7 @@ This is a good example of why I like Powershell :-)
     35 
     36 
     37 
-    38 [4] » $temp.GetProperties()[0]
+    38 [4] > $temp.GetProperties()[0]
     39 
     40 
     41 MemberType : Property
@@ -62,11 +62,11 @@ This is a good example of why I like Powershell :-)
     52 
     53 
     54 
-    55 [5] » $temp.GetProperties()[0].name
+    55 [5] > $temp.GetProperties()[0].name
     56 Chars
-    57 [6] » $temp.GetProperties()[1].name
+    57 [6] > $temp.GetProperties()[1].name
     58 Length
-    59 [7] » $temp.GetProperties()[1].GetGetMethod()
+    59 [7] > $temp.GetProperties()[1].GetGetMethod()
     60 
     61 
     62 Name : get_Length
@@ -100,7 +100,7 @@ This is a good example of why I like Powershell :-)
     90 
     91 
     92 
-    93 [8] » $temp.GetProperties()[1].GetGetMethod().Invoke
+    93 [8] > $temp.GetProperties()[1].GetGetMethod().Invoke
     94 
     95 
     96 MemberType : Method
@@ -114,20 +114,20 @@ This is a good example of why I like Powershell :-)
     104 
     105 
     106 
-    107 [9] » $temp.GetProperties()[1].GetGetMethod().Invoke(“hello world”, [])
+    107 [9] > $temp.GetProperties()[1].GetGetMethod().Invoke("hello world", [])
     108 Unable to find type []: make sure that the assembly containing this type is loaded.
     109 At line:1 char:65
-    110 + $temp.GetProperties()[1].GetGetMethod().Invoke(“hello world”, []) <<<<
-    111 [10] » $temp.GetProperties()[1].GetGetMethod().Invoke(“hello world”)
-    112 Cannot find an overload for “Invoke” and the argument count: “1”.
+    110 + $temp.GetProperties()[1].GetGetMethod().Invoke("hello world", []) <<<<
+    111 [10] > $temp.GetProperties()[1].GetGetMethod().Invoke("hello world")
+    112 Cannot find an overload for "Invoke" and the argument count: "1".
     113 At line:1 char:47
-    114 + $temp.GetProperties()[1].GetGetMethod().Invoke( <<<< “hello world”)
-    115 [11] » $temp.GetProperties()[1].GetGetMethod().Invoke(“hello world”, {})
-    116 Exception calling “Invoke” with “2” argument(s): “Parameter count mismatch.”
+    114 + $temp.GetProperties()[1].GetGetMethod().Invoke( <<<< "hello world")
+    115 [11] > $temp.GetProperties()[1].GetGetMethod().Invoke("hello world", {})
+    116 Exception calling "Invoke" with "2" argument(s): "Parameter count mismatch."
     117 At line:1 char:47
-    118 + $temp.GetProperties()[1].GetGetMethod().Invoke( <<<< “hello world”, {})
-    119 [12] » $temp.GetProperties()[1].GetGetMethod().Invoke(“hello world”, $Null)
+    118 + $temp.GetProperties()[1].GetGetMethod().Invoke( <<<< "hello world", {})
+    119 [12] > $temp.GetProperties()[1].GetGetMethod().Invoke("hello world", $Null)
     120 11
-    121 [13] »
+    121 [13] >
     122
 

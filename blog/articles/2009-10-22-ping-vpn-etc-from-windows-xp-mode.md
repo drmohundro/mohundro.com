@@ -10,7 +10,7 @@ One problem. The VPN client couldn't see outside networks. In fact, I couldn't e
 
 ![Attempting to ping  from XPM](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_3.png)
 
- The default networking adapter seems to be "Shared Networking (NAT)" – just change it to your actual network adapter. 
+ The default networking adapter seems to be "Shared Networking (NAT)" - just change it to your actual network adapter. 
 
 ![Networking adapter settings](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_6.png)
 

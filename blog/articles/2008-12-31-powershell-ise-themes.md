@@ -8,7 +8,7 @@ Last week, the PowerShell team released PowerShell v2 CTP3. And, of course, ther
 
 PowerShell ISE Themes. 
 
-Okay, so, it doesn't actually ship with themes. But you can create them. Let me provide some background. The “ISE” in PowerShell ISE stands for Integrated Scripting Environment and is based on the [upcoming WPF editor that will ship with Visual Studio 2010](http://blogs.msdn.com/powershell/archive/2008/10/31/powershell-ise-and-visual-studio.aspx). Here is a screenshot of it. 
+Okay, so, it doesn't actually ship with themes. But you can create them. Let me provide some background. The "ISE" in PowerShell ISE stands for Integrated Scripting Environment and is based on the [upcoming WPF editor that will ship with Visual Studio 2010](http://blogs.msdn.com/powershell/archive/2008/10/31/powershell-ise-and-visual-studio.aspx). Here is a screenshot of it. 
 
 ![PowerShell ISE](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PowerShellISEThemes_8295/image_4.png)
 

@@ -4,7 +4,7 @@ author: David
 date: 2009/02/25
 categories: .net;general;visual studio
 
-I couldn't resist borrowing my title from [Christopher Bennage's](http://devlicious.com/blogs/christopher_bennage/default.aspx) post entitled ["An Essential Tip for Working with XAML."](http://devlicious.com/blogs/christopher_bennage/archive/2009/02/04/an-essential-tip-for-working-with-xaml.aspx) My "essential tip" is identical to what he has already shown for WPF (and [Fabrice originally](http://weblogs.asp.net/fmarguerie/archive/2009/01/29/life-changer-xaml-tip-for-visual-studio.aspx)) – it just applies to Windows Forms instead of WPF :-) 
+I couldn't resist borrowing my title from [Christopher Bennage's](http://devlicious.com/blogs/christopher_bennage/default.aspx) post entitled ["An Essential Tip for Working with XAML."](http://devlicious.com/blogs/christopher_bennage/archive/2009/02/04/an-essential-tip-for-working-with-xaml.aspx) My "essential tip" is identical to what he has already shown for WPF (and [Fabrice originally](http://weblogs.asp.net/fmarguerie/archive/2009/01/29/life-changer-xaml-tip-for-visual-studio.aspx)) - it just applies to Windows Forms instead of WPF :-) 
 
 I'll mix it up some and show with pictures instead of text, though. 
 

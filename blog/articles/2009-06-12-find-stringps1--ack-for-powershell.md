@@ -1,5 +1,5 @@
 
-title: "Find-String.ps1 – ack for PowerShell"
+title: "Find-String.ps1 - ack for PowerShell"
 author: David
 date: 2009/06/12
 categories: powershell;programming;utilities
@@ -22,7 +22,7 @@ Well, of course, I had to add this functionality to Find-String. (Guess what, it
 
 ![Find-String output](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/FindString.ps1ackforPowerShell_7013/image_4.png)
 
-Now, this makes… the third post I've had on a Find-String PowerShell script I think. At some point, you're going to get tired of this if you haven't already.
+Now, this makes... the third post I've had on a Find-String PowerShell script I think. At some point, you're going to get tired of this if you haven't already.
 
 "Is this guy seriously going to post every time he changes the way Find-String works?"
 
@@ -46,5 +46,5 @@ But... they have syntax highlighting for *lots* of other file types, as is evide
 
 ![GitHub highlighting C# syntax](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/FindString.ps1ackforPowerShell_7013/image_10.png)
 
-[I already asked for this on the GitHub support site](http://support.github.com/discussions/feature-requests/327-powershell-as-a-support-language#comment_134001), but it was inexplicably closed with "no more actions from GitHub... are required" and that it is apparently “resolved.” Maybe I shouldn't worry and the feature just hasn't gone live yet. In which case, I'm just blabbing on and on for no reason and creating a long tangent to the rest of my post. If *not*, well, maybe they'll add support if I complain some more!
+[I already asked for this on the GitHub support site](http://support.github.com/discussions/feature-requests/327-powershell-as-a-support-language#comment_134001), but it was inexplicably closed with "no more actions from GitHub... are required" and that it is apparently "resolved." Maybe I shouldn't worry and the feature just hasn't gone live yet. In which case, I'm just blabbing on and on for no reason and creating a long tangent to the rest of my post. If *not*, well, maybe they'll add support if I complain some more!
 

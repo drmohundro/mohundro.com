@@ -4,13 +4,13 @@ author: David
 date: 2009/08/25
 categories: conferences
 
-Yesterday, [I blogged about the first day of devLink](http://www.mohundro.com/blog/2009/08/24/AnotherYearAnotherDevLinkPart1.aspx) – today, I'll continue the recap with, you guessed it, day 2. 
+Yesterday, [I blogged about the first day of devLink](http://www.mohundro.com/blog/2009/08/24/AnotherYearAnotherDevLinkPart1.aspx) - today, I'll continue the recap with, you guessed it, day 2. 
 
 The Open Spaces side of devLink started on day two, so that's where I went. Like last year, [Alan Stevens](http://netcave.org/) kicked everything off with the opening circle. (if you're unclear on the Open Spaces concept, I gave it more time in [my post from last year](http://www.mohundro.com/blog/2008/08/27/devLink2008Recap.aspx))
 
 #### Convening my first open space session
 
-Last year, I didn't have the guts to jump out there and provide a topic that I wanted to convene. This year, though, I thought I'd give it a try. So, I threw out [Event Driven Architecture](http://en.wikipedia.org/wiki/Event-driven_architecture) using tools like [MassTransit](http://code.google.com/p/masstransit/) or [nServiceBus](http://www.nservicebus.com/). Of course, when I brought it forward, I only said MassTransit and a few people came up to ask if I was referring to "mass transit" as in buses or trains. I guess I could've been more clear in my explanation. My *primary* purpose in picking this topic was entirely selfish – I hoped that someone would show up who knew more about it and they could do most of the talking!
+Last year, I didn't have the guts to jump out there and provide a topic that I wanted to convene. This year, though, I thought I'd give it a try. So, I threw out [Event Driven Architecture](http://en.wikipedia.org/wiki/Event-driven_architecture) using tools like [MassTransit](http://code.google.com/p/masstransit/) or [nServiceBus](http://www.nservicebus.com/). Of course, when I brought it forward, I only said MassTransit and a few people came up to ask if I was referring to "mass transit" as in buses or trains. I guess I could've been more clear in my explanation. My *primary* purpose in picking this topic was entirely selfish - I hoped that someone would show up who knew more about it and they could do most of the talking!
 
 Let's just say it didn't quite work out that way :-) 
 
@@ -30,13 +30,13 @@ After Elijah's talk, I went to [Sarah Dutkiewicz's](http://www.codinggeekette.co
 
 #### Learning Rails in the hallway
 
-On the way back to the Open Spaces room, I ran into a group of people learning Rails from Leon in the hallway. Note that this wasn't a planned session - it just happened. Two or three people were sitting on a bench in the hall while everyone else was sitting in the floor. Most had laptops, but a few were looking over shoulders. If I can find a picture, I'll post it – a picture would communicate this a lot better than I can. 
+On the way back to the Open Spaces room, I ran into a group of people learning Rails from Leon in the hallway. Note that this wasn't a planned session - it just happened. Two or three people were sitting on a bench in the hall while everyone else was sitting in the floor. Most had laptops, but a few were looking over shoulders. If I can find a picture, I'll post it - a picture would communicate this a lot better than I can. 
 
 ![Impromptu Rails Session](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart2_F5A9/image_3.png)
 
-UPDATE: thanks to [Matt Brewer](http://mattbrewer.mp/) for providing a link to the above picture of the impromptu Rails learning session with Leon – and thanks to [John Kellar](http://www.johnkellar.com/) for posting it to his Facebook photo album!
+UPDATE: thanks to [Matt Brewer](http://mattbrewer.mp/) for providing a link to the above picture of the impromptu Rails learning session with Leon - and thanks to [John Kellar](http://www.johnkellar.com/) for posting it to his Facebook photo album!
 
-#### Final Open Spaces Session on… I'm not entirely sure
+#### Final Open Spaces Session on... I'm not entirely sure
 
 I was convinced that the final session of the day was on distributed source control. Later, I think I heard it was on DSLs (domain specific languages). In either case, it turned into another fun and random conversation. 
 

@@ -4,7 +4,7 @@ author: David
 date: 2008/11/19
 categories: .net;programming;wpf
 
-I've been doing some WPF work lately. WPF is ridiculously powerful and provides a *lot* more than WinForms. On the other hand – wow, the learning curve is quite steep. I think I'm improving, though.
+I've been doing some WPF work lately. WPF is ridiculously powerful and provides a *lot* more than WinForms. On the other hand - wow, the learning curve is quite steep. I think I'm improving, though.
 
 So, the scenario. I wanted to be able to let a user click on an item in a ListBox and drag across, selecting multiple items in the process. Basically, I want to emulate the behavior that the Outlook calendar provides. 
 I ended up coding up the following XAML to get the behavior:

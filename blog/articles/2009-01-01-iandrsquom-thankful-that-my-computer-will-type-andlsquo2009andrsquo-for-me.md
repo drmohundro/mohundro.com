@@ -28,7 +28,7 @@ My post on ["real world debugging witn WinDbg" post](http://www.mohundro.com/blo
 
 #### In closing...
 
-All in all, a really great year. I noted in 2007, that it had been the year of the most growth for me as a developer. That was true... at least until 2008. My opinion right now is that there is no such thing as a good developer, only a better developer. This saying comes from a discussion I had with a coworker a few months back where we came to the conclusion that there isn't such a thing as a good design or architecture, only a better design or architecture – all because we'll inevitably have learned a better way to do things in the future. 
+All in all, a really great year. I noted in 2007, that it had been the year of the most growth for me as a developer. That was true... at least until 2008. My opinion right now is that there is no such thing as a good developer, only a better developer. This saying comes from a discussion I had with a coworker a few months back where we came to the conclusion that there isn't such a thing as a good design or architecture, only a better design or architecture - all because we'll inevitably have learned a better way to do things in the future. 
 
 I hope everyone has a great 2009!
 

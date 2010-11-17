@@ -149,7 +149,7 @@ So, where's the problem? Let's look at this from the designer perspective by ope
 
 ![Pretty blank Designer in Blend](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_4.png) 
 
-It… it looks really great. So… white and everything. Anyone know what the problem is? My Presenter is the guy who does the work to return accounts to bind to, but Blend is just showing us the XAML. This is good – we don't want the fact that we're designing this to actually run our code and hit our services. But… we still want some test data to design with, right? We could add some data to our XAML file… but then that affects us when we actually *run* the application. Besides, I personally want test data to match the structure of the model I'm binding to.
+It... it looks really great. So... white and everything. Anyone know what the problem is? My Presenter is the guy who does the work to return accounts to bind to, but Blend is just showing us the XAML. This is good - we don't want the fact that we're designing this to actually run our code and hit our services. But... we still want some test data to design with, right? We could add some data to our XAML file... but then that affects us when we actually *run* the application. Besides, I personally want test data to match the structure of the model I'm binding to.
 
 Here's what I'm doing to fix this right now. I added the following 3 lines of code to AccountDisplay.xaml.
 
@@ -195,7 +195,7 @@ That doesn't tell you much, so I'll show you the Designer class that is being re
         }  
     }
 
-A few of things to note. I have a Dependency Property called DataContext first. I'm using a Dependency Property so that WPF data binding works. It can take any object (hence the typeof(object) parameter. When it changes, I call off to SetDataContext with the new value. Next important thing to note – DesignerProperties.GetIsInDesignMode. I try to cast the owner of my Designer instance (which is typically going to be a UserControl or Window or other UI element) to a FrameworkElement. I'm using FrameworkElement because it is the highest object in the hierarchy that provides the DataContext property. Then, if we're in Design mode, I override the DataContext with my Designer DataContext.
+A few of things to note. I have a Dependency Property called DataContext first. I'm using a Dependency Property so that WPF data binding works. It can take any object (hence the typeof(object) parameter. When it changes, I call off to SetDataContext with the new value. Next important thing to note - DesignerProperties.GetIsInDesignMode. I try to cast the owner of my Designer instance (which is typically going to be a UserControl or Window or other UI element) to a FrameworkElement. I'm using FrameworkElement because it is the highest object in the hierarchy that provides the DataContext property. Then, if we're in Design mode, I override the DataContext with my Designer DataContext.
 
 In the XAML, what ends up getting set is a BlendPresentationModel, which looks like this:
 
@@ -227,9 +227,9 @@ With my approach, I've created an object that inherits from my PresentationModel
 
 In one of my projects, I've been dropping these guys around in various UserControls and even one at the top level Window so that I can see what it all looks like together. So far, it is working well. 
 
-The biggest problem I've got with this solution so far is that the Visual Studio designer doesn't render the test data. I would guess that this would be fixed at some point – honestly, the rendering of XAML should be the same between Blend and Visual Studio and, if it isn't, it should be fixed.
+The biggest problem I've got with this solution so far is that the Visual Studio designer doesn't render the test data. I would guess that this would be fixed at some point - honestly, the rendering of XAML should be the same between Blend and Visual Studio and, if it isn't, it should be fixed.
 
-[Karl Shifflett posts a solution to this](http://karlshifflett.wordpress.com/2008/10/11/viewing-design-time-data-in-visual-studio-2008-cider-designer-in-wpf-and-silverlight-projects/) as well – my solution is basically just my own take on what he's already done, so thanks to him for the initial idea. I wasn't using Resources for binding, which is the primary reason I started with my own solution.
+[Karl Shifflett posts a solution to this](http://karlshifflett.wordpress.com/2008/10/11/viewing-design-time-data-in-visual-studio-2008-cider-designer-in-wpf-and-silverlight-projects/) as well - my solution is basically just my own take on what he's already done, so thanks to him for the initial idea. I wasn't using Resources for binding, which is the primary reason I started with my own solution.
 
 Also, [Laurent Bugnion has a great article](http://www.galasoft.ch/mydotnet/articles/article-2007091401.html) on various methods to accomplish this as well. I particularly like the feature he shares where Blend can create sample data. I'm very hopeful that this functionality is improved and expanded in future versions of Blend.
 

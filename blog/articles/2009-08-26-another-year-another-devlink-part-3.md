@@ -24,7 +24,7 @@ So, wanna know how to hack the framework?
 
 First, take mscorlib. (that's the primary .NET assembly by the way) 
 
-Next, take [ildasm](http://msdn.microsoft.com/en-us/library/f7dy01k1%28VS.80%29.aspx). (that's the MSIL Disassembler – the built-in [Reflector](http://www.red-gate.com/products/reflector/) if you will) 
+Next, take [ildasm](http://msdn.microsoft.com/en-us/library/f7dy01k1%28VS.80%29.aspx). (that's the MSIL Disassembler - the built-in [Reflector](http://www.red-gate.com/products/reflector/) if you will) 
 
 Disassemble mscorlib into IL. 
 

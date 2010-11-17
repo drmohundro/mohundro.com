@@ -10,9 +10,9 @@ Check out the below C# snippet:
 
     TryTimes(() =>
     {
-      Console.WriteLine(“hi there.”);
-      throw new Exception(“haha”);
-      Console.WriteLine(“hi there after .”);
+      Console.WriteLine("hi there.");
+      throw new Exception("haha");
+      Console.WriteLine("hi there after .");
     }, 5);
 
 This is the prototype for the usage of a function that could try an operation a certain number of times and then fail if the operation didn't succeed after N number of tries. Obviously, the above code sample will fail every time, but the idea could work alright for file I/O if you're unsure if anyone else might have locks on the file. 

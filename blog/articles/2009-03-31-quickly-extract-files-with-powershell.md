@@ -12,13 +12,13 @@ I had tried in the past to use the 7-Zip command line tool, but the arguments we
 
 The script assumes that you've aliased 'zip' to the 7z.exe command line executable.
 
-    [1] » ls alias:zip
+    [1] > ls alias:zip
 
     CommandType     Name       Definition
     -----------     ----       ----------
     Alias           zip        7z
 
-    [2] » get-command 7z
+    [2] > get-command 7z
 
     CommandType     Name       Definition
     -----------     ----       ----------

@@ -4,13 +4,13 @@ author: David
 date: 2009/10/09
 categories: .net;ironruby;ruby
 
-My first Ruby application recently went live a month or two back. I've been meaning to get some experience with Ruby for quite a while now, but it took a real project to actually get a chance to really do something with it. Of course, “real project” in this case is a project that just as easily could have been coded in static HTML :-).
+My first Ruby application recently went live a month or two back. I've been meaning to get some experience with Ruby for quite a while now, but it took a real project to actually get a chance to really do something with it. Of course, "real project" in this case is a project that just as easily could have been coded in static HTML :-).
 
 The project turned out to building a website for [Arkansas Pediatric Therapy](http://www.arpediatrictherapy.com/), which is the company that my wife does speech therapy for. The initial requirements for the site were to just get some static content out there, but it still gave me an opportunity to use some Ruby to build the site.
 
 Because the site really has no database needs of any kind yet, I ended up choosing to use [Sinatra](http://www.sinatrarb.com/) instead of [Rails](http://rubyonrails.org/). For deployment, I used [Heroku](http://heroku.com/). I was also able to incorporate some basic integration with the [Google Maps API](http://code.google.com/apis/maps/). For my JavaScript framework, I used [jQuery](http://jquery.com/). For the web design, I ended up asking one of my coworkers, [Tim Franklin](http://www.pureux.com/), to help me out. His web design skill far exceed mine, so that was definitely the right choice.
 
-So, basically, I took the initial requirements to build an easy static HTML site and ran! Was it overkill? I don't think so – I ended up learning *a lot* and I don't have duplication of HTML all over the place. It should be pretty easy to add dynamic content later if I wish to. It really didn't take a lot more time either. (NOTE: I did use [webgen](http://webgen.rubyforge.org/) at first to build a static HTML version of the site. If you really just want static content, I can definitely recommend using it to take advantage of templates.)
+So, basically, I took the initial requirements to build an easy static HTML site and ran! Was it overkill? I don't think so - I ended up learning *a lot* and I don't have duplication of HTML all over the place. It should be pretty easy to add dynamic content later if I wish to. It really didn't take a lot more time either. (NOTE: I did use [webgen](http://webgen.rubyforge.org/) at first to build a static HTML version of the site. If you really just want static content, I can definitely recommend using it to take advantage of templates.)
 
 But... the post title is about IronRuby... did I use IronRuby for this site? Actually, I didn't. I might've tried it, but I'm pretty sure that Heroku doesn't support IronRuby currently. Maybe some future site can take advantage of IronRuby. What I want to do is share some of this cool Ruby knowledge with my predominantly .NET readership using IronRuby. 
 
@@ -18,7 +18,7 @@ So, here are the steps you can take to build your first Sinatra application usin
 
 #### Downloading, Installing IronRuby, and Adding it Your Path
 
-First, you'll have to download [IronRuby](http://www.ironruby.net/). At the time of this post, it looks like the most current version is 0.9.1 though I used 0.9.0 for the post. The release is just a ZIP file, so all you have to do is extract it and go. I would recommend extracting the zip to your C:\ drive (or root somewhere) as opposed to somewhere under Program Files. Why? Well, I initially dropped mine under Program Files and received an error when trying to install the sinatra gem. I ended up finding [this post](http://unplugged.giggio.net/unplugged/category/IronRuby.aspx) to fix it – the problem is that the one of the paths is too long (check out [all the information about the infamous MAX_PATH constant](http://www.google.com/search?q=max_path)).
+First, you'll have to download [IronRuby](http://www.ironruby.net/). At the time of this post, it looks like the most current version is 0.9.1 though I used 0.9.0 for the post. The release is just a ZIP file, so all you have to do is extract it and go. I would recommend extracting the zip to your C:\ drive (or root somewhere) as opposed to somewhere under Program Files. Why? Well, I initially dropped mine under Program Files and received an error when trying to install the sinatra gem. I ended up finding [this post](http://unplugged.giggio.net/unplugged/category/IronRuby.aspx) to fix it - the problem is that the one of the paths is too long (check out [all the information about the infamous MAX_PATH constant](http://www.google.com/search?q=max_path)).
 
 You should have a directory that looks something like c:\ironruby-0.9.1 with the rest of the files underneath it. Next, you'll need to add the bin directory to your path. For now, I'm just going to add it to my PowerShell profile instead of adding it for the entire system. Here's all you have to do:
 
@@ -32,7 +32,7 @@ Once this is done, the IronRuby commands should all be in scope. You can verify 
 
     gem install sinatra
 
-Then, to actually “reference” the gem in your code, you just “require” the dependencies you have.
+Then, to actually "reference" the gem in your code, you just "require" the dependencies you have.
 
     require 'rubygems'
     require 'sinatra'
@@ -43,7 +43,7 @@ Of course, we're using IronRuby, so the commands are slightly different.
 
 If you wish to see all of the gems installed locally, just run: 
 
-    igem list –local
+    igem list -local
 
 After installing Sinatra, you should see at least the following gems installed: 
 
