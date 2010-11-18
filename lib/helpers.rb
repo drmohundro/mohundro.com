@@ -1,6 +1,6 @@
-class String
-  def camelcase_to_dashes
-    val = to_s.gsub(/::/, '/').
+class RedirectHelper
+  def convert_legacy_slug(dasblog_slug)
+    val = dasblog_slug.gsub(/::/, '/').
       gsub(/([A-Z]+)([A-Z][a-z])/,'\1-\2').
       gsub(/([a-z\d])([A-Z])/,'\1-\2').
       downcase
