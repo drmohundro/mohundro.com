@@ -3,6 +3,7 @@ title: "VS Properties Extender and Hawkeye"
 author: david
 date: 2006/08/31
 categories: utilities;visual studio
+guid: 160c73c9-e2cc-4a32-bf8a-91c938cadf10
 
 Back in January, [Gaston Milano](http://weblogs.asp.net/gmilano/) [posted a sort of wishlist](http://weblogs.asp.net/gmilano/archive/2006/01/24/436359.aspx) for the next version of Visual Studio. One of the features he wanted was the ability to filter properties down in his Properties window. Here's a screenshot of what he had in mind (from his posting):
 

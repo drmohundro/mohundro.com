@@ -3,6 +3,7 @@ title: "TODO: Add NTWind Feed to your Feed Reader!"
 author: David
 date: 2007/03/01
 categories: general
+guid: 136486b4-870a-4ef1-b737-acd789369501
 
 You know about [NTWind](http://www.ntwind.com/) even if you don't think you do... NTWind is where you can get such awesome tools as [WinSnap](http://www.ntwind.com/software/winsnap.html) and [TaskSwitchXP](http://www.ntwind.com/software/taskswitchxp.html). The site has had a blog link on the side for a while, but it had been "under construction" for a few months...
 

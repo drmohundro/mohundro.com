@@ -3,6 +3,7 @@ title: "Another year, another devLink (part 1)"
 author: David
 date: 2009/08/24
 categories: conferences
+guid: 1e522746-a4aa-4eed-8635-de77bb093d58
 
 I've now attended [devLink](http://devlink.net) three times, with each time getting progressively better. This year marked the first time for devLink to be split across three days (from Thursday, August 13 through Saturday, August 15). Day one included preconference-like sessions that were longer in length with days two and three more closely resembling prior years. Like last year, this year also included Open Spaces, which ran over days two and three.
 

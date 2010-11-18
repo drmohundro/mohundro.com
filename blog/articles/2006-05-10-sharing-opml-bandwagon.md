@@ -3,6 +3,7 @@ title: "Sharing OPML bandwagon..."
 author: David
 date: 2006/05/10
 categories: general
+guid: b739b909-87bf-4880-8b74-0a2192cf2575
 
 Well, I jumped on the [Share Your OPML](http://share.opml.org/) bandwagon today...
 

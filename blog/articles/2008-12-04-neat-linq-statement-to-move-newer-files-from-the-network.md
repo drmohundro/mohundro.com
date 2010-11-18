@@ -3,6 +3,7 @@ title: "Neat LINQ statement to move newer files from the network"
 author: David
 date: 2008/12/04
 categories: .net
+guid: 98fd3786-9766-4934-b4fb-00eab25c6d9b
 
 Thought I'd share the below LINQ statement I wrote recently:
 

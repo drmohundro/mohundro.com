@@ -3,6 +3,7 @@ title: "Vimperator really is a great Firefox extension!"
 author: David
 date: 2007/05/18
 categories: general
+guid: eb773fc6-d837-4527-bf2e-8a40eff60c90
 
 A few weeks ago, I posted on the [Stack Style Tabs extension for Firefox](http://www.mohundro.com/blog/2007/04/24/NiceCtrlTabExtensionForFirefox.aspx). I used it for a little while and I realized that it wasn't exactly what I was looking for... I think it was because I couldn't use my keyboard arrow keys in addition to ALT-TABing around. What I really wanted was a keyboard-centric way to quickly navigate through my tabs. 
 

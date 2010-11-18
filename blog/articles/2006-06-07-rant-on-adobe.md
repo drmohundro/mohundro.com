@@ -3,6 +3,7 @@ title: "Rant on Adobe..."
 author: David
 date: 2006/06/07
 categories: general
+guid: c4190143-994c-4da3-82c2-d26fb9e6e645
 
 I'll apologize ahead of time... one of the features that I am (or was?) looking most forward to in Office 2007 is the ability to save as PDF. Will I ever use it? I have no idea, but I've really wanted to be able to do that for a long time. And then Adobe goes and messes the whole thing up. How in the world can they truthfully justify letting everyone else (Apple, OpenOffice, etc) have this feature, but Microsoft can't?!? Give me a break! If they didn't want companies putting this feature in, they never should have opened the format in the first place! Via this [digg post](http://digg.com/software/Why_the_Adobe_and_Microsoft_Deal_Fell_Through), I came across this article from the [Washington Post](http://www.washingtonpost.com/wp-dyn/content/article/2006/06/05/AR2006060501315.html?nav=rss_technology). The article states it best:
 

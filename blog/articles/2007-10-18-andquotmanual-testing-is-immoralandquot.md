@@ -3,6 +3,7 @@ title: "&quot;Manual testing is immoral&quot;"
 author: David
 date: 2007/10/18
 categories: general;programming
+guid: 768de5a1-79fb-4fe1-9431-fd4e1cef7fe6
 
 I was reading through my feeds this morning and came across this gem of a paragraph: 
 

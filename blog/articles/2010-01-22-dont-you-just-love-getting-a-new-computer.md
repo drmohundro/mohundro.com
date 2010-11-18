@@ -3,6 +3,7 @@ title: "Don't you just love getting a new computer?"
 author: David
 date: 2010/01/22
 categories: hardware
+guid: 1270cbca-6a00-4306-8339-3bdc1cbc384c
 
 I picked up a new computer as a Christmas present to myself last year... hadn't gotten around to seeing what the stats were for it until recently, though. 
 

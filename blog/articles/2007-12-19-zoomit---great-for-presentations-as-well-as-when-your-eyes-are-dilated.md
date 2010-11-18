@@ -3,6 +3,7 @@ title: "ZoomIt - Great for presentations as well as when your eyes are dilated!"
 author: David
 date: 2007/12/19
 categories: general;utilities
+guid: e00fd0c0-b3e7-4e97-8673-433916a36933
 
 This morning, I had my annual eye appointment and I completely forgot that they might dilate my eyes. Of course, my appointment was also scheduled first thing in the morning - essentially before work. Now, I'm sitting in front of my computer and literally *everything* is completely blurry. I can't read anything on the screen. It doesn't matter if I get close to the screen or far away, it is all blurry. 
 

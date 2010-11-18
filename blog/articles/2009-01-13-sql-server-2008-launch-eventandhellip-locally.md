@@ -3,6 +3,7 @@ title: "SQL Server 2008 Launch Event&hellip; Locally!"
 author: David
 date: 2009/01/13
 categories: .net user group;speaking
+guid: 426906e2-a26e-4424-b8b0-38a09187e4f6
 
 Tonight, the [FSDNUG](http://www.fsdnug.org) group participated in their first launch event ever - for SQL Server 2008! Woo! 
 

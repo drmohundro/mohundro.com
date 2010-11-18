@@ -3,6 +3,7 @@ title: "Simple PowerShell script to generate thumbnails"
 author: David
 date: 2008/10/11
 categories: powershell
+guid: 1d720450-8d1d-4e83-ac6a-eb71a13a973f
 
 I was working with a lot of images for a website today and I needed to quickly create thumbnails for each one. I did a quick Google search on PowerShell and creating thumbnails, but I gave up after about a minute... yeah, I probably got impatient, but oh well. 
 

@@ -3,6 +3,7 @@ title: "Vista lets you use forward slash at the command prompt!"
 author: David
 date: 2008/02/19
 categories: general;windows vista
+guid: 5a4ecf98-ff71-49b1-a8e4-bf57828756d4
 
 I was just setting at a command prompt in Vista on my laptop and I typed `cd /` out of habit and, to my surprise, it worked! Not only that, but tab completion still behaved as expected! 
 

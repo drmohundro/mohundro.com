@@ -3,6 +3,7 @@ title: "More PowerShell automation and unrelated updates"
 author: David
 date: 2007/01/11
 categories: general;powershell
+guid: 0123fded-9dcc-44b6-aa11-87a76fde36ee
 
 A recent post by Lee Holmes on [breaking your writer's (blogger's?) block](http://www.leeholmes.com/blog/BreakYourWritersBlock.aspx) is prompting this post. I recently finished reading Steve McConnell's book, [Code Complete](http://cc2e.com/Default.aspx)\*, over the Christmas holidays and the book was amazing. As I read it, I began taking lists of things I wanted to post on that were excellent advice... and ran into a block because there was just so much I wanted to say about. I still plan on writing more detailed posts on the issue but, as Lee suggests, I need to just get out here and post more. 
 

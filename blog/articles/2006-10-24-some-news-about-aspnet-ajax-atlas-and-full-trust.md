@@ -3,6 +3,7 @@ title: "Some news about ASP.NET AJAX (Atlas) and Full Trust"
 author: David
 date: 2006/10/24
 categories: asp.net
+guid: 09fa917d-b452-4df4-99d8-9aed12e76b57
 
 I guess this is really more of a _link_ regarding ASP.NET AJAX and Full Trust. 
 

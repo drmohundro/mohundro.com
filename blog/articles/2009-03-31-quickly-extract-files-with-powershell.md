@@ -3,6 +3,7 @@ title: "Quickly Extract Files with PowerShell"
 author: David
 date: 2009/03/31
 categories: powershell
+guid: 87272438-95ca-4a44-a411-59c1e98b7c6d
 
 This is just a quick post to share a *very* simple PowerShell script I wrote to extract files from a compressed file (zip, 7z, whatever). When downloading utilities that don't have installers, like Sysinternals tools, I typically extract them to a Utils directory that is in my PATH. Previously, I would always do this by right-clicking, choosing the 7-Zip context menu option and then extracting to to c:\Utils. Another common option would be to extract to a folder of the same name. 
 

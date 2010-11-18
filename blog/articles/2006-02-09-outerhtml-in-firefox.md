@@ -3,6 +3,7 @@ title: "outerHTML in Firefox"
 author: David
 date: 2006/02/09
 categories: javascript
+guid: 469f80ae-968d-4d60-ab5b-62a06bf045c5
 
 Now this is different, eh? A post on JavaScript instead of .NET! This is a little trick I came up with to add outerHTML functionality in Firefox. For those who aren't familiar with outerHTML, it is an IE addition to the DOM that will return the element's HTML PLUS it's innerHTML. Is it really needed? No, but it can help with debugging sometimes. Here's the code:
 

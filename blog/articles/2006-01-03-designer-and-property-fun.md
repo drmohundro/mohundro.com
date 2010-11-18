@@ -3,6 +3,7 @@ title: "Designer and property fun!"
 author: David
 date: 2006/01/03
 categories: .net
+guid: e29036ce-8c6d-4b32-bb98-f61e0a24fdf8
 
 I ran into a strange situation this afternoon with visual inheritance and threading. I've created a master form for my area at work so that we can have a common menu in all of our applications. It also provides a public readonly property that has information about the currently logged on user. The user's information is pulled using a BackgroundWorker so that the form can display promptly.
 

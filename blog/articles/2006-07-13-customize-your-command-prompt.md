@@ -3,6 +3,7 @@ title: "Customize your command prompt!"
 author: David
 date: 2006/07/13
 categories: .net;powershell;utilities
+guid: 0e6ee3d7-bb6c-4061-8134-c6cc82cc729b
 
 Yesterday, I [downloaded the Developer Productivity Tools video](http://www.wrox.com/WileyCDA/Section/id-292091.html) from the [Wrox](http://www.wrox.com/) website that [Scott Hanselman](http://www.hanselman.com/blog) did for [one of his presentations with a user group](http://www.hanselman.com/blog/ScottHanselmanDeveloperProductivityToolsVideoPart1.aspx). He had a lot of great resources in the video but the command prompt tips he had were new to me. I've done some work with the console, but I've only recently been using it more, particularly with PowerShell coming along. 
 

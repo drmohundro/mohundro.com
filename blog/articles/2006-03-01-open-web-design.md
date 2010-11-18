@@ -3,6 +3,7 @@ title: "Open Web Design"
 author: David
 date: 2006/03/01
 categories: general
+guid: 02ac6155-52c1-4d67-898d-022f9355c616
 
 Check out [Open Web Design](http://www.openwebdesign.org/).
 

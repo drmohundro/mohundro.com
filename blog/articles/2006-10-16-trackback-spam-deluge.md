@@ -3,6 +3,7 @@ title: "Trackback Spam Deluge!"
 author: David
 date: 2006/10/16
 categories: general
+guid: 10eb4b00-b733-47c4-996d-662d88663681
 
 I finally had to disable trackbacks on my blog. Even with some of the antispam features of dasBlog, I was still getting hit like crazy. Just today, I got about 150 spam trackbacks to 3 or 4 of my posts. And I'm even running version 1.9.6264.0! I did notice [this post](http://briandela.com/blog/archive/2005/06/29/652.aspx) about an HttpModule that will block trackbacks based on regular expression patterns. I was curious if anyone else had used this or another method to effectively fight (or even prevent) trackback spam. Or maybe I'm just missing an updated blacklist for my configuration.
 

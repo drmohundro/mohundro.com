@@ -3,6 +3,7 @@ title: "Quickly get the command line arguments from processes with Powershell"
 author: David
 date: 2010/02/05
 categories: powershell
+guid: 2e1a0277-1daf-41ad-ae38-ac60480590c2
 
 I'm sure I'm the only person in the world who ever wants to know what the command line arguments for running processes is, but in the remote chance that someone else out there might need this some day, here you go. 
 

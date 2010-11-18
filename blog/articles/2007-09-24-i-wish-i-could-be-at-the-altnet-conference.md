@@ -3,6 +3,7 @@ title: "I wish I could be at the ALT.NET conference..."
 author: David
 date: 2007/09/24
 categories: conferences
+guid: 8bb44e08-bdd8-4673-a5c5-fc46ee4fe1c9
 
 Reading [posts like this one from Jeremy Miller](http://codebetter.com/blogs/jeremy.miller/archive/2007/09/24/alt-net-in-austin-and-beyond.aspx) really make me wish I could make it to the ALT.NET conference in Austin. There are almost too many good points in his post for me to comment on, but I'll go ahead and try. 
 

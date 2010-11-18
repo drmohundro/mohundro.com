@@ -3,6 +3,7 @@ title: "Short rant on proxies and utilities that don't support them"
 author: David
 date: 2006/03/10
 categories: general
+guid: 1aae1c24-9c33-48e3-b5ab-dfe5b5caae21
 
 The majority of the time I spend in front of computers is at work where a proxy has been set up. I don't have a problem with proxies, but it does really annoy me when I try out applications that have very limited support for them. It doesn't help any that the configuration for the proxy at work is through a configuration script (in Internet Explorer, see Tools -&gt; Internet Options -&gt; Connections -&gt; LAN settings -&gt; Use automatic configuration script). 
 

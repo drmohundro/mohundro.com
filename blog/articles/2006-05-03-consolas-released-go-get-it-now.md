@@ -3,6 +3,7 @@ title: "Consolas released! Go get it! Now!"
 author: David
 date: 2006/05/03
 categories: programming;utilities
+guid: 373cd91e-ac61-4c70-8a65-bc44a80ebf05
 
 Thanks to [Scott Hanselman](http://www.hanselman.com/blog/) for the [heads up](http://www.hanselman.com/blog/ConsolasFontFamilyNowAvailableForDownload.aspx).
 

@@ -3,6 +3,7 @@ title: "Harmony remotes don't like UHF..."
 author: David
 date: 2006/12/28
 categories: hardware
+guid: 2d1ce68a-9bf1-44bd-8f85-a941aceb6d41
 
 This Christmas, my wife got me one of those awesome Logitech Harmony remotes (the [Harmony 880](http://www.logitech.com/index.cfm/products/detailsharmony/US/EN,CRID=2084,CONTENTID=9933) for those who are curious, and at a great price, too). I spent the better part of last night attempting to get it set up.  
 

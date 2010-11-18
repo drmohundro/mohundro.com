@@ -3,6 +3,7 @@ title: "Iron Everything"
 author: David
 date: 2007/08/21
 categories: languages;programming
+guid: fa9974f0-f9f7-4060-a64c-fd19d288ab3b
 
 I was looking through [programming.reddit.com](http://programming.reddit.com/) today and [discovered that IronLisp](http://xacc.wordpress.com/2007/08/21/ironlisp-is-now-open/) now has a website on Codeplex. I haven't coded in LISP since college, but it was certainly an interesting experience. 
 

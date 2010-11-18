@@ -3,6 +3,7 @@ title: "Thread-safe GUIs in .NET 2.0"
 author: David
 date: 2006/03/01
 categories: .net;programming
+guid: 0b876b91-f5b6-4cb0-b72d-70eb8b888cbe
 
 [Roy Osherove](http://weblogs.asp.net/rosherove/) [posts today](http://weblogs.asp.net/rosherove/archive/2006/03/01/439309.aspx) about different ways to accomplish thread-safe GUIs using .NET 2.0... and C#.
 

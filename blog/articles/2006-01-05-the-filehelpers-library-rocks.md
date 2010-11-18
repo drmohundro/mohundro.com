@@ -3,6 +3,7 @@ title: "The FileHelpers library ROCKS!"
 author: David
 date: 2006/01/05
 categories: .net
+guid: 78c670c2-8cd1-4430-8d40-c559fa315149
 
 My post earlier today referred to the [FileHelpers](http://filehelpers.sourceforge.net/) library by Marcos Meli.
 

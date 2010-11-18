@@ -3,6 +3,7 @@ title: "New release of FileHelpers"
 author: David
 date: 2006/03/22
 categories: .net;programming;utilities
+guid: 40ad7906-1267-4c27-bc7b-9b67c39ed7f6
 
 I've [blogged about FileHelpers](http://www.mohundro.com/blog/PermaLink,guid,78c670c2-8cd1-4430-8d40-c559fa315149.aspx) before. I like it a lot.
 

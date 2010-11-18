@@ -3,6 +3,7 @@ title: "Books I'm trying to read right now"
 author: David
 date: 2007/06/21
 categories: books
+guid: fb7982af-faf4-40d0-ad84-2d45efb9b5ff
 
 I have so many books I need to read right now, it isn't even funny. In my office at home, I've got about 8+ books which I need to read, and the majority haven't even been started yet.
 

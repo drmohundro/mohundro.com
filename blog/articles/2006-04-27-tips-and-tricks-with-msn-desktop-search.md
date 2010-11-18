@@ -3,6 +3,7 @@ title: "Tips and Tricks with MSN Desktop Search!"
 author: David
 date: 2006/04/27
 categories: general;utilities
+guid: 4d1e8709-c5bb-4e46-aea8-80bfdfea94d8
 
 ![Desktop Search Screenshot](http://www.mohundro.com/blog/content/binary/2006-04-27-desktopsearch.gif)
 

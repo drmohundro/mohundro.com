@@ -3,6 +3,7 @@ title: "XmlSerializer and &quot;why is my application kicking off the C# compile
 author: David
 date: 2007/03/27
 categories: .net;programming
+guid: 830370dc-fa26-4f1b-aaec-5ab26a069756
 
 Lately, I've been working on performance enhancements to one of the projects at work. Our users had all mentioned that the application's startup time was pretty slow and wanted to know if we could do anything to speed it up. Of course, when all of your users have been using green screen applications, even native C applications will likely seem slow to them... but anyway. We started digging in and found a few places where we could optimize our code but our form still took a while to load.
 

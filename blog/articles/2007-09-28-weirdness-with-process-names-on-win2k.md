@@ -3,6 +3,7 @@ title: "Weirdness with process names on Win2K"
 author: David
 date: 2007/09/28
 categories: .net;programming
+guid: b7b6bcf1-3757-47c6-a336-69995dd6e756
 
 One of the banes of my existence (okay, not that bad but fun to say) is supporting Windows 2000 at work. Yes, there are still Win2K machines out there - not many, but enough to make a difference. One problem is that .NET 3.0/3.5 isn't supported on Win2K, so we're limited in what we can do, at least on the client-side. Another problem is just strange issues with the framework. 99% of the stuff we write works great, but there are a few things that don't. 
 

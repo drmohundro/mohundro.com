@@ -3,6 +3,7 @@ title: "Mohundro.com is Live!"
 author: David
 date: 2006/02/19
 categories: general
+guid: d075117a-9732-4661-b137-e4c90881a203
 
 When I registered [www.mohundro.com](http://www.mohundro.com), it was always my intention to have a technical blog (what you're reading) and a personal site where my wife and I could post pictures and news. I wanted the primary site to be for family, etc, so I made that the root directory. My technical blog (which likely will get more visitors) would live in a subfolder.
 

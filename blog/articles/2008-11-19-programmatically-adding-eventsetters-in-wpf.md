@@ -3,6 +3,7 @@ title: "Programmatically adding EventSetters in WPF"
 author: David
 date: 2008/11/19
 categories: .net;programming;wpf
+guid: 514f3f7a-3fec-4e2c-9897-d292eef6f4c8
 
 I've been doing some WPF work lately. WPF is ridiculously powerful and provides a *lot* more than WinForms. On the other hand - wow, the learning curve is quite steep. I think I'm improving, though.
 

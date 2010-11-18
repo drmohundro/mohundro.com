@@ -3,6 +3,7 @@ title: "Mistakes are training expenses"
 author: David
 date: 2007/03/29
 categories: general;programming
+guid: a62ae862-43cc-46ff-bf79-cbba9e43e7ca
 
 If you're not already subscribed to [Jeremy Miller's blog](http://codebetter.com/blogs/jeremy.miller/default.aspx), do so now. I'll wait for you to come back. 
 

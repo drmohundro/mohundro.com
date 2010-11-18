@@ -3,6 +3,7 @@ title: "Checking for visual style support"
 author: David
 date: 2006/04/14
 categories: .net;programming
+guid: 9e2662c2-000a-4423-9527-38aaa472ea90
 
 I had some code that I was porting from .NET 1.1 to .NET 2.0 today. The code I had was checking the version of comctl32.dll to see if it was version 6 or greater to determine if the application supported visual styles or not. As I didn't write that code, I'm not sure if that is a valid way to check for visual style support in .NET 1.1.
 

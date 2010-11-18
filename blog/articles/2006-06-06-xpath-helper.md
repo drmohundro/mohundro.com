@@ -3,6 +3,7 @@ title: "XPath Helper"
 author: David
 date: 2006/06/06
 categories: .net;utilities
+guid: 67b51689-ca90-45e5-818e-bd2d1e76b167
 
 I don't have much experience with XPath expressions. This was further illustrated to me recently when I was attempting to use XPath to programmatically parse an MSBuild project file. Yeah... I couldn't find anything. So, when presented with a problem, what do all programmers do? They write a program to solve the problem!
 

@@ -3,6 +3,7 @@ title: "Getting the caption of an image programatically"
 author: David
 date: 2006/08/21
 categories: .net;programming
+guid: 4a32de3b-297a-49bd-be6f-0e568fc26dc2
 
 So, this is a little off-topic compared to some of the other posts I have done lately, but it was something new to me and I thought I'd share it for information... and as a means of helping me remember it later! 
 

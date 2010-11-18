@@ -3,6 +3,7 @@ title: "My programmer personality type..."
 author: David
 date: 2007/03/02
 categories: general;programming
+guid: 660dc78f-9e13-4bf7-a3d0-174def97cba1
 
 > Your programmer personality type is:<br/>
 > **DHSC**<br />

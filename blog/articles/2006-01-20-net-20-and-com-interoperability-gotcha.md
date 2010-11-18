@@ -3,6 +3,7 @@ title: ".NET 2.0 and COM Interoperability Gotcha"
 author: David
 date: 2006/01/20
 categories: .net
+guid: 832a0a32-c2b1-4a86-abbb-1bcdccc5183b
 
 Here is a little gotcha with some changes to the way that .NET 2.0 handles COM interoperability. You probably won't run into this problem unless you're converting a project from 1.1 to 2.0.
 

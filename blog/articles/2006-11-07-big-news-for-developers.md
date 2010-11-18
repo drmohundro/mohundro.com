@@ -3,6 +3,7 @@ title: "Big News for Developers"
 author: David
 date: 2006/11/07
 categories: utilities;windows vista
+guid: 6bffa114-00d7-484e-80e9-c2067a10a38f
 
 The web has been busy with news about [.NET 3.0 going RTM](http://www.netfx3.com/blogs/news_and_announcements/archive/2006/11/06/.NET-Framework-3.0-has-been-released_2100_.aspx), along with [Office 2007](http://blogs.msdn.com/jensenh/archive/2006/11/06/office-2007-released-to-manufacturing.aspx), [Vista](http://blogs.zdnet.com/microsoft/?p=90), etc. But some other news that hasn't received quite as much publicity is news regarding Sysinternals at Microsoft. There were a couple of posts today that I thought were very interesting.
 

@@ -3,6 +3,7 @@ title: "The _NT_SYMBOL_PATH settings with the .NET Framework reference source"
 author: David
 date: 2008/01/17
 categories: visual studio
+guid: 69fe8594-ab51-4f32-9531-a05d5398ce40
 
 I couldn't find this information anywhere (yet), so I thought I'd share this. If you're already using the _NT_SYMBOL_PATH setting to download symbols from Microsoft and you want to download the symbols and source for the .NET Framework, you can set the environment variable up like so: 
 

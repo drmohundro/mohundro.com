@@ -3,6 +3,7 @@ title: "Whatever happened with Share Your OPML???"
 author: David
 date: 2007/07/16
 categories: general
+guid: 52f481f5-ba7e-4186-8d09-6c955be0889d
 
 I was digging around my old posts and bookmarks and stumbled across [my post on the Share Your OPML website](http://www.mohundro.com/blog/2006/05/10/SharingOPMLBandwagon.aspx) from over a year ago. Whatever happened with that site? It quite literally hasn't changed since the service started as far as I can tell. I really like the idea and I wouldn't mind at all if the site added a few services or something. I went ahead and updated my OPML (which has literally doubled) and you can [check it out here](http://share.opml.org/viewsharedfeeds/?user_id=2576). If you've got an account with them, go ahead and update your list and then comment with a link to it. 
 

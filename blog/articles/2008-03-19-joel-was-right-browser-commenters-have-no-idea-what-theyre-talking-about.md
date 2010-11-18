@@ -3,6 +3,7 @@ title: "Joel was right, browser commenters have no idea what they're talking abo
 author: David
 date: 2008/03/19
 categories: 
+guid: 9e44e08d-c174-4740-a155-7027f15301bf
 
 If you haven't already read [Joel](http://www.joelonsoftware.com/)'s [commentary on the current situation with browsers](http://www.joelonsoftware.com/items/2008/03/17.html), specifically the Internet Explorer 8 beta, you should check it out<sup>1</sup>. As always, read the [opposing viewpoint](http://diveintomark.org/archives/2008/03/18/translation-from-ms-speak-to-english-of-selected-portions-of-joel-spolskys-martin-headsets) as well. I would say that some of the comments to that post might provide more value than the sarcasm in the post, specifically [this comment](http://diveintomark.org/archives/2008/03/18/translation-from-ms-speak-to-english-of-selected-portions-of-joel-spolskys-martin-headsets#comment-11535) from Mark himself. 
 

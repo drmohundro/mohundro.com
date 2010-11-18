@@ -3,6 +3,7 @@ title: "New security model with Silverlight?"
 author: David
 date: 2007/05/01
 categories: .net
+guid: dee500c4-4645-493e-b465-e08f33bce177
 
 I just finished reading this post from the [BCLTeam blog](http://blogs.msdn.com/bclteam/default.aspx) on the [Silverlight 1.1 Alpha release](http://blogs.msdn.com/bclteam/archive/2007/04/30/introducing-microsoft-silverlight-1-1-alpha-justin-van-patten.aspx) that was announced at MIX07. It sounds like there is a new security model that is being introduced with Silverlight as a replacement for CAS (Code Access Security). I haven't done any research yet, but it looks like we'll be able to just decorate methods with attributes like Transparent or SafeCritical.
 

@@ -3,6 +3,7 @@ title: "What in the world is Event Validation???"
 author: David
 date: 2006/03/22
 categories: .net;programming
+guid: 1bb9eeb3-8589-4a8a-aeae-4fcde307f2ef
 
 I remember the first time I ran into an ASP.NET error talking about event validation (specifically while playing with CommunityServer). The solution I discovered at the time was to just disable event validation by setting enableEventValidation to false in the web.config file.
 

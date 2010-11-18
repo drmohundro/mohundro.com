@@ -3,6 +3,7 @@ title: "BindingList - data binding the way you would expect in .NET 2.0!"
 author: David
 date: 2006/06/30
 categories: .net;programming
+guid: 5c3b06bd-9103-412d-b4b2-31c6927bb959
 
 If anyone out there knew about the BindingList before today, I sure wish one of you would have told me. Now I know, if you had known I was looking for something like the BindingList, you would have told me, but still...
 

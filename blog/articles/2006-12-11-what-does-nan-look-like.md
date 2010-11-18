@@ -3,6 +3,7 @@ title: "What does NaN look like?"
 author: David
 date: 2006/12/11
 categories: .net;programming
+guid: ea0b98c9-61d1-4f5a-abc8-385fba342d0c
 
 I'll tell you what it looks like. 
 

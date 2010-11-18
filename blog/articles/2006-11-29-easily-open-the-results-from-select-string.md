@@ -3,6 +3,7 @@ title: "Easily open the results from Select-String"
 author: David
 date: 2006/11/29
 categories: powershell
+guid: bca9c561-51f1-4744-b182-25163b642c31
 
 A few weeks ago I posted a way to use PowerShell to find in files. This is just an extension of that post to show how you might open the results of your find in a program. 
 

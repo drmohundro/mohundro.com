@@ -3,6 +3,7 @@ title: "Successful first baby steps with Test Driven Development"
 author: David
 date: 2007/11/14
 categories: programming;unit testing
+guid: 1ed09452-76ef-46a0-bc21-f718c6d46d28
 
 I'm close to finishing up some work on one of my first true TDD projects and it has gone great for the most part. It did take a long time to get started though. The hardest part for me was fighting the urge to just open the designer and start dropping controls. Visual Studio really does guide developers towards a designer-centric approach which, after having done this for a few years, is very hard to resist. What I ended up doing was thinking about the problems that this application was going to solve and starting there. Make your tests define the problem area and move outward. The idea is that, if you can't write your tests that show what your code will do, are you even ready to write the code yet? 
 

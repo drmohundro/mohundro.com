@@ -3,6 +3,7 @@ title: "Outlook 2007 and Trusted Access"
 author: David
 date: 2006/06/06
 categories: general;programming
+guid: bd274f71-7932-4423-be55-372d4c836534
 
 As many of you are aware, if you attempt to access your Outlook data using some of the Outlook Interop assemblies, you'll be seeing a security dialog informing you that something is attempting to access your emails and whether or not you will allow this. If you're like me, you've run into this before and attempted to [circumvent it](http://www.mohundro.com/blog/PermaLink,guid,7f402ce8-f923-4e77-bd87-4414ae0aaa88.aspx).
 

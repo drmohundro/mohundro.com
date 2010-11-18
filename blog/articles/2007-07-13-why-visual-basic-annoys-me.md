@@ -3,6 +3,7 @@ title: "Why Visual Basic annoys me"
 author: David
 date: 2007/07/13
 categories: programming
+guid: 8fb3b2da-b679-4e23-877d-3d46ebef4edb
 
 Visual Basic annoys me because of the way arrays are initialized. 
 

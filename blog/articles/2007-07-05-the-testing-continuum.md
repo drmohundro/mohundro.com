@@ -3,6 +3,7 @@ title: "The Testing Continuum"
 author: David
 date: 2007/07/05
 categories: programming
+guid: 7e29e3c2-f754-4ba8-bc79-8afd719dc9fc
 
 In the few years that I've worked as a software developer, I've read and seen many examples of testing software. As a result, my own thinking regarding testing has changed drastically over the past year or two. It seems that there is a continuum behind the thinking that goes behind testing. I originally titled this post "the Evolution of Testing Thought Processes" but evolution doesn't describe this as well for me, because I find myself moving between the different processes depending on the circumstances. 
 

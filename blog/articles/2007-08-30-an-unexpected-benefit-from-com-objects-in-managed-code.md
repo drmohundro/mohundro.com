@@ -3,6 +3,7 @@ title: "An unexpected benefit from COM objects in managed code"
 author: David
 date: 2007/08/30
 categories: .net;programming
+guid: fe14ef4b-90a4-44b1-8e66-b726f8fa541a
 
 I was messing around with some unit tests this week and I came across an unexpected benefit while working on code that worked with a COM object. When you add a reference to a COM library in .NET, you'll get an interface as well an implementation of that interface that forwards the calls to the COM objects.
 

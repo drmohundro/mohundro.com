@@ -3,6 +3,7 @@ title: "Speaking at FSDNUG on PowerShell"
 author: David
 date: 2008/09/05
 categories: .net user group;speaking
+guid: a62fcf86-a8e2-427e-9b33-a8e832b39957
 
 I didn't expect to add a Speaking category to my blog just yet, but... well, here it is, my premiere Speaking post. 
 

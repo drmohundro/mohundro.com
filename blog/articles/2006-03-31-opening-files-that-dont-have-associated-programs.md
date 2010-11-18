@@ -3,6 +3,7 @@ title: "Opening files that don't have associated programs"
 author: David
 date: 2006/03/31
 categories: .net;programming
+guid: 2e837c6d-a5b5-4eb1-a679-b375d27b3d06
 
 Recently, I was adding the ability to open files from an application at work. Luckily, I had run into this situation before, so I knew that you could run a Process.Start on the file in question and have Explorer open it for you. What I didn't know was that it would throw a Win32Exception if the file didn't have an associated program to open it. My next step was what any good developer would do: Google it.
 

@@ -3,6 +3,7 @@ title: "Where have I been and what have I been up to?"
 author: David
 date: 2006/08/17
 categories: 
+guid: a341aeba-29d7-4533-9547-df3737ccf6fa
 
 I'm sorry... I've been bad about posting lately. So bad in fact, that I've only posted once this month! But you know what? I've got a good excuse... I was in Alaska on vacation! So there! 
 

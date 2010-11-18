@@ -3,6 +3,7 @@ title: "PowerShell ISE Themes!"
 author: David
 date: 2008/12/31
 categories: powershell
+guid: ce805e6f-dd3f-4ff1-8264-f3d43dc06215
 
 Last week, the PowerShell team released PowerShell v2 CTP3. And, of course, there was much rejoicing. I've got quite a bit I'd like to blog about regarding PowerShell, but I couldn't wait to share one feature I love. 
 

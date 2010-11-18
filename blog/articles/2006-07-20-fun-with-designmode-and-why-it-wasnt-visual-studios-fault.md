@@ -3,6 +3,7 @@ title: "Fun with DesignMode (and why it wasn't Visual Studio's fault)"
 author: David
 date: 2006/07/20
 categories: .net;programming;visual studio
+guid: b7f56faa-6a13-4c51-a189-a39256310ad6
 
 Like many other users of Visual Studio 2005, I've occasionally received the WSoD (White Screen of Death) while using the designer. And like a typical user, I blamed it on Visual Studio. That's what users do, right? They blame the program, because the user is always right. The same behavior that frustrates me to no end when users enter invalid data into MY program and then blame MY program (of course, if my UI were better, it wouldn't be as difficult to use, but that is another story). Anyway, my frustrations with VS2005 crashing and the WSoD's were in fact a problem with the user - me.
 

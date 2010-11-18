@@ -3,6 +3,7 @@ title: "Gmail down?!? Oh noes!"
 author: David
 date: 2008/04/24
 categories: general
+guid: fc4bf46e-1cdd-4337-9b84-5ebfa7e297d2
 
 ![Gmail down?](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/GmaildownOhnoes_8004/image_2.png)
 

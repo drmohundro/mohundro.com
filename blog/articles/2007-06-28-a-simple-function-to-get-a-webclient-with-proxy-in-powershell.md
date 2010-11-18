@@ -3,6 +3,7 @@ title: "A simple function to get a WebClient (with proxy) in PowerShell"
 author: David
 date: 2007/06/28
 categories: powershell;utilities
+guid: e9b90dbc-398d-4b0b-a094-44f349b18bbb
 
 I was browsing around a few days ago and came across a link to a blog post on the SAPIEN website about [searching live.com from PowerShell](http://blog.sapien.com/current/2007/5/7/live-search-in-windows-powershell.html). Sounds cool, I think, so I download it to try it out only to be thwarted by the proxy at work. 
 

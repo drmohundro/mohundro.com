@@ -3,6 +3,7 @@ title: "Links, Bookmarks, and Sharing Oh My!"
 author: David
 date: 2007/01/16
 categories: 
+guid: b5b050a5-2ad5-4610-9d2d-5d40bc3e8c3a
 
 I recently moved my RSS reading habits over to Google Reader, primarily because I read feeds at work and home both and I'd rather not have to keep my feeds synchronized in both places. The new design is a million times better than the old design, too. 
 

@@ -3,6 +3,7 @@ title: "Creating a custom control that allows dropping controls on it at design 
 author: David
 date: 2006/08/18
 categories: .net;programming;visual studio
+guid: dadd99fe-e0bc-4bd8-a7bc-1d70e4ea59c7
 
 This post is just as much for me as it is to share...
 

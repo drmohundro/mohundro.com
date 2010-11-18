@@ -3,6 +3,7 @@ title: "Setting a focus on load"
 author: David
 date: 2006/03/06
 categories: .net;programming
+guid: 7cf60bdb-c3ad-45ee-98a8-b782da9bc3d9
 
 This may not be new for everyone, but I just learned it today. In webpages, to set focus to a control after a page has loaded, you handle the body's onload event and then call the focus method off of the control.
 

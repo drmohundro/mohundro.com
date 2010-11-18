@@ -3,6 +3,7 @@ title: "Simple Sinatra example using IronRuby"
 author: David
 date: 2009/10/09
 categories: .net;ironruby;ruby
+guid: ff1a646d-a820-4b62-8d4c-9e07ec76181b
 
 My first Ruby application recently went live a month or two back. I've been meaning to get some experience with Ruby for quite a while now, but it took a real project to actually get a chance to really do something with it. Of course, "real project" in this case is a project that just as easily could have been coded in static HTML :-).
 

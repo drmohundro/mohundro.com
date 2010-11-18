@@ -3,6 +3,7 @@ title: "Problems with the WebBrowser control and IDocHostUIHandler"
 author: David
 date: 2007/02/12
 categories: .net;programming
+guid: 01fa2869-7406-4b43-9f64-9e401039accc
 
 Lately, I've been doing some work with the WebBrowser control (new in the 2.0 framework). It really does offer a lot of benefits over directly using the underlying ActiveX web browser control. And when the new functionality doesn't cover a need you may have, you can always get at the ActiveX control (though you'll need plenty of COM interface definitions - hello [pinvoke.net](http://pinvoke.net/)!). 
 

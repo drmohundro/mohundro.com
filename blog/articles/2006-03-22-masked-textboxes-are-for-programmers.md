@@ -3,6 +3,7 @@ title: "Masked textboxes are for programmers..."
 author: David
 date: 2006/03/22
 categories: programming
+guid: f32228d1-e2bd-4889-9a3a-365f109ca4eb
 
 At work, we're slowly moving from a classic ASP Intranet environment to a smart client environment. It has been very interesting watching (and being a part of) this movement. The typical intranet application is usually a form that consists of grabbing user input and doing something with it. Validating that user input can be a major headache. Typically, good applications would have both client-side (to improve usability and let users know about invalid data early on) and server-side (to ensure that nothing weird happened and to guarantee that the data is valid).
 

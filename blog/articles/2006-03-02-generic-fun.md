@@ -3,6 +3,7 @@ title: "Generic Fun!"
 author: David
 date: 2006/03/02
 categories: .net;programming
+guid: 85feeaf1-c333-47e8-a5fa-a70d6e87bd09
 
 Thanks to a [post](http://www.codinghorror.com/blog/archives/000526.html) from [Jeff Atwood](http://www.codinghorror.com/blog/), I discovered the blog of [Francesco Belana](http://www.dotnet2themax.com/blogs/fbalena/). He's the author of some great books including [Programming Visual Basic.NET](http://www.amazon.com/gp/product/0735620598/002-6859461-5348836?v=glance&n=283155), which my company has been using to get our developers up to speed on .NET.
 

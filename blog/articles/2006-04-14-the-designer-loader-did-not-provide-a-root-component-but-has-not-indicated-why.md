@@ -3,6 +3,7 @@ title: "\"The designer loader did not provide a root component but has not indic
 author: David
 date: 2006/04/14
 categories: .net;programming;visual studio
+guid: 3790cea0-9197-4008-84b7-a402cfcc91b3
 
 Ever seen this error in Visual Studio 2005?
 

@@ -3,6 +3,7 @@ title: "Upgrading my router's firmware to DD-WRT"
 author: David
 date: 2007/06/07
 categories: general;hardware
+guid: 4fb5c7fe-479e-447d-a29c-1466669b0ff0
 
 For the past month or so, my internet connection at home has been dropping constantly. There hasn't really seemed to be any rhyme or reason to it either. What's interesting is that one of my neighbors with a similar network setup was experiencing similar behavior. 
 

@@ -3,6 +3,7 @@ title: "Converting VIM color schemes to Visual Studio color schemes"
 author: David
 date: 2010/03/29
 categories: powershell;vim;visual studio
+guid: 3d83a526-2dbe-48ad-b741-64380dab79f5
 
 My favorite text editor right now is vim. As a result, I cannot develop without my (customized) vim key bindings. To get around that when writing .NET code, I use ViEmu when I'm in Visual Studio. However, I still miss the huge variety of color schemes that are available for vim when I'm in Visual Studio.
 

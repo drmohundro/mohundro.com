@@ -3,6 +3,7 @@ title: "How to get better at what you're doing"
 author: David
 date: 2007/03/15
 categories: general
+guid: ae9eaac3-7635-473f-a2be-22f95c015470
 
 So, want to improve at what you're doing? 
 

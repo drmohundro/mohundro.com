@@ -3,6 +3,7 @@ title: "Source Outliner"
 author: David
 date: 2006/09/19
 categories: visual studio
+guid: 1a527b91-ece0-4594-b4f7-27c4ed29fb63
 
 Recently, Microsoft released [version 3.0 of the Visual Studio 2005 SDK](http://www.microsoft.com/downloads/details.aspx?FamilyID=7e0fdd66-698a-4e6a-b373-bd0642847ab7&DisplayLang=en), so I thought I'd download it because I like downloading stuff. 
 

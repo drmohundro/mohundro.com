@@ -3,6 +3,7 @@ title: "SlickRun news from the SlickRun forums!"
 author: David
 date: 2006/10/11
 categories: utilities
+guid: 0ec79664-ac29-4326-bb9b-d9b42ae79992
 
 I was catching up on some older blog posts from different people recently and I came across [some](http://www.hanselman.com/blog/SlickRunAndQuickSilver.aspx) [posts](http://www.shahine.com/omar/NewSlickRunBeta.aspx) talking about how wonderful [SlickRun](http://www.bayden.com/SlickRun/) is. Everyone is right, by the way, because SlickRun is amazing. It was probably the main program that moved me from being primarily a mouse user to a keyboard user. I still love how fast I can get around by taking my hand off the mouse and keeping them on the keyboard! 
 

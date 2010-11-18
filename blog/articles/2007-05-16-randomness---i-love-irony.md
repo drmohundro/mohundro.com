@@ -3,6 +3,7 @@ title: "Randomness - I love irony"
 author: David
 date: 2007/05/16
 categories: general
+guid: 40bc92cc-21a2-4b29-99ad-c7ca6c0c045a
 
 This post has absolutely nothing to do with anything. Just some ramblings from my brain this morning. 
 

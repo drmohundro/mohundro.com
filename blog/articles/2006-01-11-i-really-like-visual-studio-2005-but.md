@@ -3,6 +3,7 @@ title: "I really like Visual Studio 2005 but..."
 author: David
 date: 2006/01/11
 categories: visual studio
+guid: 28242f9e-8643-4a2a-b909-2dab24d61189
 
 5+ crashes in a row is a little much.
 

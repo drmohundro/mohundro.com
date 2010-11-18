@@ -3,6 +3,7 @@ title: "Duh of the Day - Turn off IE's &quot;Show friendly HTTP error messages&q
 author: David
 date: 2007/04/06
 categories: general
+guid: 524875e7-da1e-4559-ae8d-ba585de25ef2
 
 I'm sure you've seen this page before: 
 

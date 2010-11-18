@@ -3,6 +3,7 @@ title: "Reminder: Check your cables before buying more cables..."
 author: David
 date: 2007/03/08
 categories: general;hardware
+guid: 5855fa06-d4de-4d4b-b39b-f98c74fed16c
 
 I'm sure I'm the only one that has ever messed up like this, but anyway... 
 

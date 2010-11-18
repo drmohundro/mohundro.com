@@ -3,6 +3,7 @@ title: "A Hard Copy of the Internet..."
 author: David
 date: 2006/03/12
 categories: 
+guid: f52b676e-43c6-4360-8ec7-35f06f3b975d
 
 According to [Gadgetopia](http://www.gadgetopia.com/post/5110), a 
 nine-year old in North Dakota made a bet with his older brother that he could 

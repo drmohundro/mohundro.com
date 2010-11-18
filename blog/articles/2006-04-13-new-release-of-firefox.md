@@ -3,6 +3,7 @@ title: "New release of Firefox"
 author: David
 date: 2006/04/13
 categories: utilities
+guid: eb594cf7-c33c-423e-9eb3-55f18b51c39e
 
 Mozilla Firefox 1.5.0.2 was released today. At first glance, it seems to be a lot more stable than 1.5.0.1. I had all sorts of issues with the last version randomly crashing on me. In their defense, it seemed to be a combination of some of the extensions I was using and the corporate proxy. I never had any problems at home using the same extensions.
 

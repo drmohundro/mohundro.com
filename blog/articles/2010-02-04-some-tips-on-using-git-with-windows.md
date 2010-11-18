@@ -3,6 +3,7 @@ title: "Some tips on using git with Windows"
 author: David
 date: 2010/02/04
 categories: utilities
+guid: 30d2af92-322a-4efe-89d1-07d824eac432
 
 The .NET open source community has really started to embrace [git](http://www.git-scm.com/) in the past few months. [Ayende](http://github.com/ayende) has moved pretty much all of his open source work over to [github](http://github.com/), [Fluent NHibernate is there](http://github.com/jagregory/fluent-nhibernate), [FubuMVC is there](http://github.com/DarthFubuMVC/fubumvc), the list just goes on. If you haven't had a chance to delve into git (or other [distributed SCM](http://en.wikipedia.org/wiki/Distributed_revision_control) tools like mercurial), you should definitely check one of them out. 
 

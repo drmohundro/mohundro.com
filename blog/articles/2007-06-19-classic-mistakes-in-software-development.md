@@ -3,6 +3,7 @@ title: "Classic Mistakes in Software Development"
 author: David
 date: 2007/06/19
 categories: programming
+guid: 92a00a3f-7eb1-4e9f-ab04-a49e3b8bbab6
 
 I just completed the [Classic Mistakes survey from Construx](https://vovici.com/wsb.dll/s/10431g2996e). Thanks to Jeff Atwood for [pointing this one out](http://www.codinghorror.com/blog/archives/000889.html). 
 

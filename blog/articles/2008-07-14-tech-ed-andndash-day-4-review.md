@@ -3,6 +3,7 @@ title: "Tech Ed &ndash; Day 4 Review"
 author: David
 date: 2008/07/14
 categories: conferences
+guid: 5036e780-e23f-4674-86fb-c9deb7b65ebf
 
 Here it is, final day wrap up. 
 

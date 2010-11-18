@@ -3,6 +3,7 @@ title: "Going to Tech Ed 2008? Meet me there!"
 author: David
 date: 2008/05/21
 categories: conferences
+guid: 48874a2b-2647-4855-943e-210fd5fb1b3f
 
 I've been meaning to get a local version of my blog running so that I could test changes and tweaks to my theme and I finally found some time yesterday to do that. Can you tell the difference? Basically, I added the social networking links on the right as well as the Tech Ed 2008 badge. 
 

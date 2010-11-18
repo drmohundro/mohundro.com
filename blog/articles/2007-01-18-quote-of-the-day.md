@@ -3,6 +3,7 @@ title: "Quote of the Day?"
 author: David
 date: 2007/01/18
 categories: general
+guid: 896cefd9-2a90-4f9d-ba45-26106329226a
 
 I probably should have just submitted this one to [Overheard at the Office](http://www.overheardintheoffice.com/), but I'd rather post it here. 
 

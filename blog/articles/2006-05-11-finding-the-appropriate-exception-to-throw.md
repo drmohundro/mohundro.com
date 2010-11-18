@@ -3,6 +3,7 @@ title: "Finding the appropriate exception to throw..."
 author: David
 date: 2006/05/11
 categories: .net;programming;visual studio
+guid: 92d64c50-8ff9-489f-890f-8ac13799b7a7
 
 Prompted primarily by [Karl Sequin](http://codebetter.com/blogs/karlseguin/default.aspx)'s excellent ["Understanding and Using Exceptions" post](http://codebetter.com/blogs/karlseguin/archive/2006/04/05/142355.aspx), I was recently attempting to clean up some of the generic exceptions being throw in some code and I was having trouble deciding which exception to use.
 

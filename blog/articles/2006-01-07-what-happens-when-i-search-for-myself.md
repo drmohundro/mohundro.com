@@ -3,6 +3,7 @@ title: "What happens when I search for myself?"
 author: David
 date: 2006/01/07
 categories: general
+guid: b65173c7-0928-4208-ab60-d68a252dd4e8
 
 This may seem a little weird, but I was checking my webstats for the blog and I saw that one of the Googlebots came across it. That prompted curiosity on my part to see if I could find this page by searching for it. I didn't find my site yet, but I sure found some other stuff. 
 

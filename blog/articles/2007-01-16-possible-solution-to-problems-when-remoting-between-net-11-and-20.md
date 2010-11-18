@@ -3,6 +3,7 @@ title: "Possible solution to problems when remoting between .NET 1.1 and 2.0"
 author: David
 date: 2007/01/16
 categories: .net
+guid: aed9bb9e-03d0-4426-a339-62e6a3692430
 
 We're in the process of migrating to .NET 2.0 at work and one of the the things we've encountered is a problem with remoting between .NET 1.1 and 2.0 frameworks. 
 

@@ -3,6 +3,7 @@ title: "Another year, another devLink (part 2)"
 author: David
 date: 2009/08/25
 categories: conferences
+guid: bb8df4e2-52dc-4f46-97d2-04c563ac64bd
 
 Yesterday, [I blogged about the first day of devLink](http://www.mohundro.com/blog/2009/08/24/AnotherYearAnotherDevLinkPart1.aspx) - today, I'll continue the recap with, you guessed it, day 2. 
 

@@ -3,6 +3,7 @@ title: "Middle clicking really is awesome!"
 author: David
 date: 2006/10/31
 categories: general;hardware;utilities
+guid: c9227840-ddcd-43f3-a3f7-828f794ef98d
 
 Colin [has](http://www.colinneller.com/blog/TabsTabs.aspx) [raved](http://www.colinneller.com/blog/TaskbarMeetsTheMiddleClick.aspx) about the joys of middle clicking for a while now, but I was never able to enjoy it because clicking my mouse's middle button never seemed to do all of the cool things that his did. Mine brought up a really weird multi-directional arrow thing that was supposed to let me scroll in any direction I wanted - except that it rarely worked the way I wanted it to. 
 

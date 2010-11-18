@@ -3,6 +3,7 @@ title: "Am I a CTP junkie or a Beta junkie?"
 author: David
 date: 2007/11/02
 categories: general;powershell
+guid: 7cfbc784-6e93-4402-be61-4020ec330617
 
 I'm finding myself wondering if I'm a beta junkie or a CTP junkie. 
 

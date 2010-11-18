@@ -3,6 +3,7 @@ title: "PowerShell script to calculate file hashes"
 author: David
 date: 2006/12/28
 categories: powershell
+guid: b3e7081f-8249-4e37-a777-9afdfd0d9b3d
 
 **UPDATE NUMBER 2:**
 

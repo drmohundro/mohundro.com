@@ -3,6 +3,7 @@ title: "Simple tutorial on System.Threading.Mutex for dummies (like me)"
 author: David
 date: 2008/04/24
 categories: .net;programming
+guid: ba34974d-3d73-4aa8-8450-b72238836d72
 
 (Warning - this post is both a rant against the Mutex as well as a guide for its usage. Also, don't blindly copy code, only the bottom code snippet works. :-) ) 
 

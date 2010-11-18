@@ -3,6 +3,7 @@ title: "I'll be at devLink 2007"
 author: David
 date: 2007/07/16
 categories: conferences
+guid: 8e88ffae-d614-4683-b05e-f4c30a44bc2e
 
 I'm pretty excited this year, because I'll be going to my first developer conference. [devLink 2007](http://www.devlink.net/) will be held in Nashville, TN on October 12 and 13. You can't beat the return that you'll get from this conference because, for the low, low price of $50, you'll get to hear from such speakers at [Brad Abrams](http://blogs.msdn.com/brada/default.aspx), [Scott Bellware](http://codebetter.com/blogs/scott.bellware/default.aspx), [Jean-Paul S. Boodhoo](http://codebetter.com/blogs/jean-paul_boodhoo/default.aspx), and [Rockford Lhotka](http://www.lhotka.net/weblog/) just to name a few. All this for $50!!! 
 

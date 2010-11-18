@@ -3,6 +3,7 @@ title: "I&rsquo;m thankful that my computer will type &lsquo;2009&rsquo; for me"
 author: David
 date: 2009/01/01
 categories: general
+guid: 58b84948-4d3c-4e9e-bd3f-4a424165ac14
 
 So, a year ago to the day, I posted [my review of 2007 with a look towards 2008](http://www.mohundro.com/blog/2008/01/01/Welcome20082007InReview.aspx). To continue that age old tradition, I will now review 2008. 
 

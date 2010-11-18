@@ -3,6 +3,7 @@ title: "Welcome to the Future!!!"
 author: David
 date: 2010/01/05
 categories: general
+guid: d957636b-2693-4782-a7f6-f1c769a5a18c
 
 It's 2010. Seriously. Can you believe it? Aren't we supposed to have [flying cars, hoverboards](http://www.imdb.com/title/tt0096874/), and have [space ships that can reach Jupiter](http://www.imdb.com/title/tt0086837/)? I mean, really, we're way beyond [the year 2000](http://en.wikipedia.org/wiki/List_of_Conan_O%27Brien_sketches#In_the_Year_2000.2F3000) now. As a kid, I remember thinking how awesome it will be to actually get to live in the future. I guess I should be consoled in the fact that TVs are a lot bigger. That's a plus. 
 

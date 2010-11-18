@@ -3,6 +3,7 @@ title: "Never ever ever ever preorder a game and select shipping"
 author: David
 date: 2007/09/27
 categories: gaming
+guid: b1fa10a3-70a0-45da-8f7a-a9720b60abe3
 
 I am a moron. 
 

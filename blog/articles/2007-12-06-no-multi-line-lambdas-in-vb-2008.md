@@ -3,6 +3,7 @@ title: "No multi-line lambdas in VB 2008"
 author: David
 date: 2007/12/06
 categories: .net;languages;programming
+guid: 39188f76-4e94-4473-855e-0025473e6853
 
 In case you've been under a rock recently, Visual Studio 2008 was released recently which supports a lot of functional capabilities like lambda expressions. I've been playing around with the lambda syntax in both C# and VB.NET recently and the addition to the languages is great. I did run into one thing that is still frustrating me in VB.NET, though. 
 

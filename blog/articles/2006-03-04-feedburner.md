@@ -3,6 +3,7 @@ title: "FeedBurner"
 author: David
 date: 2006/03/04
 categories: general
+guid: 4b7707a2-c786-49bd-a1b5-b1108b760197
 
 I recently moved my feeds over to [FeedBurner](http://www.feedburner.com/), so if you're subscribed to my feed, please point over to my new FeedBurner address at [http://feeds.feedburner.com/DavidMohundro](http://feeds.feedburner.com/DavidMohundro).
 

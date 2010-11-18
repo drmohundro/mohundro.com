@@ -3,6 +3,7 @@ title: "FSDNUG Meeting with Raymond Lewallen on Behavior Driven Design"
 author: David
 date: 2008/03/04
 categories: .net;.net user group;unit testing
+guid: d26eb234-7c04-45b5-831b-b9bcf0406f2b
 
 Last night kicked out the Fort Smith .NET User Group's first meeting. It went great! I would guess that we had at least 20 or 30 people show up. 
 

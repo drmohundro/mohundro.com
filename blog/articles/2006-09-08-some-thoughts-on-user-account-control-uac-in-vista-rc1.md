@@ -3,6 +3,7 @@ title: "Some thoughts on User Account Control (UAC) in Vista RC1"
 author: David
 date: 2006/09/08
 categories: windows vista
+guid: bcc18117-2906-4689-aaa7-2d5e93b74fdb
 
 Last night, I finally completed my install of Vista on my home machine. I sort of wish I had taken the clean install route instead of the upgrade path, because it took forever! One of my coworkers did the clean install and he was finished in half an hour - it took me two nights! Now, those two nights were really because I started it and went to sleep and was greeted with an "End task" dialog on a program that had hung the first morning. I let it continue through the next work day and was greeted with another dialog when I got back the next evening. I did successfully install it, though, and I like it quite a bit. My biggest complaint so far is that Windows One Care isn't currently supported in Vista yet. It's even a Microsoft product for crying out loud!
 

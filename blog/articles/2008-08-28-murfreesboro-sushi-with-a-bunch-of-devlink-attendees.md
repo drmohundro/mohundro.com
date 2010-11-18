@@ -3,6 +3,7 @@ title: "Murfreesboro Sushi with a bunch of DevLink attendees"
 author: David
 date: 2008/08/28
 categories: conferences
+guid: 05633bac-ce84-4d31-bed4-b790505d511c
 
 ![Eating at Aya Sushi](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/MurfreesboroSushiwithabunchofDevLinkatte_12C4C/devlink2008-ayasushi_2.jpg)
 

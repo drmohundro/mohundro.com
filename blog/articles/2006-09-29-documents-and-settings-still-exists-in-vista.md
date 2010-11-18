@@ -3,6 +3,7 @@ title: "Documents and Settings still exists in Vista..."
 author: David
 date: 2006/09/29
 categories: windows vista
+guid: 953e99da-055a-42dd-9135-f27ff430aa1c
 
 If you've seen some of the Vista screenshots lately or even installed the RC1 for Vista, you will undoubtedly have noticed that Windows Vista makes use of the C:\Users directory instead of C:\Documents and Settings that Windows XP had previously used. 
 

@@ -3,6 +3,7 @@ title: "360 Degree Reviews"
 author: David
 date: 2006/03/20
 categories: general
+guid: 6062b9dc-d65d-4024-a31f-5d5a47eaa7b3
 
 Some of you may be aware that I'm currently pursuing my MBA. (I would've preferred to get my master's degree in CS or something like that, but there weren't any good options nearby that would allow me to get my degree part-time.)
 

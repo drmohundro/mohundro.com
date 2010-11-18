@@ -3,6 +3,7 @@ title: "Design-Time Data for Expression Blend"
 author: david
 date: 2008/12/05
 categories: .net;wpf
+guid: a64aa0e1-21f5-4639-9107-9138aeb742a2
 
 This post presents a problem that has been approached by others before, but I thought I'd offer yet another possible solution. But first, let's introduce the problem! 
 

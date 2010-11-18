@@ -3,6 +3,7 @@ title: "Spy++ for Managed Code: ManagedSpy!"
 author: David
 date: 2006/02/16
 categories: .net;utilities
+guid: c23fc8b7-89af-4344-968a-be2a9906ead5
 
 Benjamin Wulfe wrote [an article for the April issue of MSDN magazine](http://msdn.microsoft.com/msdnmag/issues/06/04/ManagedSpy/default.aspx) about a utility called ManagedSpy, which is basically the managed version of Spy++. If you're unfamiliar with Spy++, it will let you look at running Windows processes and see messages, classes, and other WinAPI-related information. As the article notes, from a managed Windows Forms perspective, that isn't exactly where we typically work. ManagedSpy uses a TreeView and a Properties window to display controls and layout in a managed form. It can also listen and log events raised from the form and its controls.
 

@@ -3,6 +3,7 @@ title: "You Get What You Reward"
 author: David
 date: 2006/06/21
 categories: general
+guid: e1176a9b-a8a6-4cca-9390-43b13523df93
 
 Has anyone ever heard that saying? One of my MBA professors said that it was the number one rule for managers. "You get what you reward." Basically, the idea is that if you want a team to work together, then you need to reward good team behavior. It is all about recognizing what true motivation is, because the reward has to be *perceived* as a reward. A nice pat on the back isn't a real reward for someone unless that pat on the back will motivate them. 
 

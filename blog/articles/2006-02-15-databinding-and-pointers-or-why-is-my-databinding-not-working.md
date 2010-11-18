@@ -3,6 +3,7 @@ title: "DataBinding and Pointers, or \"Why is my DataBinding not working?\""
 author: David
 date: 2006/02/15
 categories: .net;programming
+guid: 22093676-477f-4e28-9fa0-90f2d857f60d
 
 Let's say you have the following class:
 

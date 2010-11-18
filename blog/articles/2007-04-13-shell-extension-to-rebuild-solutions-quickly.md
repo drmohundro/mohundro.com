@@ -3,6 +3,7 @@ title: "Shell extension to rebuild solutions quickly"
 author: David
 date: 2007/04/13
 categories: utilities
+guid: bc84570b-41ec-42ab-9ca3-a7b2e4635a54
 
 Ever want to build Visual Studio solutions quickly, but without having to open Visual Studio or pulling up a command prompt and typing msbuild on the solution? You know, like right-clicking and choosing a build option? 
 

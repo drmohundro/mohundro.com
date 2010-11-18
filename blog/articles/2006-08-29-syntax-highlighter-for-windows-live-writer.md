@@ -3,6 +3,7 @@ title: "Syntax Highlighter for Windows Live Writer"
 author: David
 date: 2006/08/29
 categories: 
+guid: ab52e7c4-3625-4d42-a8d5-0d7f7afdc98c
 
 Check out the [Syntax Highlighter plugin](http://www.codeplex.com/Project/ListForums.aspx?ProjectName=Highlight4Writer) for Windows Live Writer.
 <pre><span style="color: #808080">///&lt;summary&gt;</span>

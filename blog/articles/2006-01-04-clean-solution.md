@@ -3,6 +3,7 @@ title: "\"Clean Solution\""
 author: David
 date: 2006/01/04
 categories: visual studio
+guid: 97d1d57f-b7e6-482e-bcb0-4d31d599b258
 
 Has anyone noticed a new menu item under the Build menu in Visual Studio 2005? There is a Clean Solution item that will remove all of the compiled binaries that live under your bin folder. It is relatively similar to [Clean Sources Plus](http://www.codinghorror.com/blog/archives/000368.html), except that it keeps the folders.
 

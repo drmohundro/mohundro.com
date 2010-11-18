@@ -3,6 +3,7 @@ title: "Interesting Basic tidbit for the day"
 author: David
 date: 2006/05/15
 categories: .net;programming
+guid: 351cfe89-347d-4a7a-928b-67feffce7f8f
 
 If you've ever wondered why the increment and decrement operators weren't included in VB.NET, here's a [post explaining why](http://http://www.panopticoncentral.net/archive/2003/12/02/251.aspx).
 

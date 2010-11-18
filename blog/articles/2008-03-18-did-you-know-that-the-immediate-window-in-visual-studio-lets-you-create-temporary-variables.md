@@ -3,6 +3,7 @@ title: "Did you know that the Immediate window in Visual Studio lets you create 
 author: David
 date: 2008/03/18
 categories: visual studio
+guid: 8ce24427-e154-444a-af02-99a92c9de878
 
 I am a huge fan of the immediate window in Visual Studio. I say forget the watch window - I'd rather use code to check values. In case you didn't know, you can get values in the Immediate window by typing "?" and the variable name. Like so:
 

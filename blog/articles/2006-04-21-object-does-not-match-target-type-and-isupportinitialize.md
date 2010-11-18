@@ -3,6 +3,7 @@ title: "\"Object does not match target type.\" and ISupportInitialize"
 author: David
 date: 2006/04/21
 categories: .net;visual studio
+guid: 899f9de7-63cc-43fb-bc96-276d0d4879ef
 
 Continuing in the tradition of posts on Visual Studio [WSoD's](http://blogs.msdn.com/rprabhu/archive/2005/08/11/450332.aspx), I ran into another one today that gave me this error: "Object does not match target type."
 

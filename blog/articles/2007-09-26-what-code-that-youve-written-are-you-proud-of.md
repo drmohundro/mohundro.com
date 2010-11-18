@@ -3,6 +3,7 @@ title: "What code that you've written are you proud of?"
 author: David
 date: 2007/09/26
 categories: programming
+guid: 0c56c8af-cf10-4196-be7c-13360fba33b1
 
 Yesterday, I had a somewhat strange experience. I was helping someone with a problem they were having and, almost as a side note, this individual thought he would share some code with me that he was particularly proud of. He even prefaced the story with the "not to brag or anything" phrase. He had written some custom code to help text boxes grow or shrink depending on how the user resized the window. If you know anything about WinForms, you'll know that some simple anchoring techniques and good use of the SplitContainer will solve this problem for you - please, please, please don't go writing custom mathematical equations when the framework can take care of it for you. 
 

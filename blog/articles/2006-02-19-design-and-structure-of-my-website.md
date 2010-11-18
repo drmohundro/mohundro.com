@@ -3,6 +3,7 @@ title: "Design and structure of my website"
 author: David
 date: 2006/02/19
 categories: .net;programming
+guid: 1f986419-8d77-4c22-86d8-0d99e1ecb7a8
 
 I'd like to talk a little bit about what I did to get my personal site up and running.
 

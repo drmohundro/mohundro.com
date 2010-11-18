@@ -3,6 +3,7 @@ title: "A second look at Windows Forms validation"
 author: David
 date: 2006/01/13
 categories: .net
+guid: d7356ed0-f604-465f-86f6-8c001c503865
 
 Continuing on my thoughts from yesterday regarding Windows Forms validation, I first began using Michael Weinhardt's [validation library on MSDN](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnforms/html/winforms05182004.asp) after doing a project conversion from 1.1 to 2.0, but there were a few things that I personally wanted to do that weren't currently supported, like validation on controls like the DateTimePicker. It would have been quite easy to add support, but I began developing a picture in my mind of a slightly different approach to validation. His solution was very designer oriented, but I wanted a more code-centric approach.
 

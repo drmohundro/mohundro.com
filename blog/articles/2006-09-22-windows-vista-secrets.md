@@ -3,6 +3,7 @@ title: "Windows Vista Secrets!"
 author: David
 date: 2006/09/22
 categories: windows vista
+guid: 8da8823e-4582-4fcc-9251-896e33cbdb38
 
 As some of you may know, I recently installed RC1 of Vista on my home PC. For the most part, it has been a great experience. I had some early problems because I took the upgrade path instead of a clean install. That lasted about two nights, because though most of my programs still worked, they didn't behave as expected. My memory usage was sky high, too. After the clean install, it has smooth sailing ever since (except for Windows One Care and my HP 2600 All-in-One Printer...).
 

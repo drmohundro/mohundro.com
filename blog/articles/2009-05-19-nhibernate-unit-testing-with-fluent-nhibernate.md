@@ -3,6 +3,7 @@ title: "NHibernate Unit Testing... with Fluent NHibernate!"
 author: David
 date: 2009/05/19
 categories: .net;unit testing
+guid: fa72ff57-5c08-49fa-979e-c732df2bf5f8
 
 I've been attempting to learn NHibernate lately. One of the big draws for me was the ability to write unit tests that did hit a database, but an in-memory one. Ayende recently posted on [how to use SQLite to get in-memory unit tests](http://ayende.com/Blog/archive/2009/04/28/nhibernate-unit-testing.aspx). His example assumed standard hbm mappings and configuration. 
 

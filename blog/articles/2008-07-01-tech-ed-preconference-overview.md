@@ -3,6 +3,7 @@ title: "Tech Ed Preconference Overview"
 author: David
 date: 2008/07/01
 categories: conferences
+guid: a5a3ef78-1320-4860-a9a6-40307b6b027b
 
 I'm guessing it has been so long since Tech Ed that no one will be interested in hearing how it went, but you know - I'm going to post about it anyway. 
 

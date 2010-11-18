@@ -3,6 +3,7 @@ title: "Back from .NET Roadshow 2007"
 author: David
 date: 2007/09/14
 categories: conferences
+guid: 68707928-b5f9-4031-ac8b-5ebe01af4dcd
 
 Well, I got back from the .NET Roadshow last night. It went really well, too. The conference lasted two days with three tracks.
 

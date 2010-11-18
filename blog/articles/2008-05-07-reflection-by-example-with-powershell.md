@@ -3,6 +3,7 @@ title: "Reflection by example with Powershell"
 author: David
 date: 2008/05/07
 categories: .net;powershell
+guid: 425f8ac9-4ffa-4f4e-b79f-867134ebd49c
 
 A coworker swung by a few days ago to ask some questions about using Reflection. I learn really well by example so I decided to use Powershell to show using Reflection. Below is the session I used and later emailed to him. You can see a few spots at the bottom of the example where I was unsure of the syntax on passing an empty parameter array, but I figured it out.
 

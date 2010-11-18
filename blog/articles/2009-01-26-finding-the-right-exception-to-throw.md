@@ -3,6 +3,7 @@ title: "Finding the right exception to throw"
 author: David
 date: 2009/01/26
 categories: powershell
+guid: d6e53de0-4c86-4d18-b0b2-5bd063d2a173
 
 If you've been writing .NET applications for a while, you're likely aware that [you're not supposed to just throw Exception](http://msdn.microsoft.com/en-us/library/ms229021.aspx). Instead, if you're dealing with a null argument, you should be throwing an ArgumentNullException instead. FxCop warns against cases like this. 
 

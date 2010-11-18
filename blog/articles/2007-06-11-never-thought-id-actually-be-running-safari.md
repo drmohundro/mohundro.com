@@ -3,6 +3,7 @@ title: "Never thought I'd actually be running Safari..."
 author: David
 date: 2007/06/11
 categories: general
+guid: f1ac5437-d907-457e-a098-5da2184d340e
 
 In case you haven't heard, Apple has released a [public beta of Safari](http://www.apple.com/safari/), which is their web browser. 
 

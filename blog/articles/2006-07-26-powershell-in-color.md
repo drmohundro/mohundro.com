@@ -3,6 +3,7 @@ title: "PowerShell in Color!"
 author: David
 date: 2006/07/26
 categories: powershell
+guid: 7945d820-4f60-4ecf-bad1-ff2932e029f5
 
 Recently, I've been experimenting with different console colors in PowerShell, primarily because the light gray on black is sort of boring (lame excuse, I know). I've been using [Console](http://sourceforge.net/projects/console) and I had set the foreground color to green in the options. The only problem with doing this is that programs that output other colors, such as the error messages from MSBuild, are not displayed. I like seeing the color difference because the red text really jumps out at me and says that I have an error.
 

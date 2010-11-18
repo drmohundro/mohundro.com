@@ -3,6 +3,7 @@ title: "Tech Ed &ndash; Day 2 Review"
 author: David
 date: 2008/07/03
 categories: conferences
+guid: e82fb73d-25c9-40af-b999-1ef331a7c084
 
 Continuing in my never-ending (at least until day 4) review of Tech Ed, this post will talk about how the second day of the conference went. 
  

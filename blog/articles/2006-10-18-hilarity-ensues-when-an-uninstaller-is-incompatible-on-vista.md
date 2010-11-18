@@ -3,6 +3,7 @@ title: "Hilarity ensues when an uninstaller is incompatible on Vista"
 author: David
 date: 2006/10/18
 categories: windows vista
+guid: 48fffa9f-e308-40dd-a77d-416ba223652d
 
 Okay, maybe it isn't hilarity, but it is somewhat ridiculous when Vista will let you get around a compatibility dialog warning you that a program isn't currently compatible on this version of Windows but a similar dialog that is displayed when you try to _uninstall_ the same application that _will not let you override it *_! 
 

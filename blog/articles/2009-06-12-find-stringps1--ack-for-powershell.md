@@ -3,6 +3,7 @@ title: "Find-String.ps1 - ack for PowerShell"
 author: David
 date: 2009/06/12
 categories: powershell;programming;utilities
+guid: 6b15a888-ae1a-41b1-8559-5ac3f8e8fbab
 
 Never heard of [ack](http://betterthangrep.com/)? Well, by ack's admission, it is "better than grep." That's up to you to decide, but it does make searching code easier than grep. 
 

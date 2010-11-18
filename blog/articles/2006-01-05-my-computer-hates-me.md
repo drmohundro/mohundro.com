@@ -3,6 +3,7 @@ title: "My computer hates me..."
 author: David
 date: 2006/01/05
 categories: hardware
+guid: cc6a7e53-7350-4cd2-985a-b28bd41ccd86
 
 Over a year ago, I built a new PC from the ground up. This wasn't my first PC to build mind you. I hand-picked all of the parts and had a great time putting it together. If you've ever built a PC, you know the feeling of hitting the power button after hooking the final jumpers and hearing that familiar whirr as the PC boots up. Boy, is it a scare when it doesn't do that! That's what happened with this PC... absolutely nothing. Long story short, I got the PC to come on finally, but everytime I shut it down, it wouldn't come back on without my resetting the CMOS by using a jumper on the motherboard. I tried replacing the CMOS battery, changing out the memory... everything. I finally found some people online in a hardware forum with a similar problem. Their solution? RMA. *sigh* What was MY solution? Get a Dell. Okay, okay, I'll admit it. I chickened out. I just didn't want to get burned again. I'm still using that Dell, too.
 

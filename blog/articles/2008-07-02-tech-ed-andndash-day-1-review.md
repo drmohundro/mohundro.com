@@ -3,6 +3,7 @@ title: "Tech Ed &ndash; Day 1 Review"
 author: David
 date: 2008/07/02
 categories: conferences
+guid: f4970045-576d-40f2-ad5b-8fcb7aa8f4f8
 
 I'm continuing my [review of Tech Ed from yesterday](http://www.mohundro.com/blog/2008/07/01/TechEdPreconferenceOverview.aspx). Yes I still realize that I'm a month behind. :-) 
 

@@ -3,6 +3,7 @@ title: "A little bit about ManualResetEvent"
 author: David
 date: 2006/06/27
 categories: .net;programming
+guid: 31792f68-b4aa-4f0f-a666-a136799795ee
 
 I'm not sure how often people run into situations where the ManualResetEvent is needed, but I have a few times. System.Threading.ManualResetEvent provides an easy way to allow cross-thread communication and to let other threads know when something has completed. Most of the time that I've needed it, I have a property in a class that is loaded in another thread, but I want to prevent access to the property until it is loaded. From what I've seen, this is a great time to use the ManualResetEvent.
 

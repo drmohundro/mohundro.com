@@ -3,6 +3,7 @@ title: "Icons AND Text!"
 author: David
 date: 2006/02/23
 categories: general
+guid: c2126770-3c2a-4573-affd-674815922b75
 
 [Jeff Atwood](http://www.codinghorror.com/blog/) posted a [very interesting article](http://www.codinghorror.com/blog/archives/000523.html) today detailing the effects of icons, text, and combinations of the two in toolbars. I particularly liked his comparison of using different icon sets for toolbars. The image of Word with all possible toolbars displayed was particularly horrifying, though.
 

@@ -3,6 +3,7 @@ title: "More information on yesterday's VS2005 bug"
 author: David
 date: 2006/01/12
 categories: visual studio
+guid: a59a8f4f-a64d-431a-95b2-93f924c6a48a
 
 After some <strike>severe frustration</strike> research, I was able to discover how to repro the crash in Visual Studio 2005 yesterday. It is actually quite simple to do. You need a new VB.NET project and two With statements, one nested within the other. That's it. Then you click on the second With object.
 

@@ -3,6 +3,7 @@ title: "Powershell script to print diff output in color"
 author: David
 date: 2008/04/24
 categories: powershell;utilities
+guid: 7c9325a0-6fd1-4e44-82fc-2aa2fe526e6b
 
 Here is a simple script I wrote which was inspired by [this post on terminal color highlighting](http://www.pixelbeat.org/docs/terminal_colours/) and by [ColorDiff](http://colordiff.sourceforge.net/) that does essentially the same thing.
 

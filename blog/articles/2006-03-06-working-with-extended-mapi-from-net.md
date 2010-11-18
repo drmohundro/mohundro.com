@@ -3,6 +3,7 @@ title: "Working with Extended MAPI from .NET"
 author: David
 date: 2006/03/06
 categories: .net;programming
+guid: 7f402ce8-f923-4e77-bd87-4414ae0aaa88
 
 Lately, I've been doing some work with integrating some of my managed applications with Outlook. There are a lot of [code examples and articles](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/odc_ol2003_ta/html/odc_OLOMwVBNET.asp) out there on using the Outlook COM interop library for tying into Outlook, but be prepared for a lot of security prompts for the user. I understand the reasoning behind those security prompts, but man are they annoying.
 

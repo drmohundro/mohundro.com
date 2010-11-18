@@ -3,6 +3,7 @@ title: "Find in files with PowerShell"
 author: David
 date: 2006/11/06
 categories: powershell
+guid: ec5e386a-5eba-4473-b553-e5e4350e0404
 
 I haven't posted anything on PowerShell in a while so here's something that's useful. 
 

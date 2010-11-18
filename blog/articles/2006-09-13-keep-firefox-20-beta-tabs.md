@@ -3,6 +3,7 @@ title: "Keep Firefox 2.0 Beta Tabs"
 author: David
 date: 2006/09/13
 categories: general
+guid: 4f2ef161-638c-4959-ade1-098594ea9cb6
 
 I recently upgraded Firefox to the 2.0 beta version. It has some nice features built in and it seems a lot more stable than the previous beta version. One complaint I had with it was the lack of support for extensions, though [Mike Gunderloy](http://www.larkware.com) pointed out the Nightly Tester Tools that will attempt to make extensions compatible - and for me, 99% of the time, the Nightly Tester Tools works. In fact, it worked for 100% of my extensions, but Tab Mix Plus didn't pull all its functionality along with it to 2.0. The extension shows as working correctly, but it doesn't actually work correctly and really, it only states compatability with 1.6+ so I shouldn't be surprised. However, as [Colin pointed out](http://feeds.feedburner.com/~r/ColinNeller/~3/21191376/TabMixPlusGetItNow.aspx), Tab Mix Plus has some really great functionality, and I was missing it in Firefox 2.0, like the ability to keep sessions for the next load of Firefox. 
 

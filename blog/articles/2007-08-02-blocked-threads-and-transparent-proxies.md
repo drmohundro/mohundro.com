@@ -3,6 +3,7 @@ title: "Blocked threads and transparent proxies"
 author: David
 date: 2007/08/02
 categories: .net;programming
+guid: e94f8a75-7f4d-4718-89fa-5e3f7e4d33f1
 
 > (**note** - if you're reading this in a feed reader like Google Reader, sorry - the code snippets look awful... if anyone has any suggestions on good ways to get code to look good in the webpage *and* feed readers, I'd appreciate it)
 

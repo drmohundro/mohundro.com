@@ -3,6 +3,7 @@ title: "Have you guys ever looked at Microsoft Virtual Labs?"
 author: David
 date: 2008/06/18
 categories: .net;general;visual studio
+guid: 55f85d62-1a90-42c4-9ed4-6517fb1fd32c
 
 A couple of weeks ago, I was fortunate enough to attend the Tech Ed 2008 Developer conference. It was my first Tech Ed conference and I had a great time. (Yes, I still need to blog about my experiences there overall and I'm still planning on doing that.) One thing I wanted to bring up if you've never been to Tech Ed before is the great experience that the Hands on Labs (HOLs) provided. Basically, you walked up to the HOL computer and, in a few short steps, you had a full development virtual machine ready to go. It was a really nice experience and ensured that you could try out new features without having to set up your own VM or worse, download and install a lot of betas on your own development machine. 
 

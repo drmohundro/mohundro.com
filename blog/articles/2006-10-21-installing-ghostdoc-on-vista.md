@@ -3,6 +3,7 @@ title: "Installing GhostDoc on Vista"
 author: David
 date: 2006/10/21
 categories: utilities;windows vista
+guid: dd2668da-572c-4e61-a480-1e7161af55c5
 
 I recently installed [GhostDoc 1.9.5](http://www.roland-weigelt.de/ghostdoc/) on Vista RC2 at home. At first, I received as error towards the end of installation so I searched around a little bit to see if anyone else had seen the error. Then, as with most issues I've had with Vista, I decided to see if elevating the install to admin would work which seems to have worked fine. 
 

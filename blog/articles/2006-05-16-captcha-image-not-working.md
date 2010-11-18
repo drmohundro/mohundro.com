@@ -3,6 +3,7 @@ title: "Captcha image not working???"
 author: David
 date: 2006/05/16
 categories: general
+guid: f0a78ffd-9648-429e-974b-bc454014b541
 
 Marcos, thanks for the heads up on the captcha image not working...
 

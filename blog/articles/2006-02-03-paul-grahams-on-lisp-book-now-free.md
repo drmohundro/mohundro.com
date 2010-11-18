@@ -3,6 +3,7 @@ title: "Paul Graham's On Lisp book now free"
 author: David
 date: 2006/02/03
 categories: programming
+guid: f7ee6753-c449-4157-9287-ddded40f3a00
 
 Check [this](http://www.paulgraham.com/onlisptext.html) out.
 

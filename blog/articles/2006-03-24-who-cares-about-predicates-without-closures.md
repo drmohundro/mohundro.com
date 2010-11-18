@@ -3,6 +3,7 @@ title: "Who cares about predicates without closures?"
 author: david
 date: 2006/03/24
 categories: .net;programming
+guid: f6656e1f-2a92-4156-908e-3dc0f9256272
 
 I've been using the System.Collections.Generic namespace an awful lot lately. I really like it, too. I use the List&lt;T&gt; collection all the time. It is so much better than inheriting from the CollectionBase to get a type-safe collection. I won't go into the reasons here, though. This post is about Predicates. If you have a List&lt;T&gt; collection, you'll notice it exposes a Find method that takes a Predicate as an argument. A Predicate is just a delegate that takes an object of type T and returns a boolean. When you call the Find method, it will call your Predicate for each object in its collection until your Predicate returns true. Looks like a nice, clean way to search collections, right?
 

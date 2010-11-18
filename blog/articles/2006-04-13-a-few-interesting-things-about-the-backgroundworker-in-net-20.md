@@ -3,6 +3,7 @@ title: "A few interesting things about the BackgroundWorker in .NET 2.0"
 author: David
 date: 2006/04/13
 categories: .net
+guid: c43bf063-e3ba-4eb8-87ae-1b960c356216
 
 I stumbled across this [post](http://pluralsight.com/blogs/mike/archive/2005/10/21/15783.aspx) by Mike Woodring today. Apparently, the UserState property from the BackgroundWorker isn't accessible from the RunWorkerCompleted event. What in the world???
 

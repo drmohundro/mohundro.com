@@ -3,6 +3,7 @@ title: "My attempt at converting the VIM Wombat theme to support Visual Studio"
 author: david
 date: 2008/01/11
 categories: visual studio
+guid: 0a1943d0-c755-41bc-bc1a-246d0f38b6a1
 
 I absolutely love trying out different Visual Studio color schemes. I've used [John Lam's port of Vibrant](http://www.iunknown.com/2007/06/vibrant_ink_vis.html) for a while as well as some of [Tomas Restrepo's VS themes](http://www.winterdom.com/weblog/2007/11/22/VS2008ColorSchemes.aspx) and they're all great. After watching [this VIM screencast from the Eleutian guys](http://blog.eleutian.com/2007/12/13/VimScreencastTutorialTeaser.aspx), I decided to give VIM another try. I'm not able to fly with it yet, but I am picking it up a lot better. 
 

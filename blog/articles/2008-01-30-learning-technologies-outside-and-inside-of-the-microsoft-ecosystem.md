@@ -3,6 +3,7 @@ title: "Learning technologies outside (and inside) of the Microsoft ecosystem"
 author: David
 date: 2008/01/30
 categories: languages;programming
+guid: 40964d74-84a7-43b1-b813-3d89900212c0
 
 In [my post looking forward to 2008](http://www.mohundro.com/blog/2008/01/01/Welcome20082007InReview.aspx), I mentioned that I wanted to take more time this year to learn new technologies, particularly outside of the Microsoft communities. With all of the push in .NET towards dynamic languages right now, why not look to some of the dynamic languages that have been out there being used for years? 
 

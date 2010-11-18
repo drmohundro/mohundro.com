@@ -3,6 +3,7 @@ title: "DDE isn't really dead"
 author: David
 date: 2007/04/12
 categories: programming
+guid: 06923884-d3ca-49f8-a1b1-76a8a553adde
 
 Scott Hanselman recently posted about a [bug that can occur when using Firefox as your default browser](http://www.hanselman.com/blog/FixQuotGeneralFailurequotWhileLaunchingFireFoxURLsFromOutlook.aspx). The root problem deals with Outlook trying to start up Firefox using <acronym title="Dynamic Data Exchange">DDE</acronym> instead of just a simple command line argument. At work, we ran into a very similar situation, because we were wanting to open up URLs in the default browser from our application. Normally, this would be easy because all you would have to do is Process.Start the URL without providing an application and ShellExecute would handle the rest for you. Needless to say, this wasn't going to work for us because we had overridden the default open action for URL shortcuts with our own action (it's a long story that I won't go into in this post). 
 

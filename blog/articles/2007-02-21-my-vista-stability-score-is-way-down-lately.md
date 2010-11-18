@@ -3,6 +3,7 @@ title: "My Vista stability score is way down lately..."
 author: David
 date: 2007/02/21
 categories: windows vista
+guid: f9b71aed-9245-4cfe-9673-a4145d1ea70f
 
 Check this out... 
 

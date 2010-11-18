@@ -3,6 +3,7 @@ title: "Tracepoints!!!"
 author: David
 date: 2006/03/17
 categories: programming;visual studio
+guid: 23a90f93-a7ab-40b5-b78e-919d1af6bc32
 
 First thing - [jfo's coding](http://blogs.msdn.com/jfoscoding/) is a great blog. I regularly find her posts very helpful and relevant to what I'm working on.  If you're not already reading her blog, you should check it out.
 

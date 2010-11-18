@@ -3,6 +3,7 @@ title: "PowerShell RC1 released!"
 author: David
 date: 2006/04/26
 categories: .net;programming;utilities
+guid: 15a742ed-5009-402c-94dc-3e618e340a93
 
 Never heard of PowerShell you say?
 

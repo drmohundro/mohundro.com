@@ -3,6 +3,7 @@ title: "Real world walkthrough with WinDbg"
 author: David
 date: 2008/05/23
 categories: debugging;utilities
+guid: cdebde46-8f88-4115-b65d-e59613f9f58b
 
 Most of the work I currently do (during the day) is with WinForms applications and most of the time, debugging their problems really isn't all that hard. Application hangs or crashes that only occur on one machine at a remote location are <em>not</em> easy though. We ran into one of those situations a few weeks back. I told our support group that if they saw the hang again to let me know and I would swing by so that we could get a memory dump of the application and start debugging it. Here's everything I did to figure out what went wrong. 
 

@@ -3,6 +3,7 @@ title: "Slides and notes from MNUG talk"
 author: David
 date: 2008/09/30
 categories: .net user group;powershell;speaking
+guid: 5e394665-d693-42e5-aee9-8c7be01f4d73
 
 I promised the slides, notes and links from my [Memphis .NET User Group](http://mnug.net) talk, so here they are... and wow, they haven't really changed much from when I gave the [PowerShell talk](http://www.mohundro.com/blog/2008/09/09/PowerShellFSDNUGPresentationWithSlidesAndNotes.aspx) to the [FSDNUG](http://fsdnug.org) group. So, I'll just link to the [zip of the presentation from that talk](http://www.mohundro.com/blog/content/binary/2008-09-08-fsdnug-powershell-presentation.zip). 
  

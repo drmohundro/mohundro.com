@@ -3,6 +3,7 @@ title: "Some notes on the FlowLayoutPanel"
 author: David
 date: 2006/01/24
 categories: .net
+guid: 7ae4fad5-87f5-43b6-b5a1-ec9623c17d7c
 
 I've been experimenting with the FlowLayoutPanel. There are a few catches to using it that can cause some confusion. In my case, the confusion came from anchoring and/or docking. I was dynamically adding some listviews to my panel to display results of data. There would be one to many listviews depending on the type of report the user requested. Having come from developing in ASP, it is still my first inclination to just create a table for each section and add it. The flow of the HTML would handle the rest. I figured I could get a FlowLayoutPanel and just add controls as needed and get similar functionality.
 

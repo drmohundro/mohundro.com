@@ -3,6 +3,7 @@ title: "Lessons in Security!  (with sarcasm!)"
 author: David
 date: 2006/05/30
 categories: general
+guid: 573c6e93-1a9b-47f9-9c23-fe7881c96521
 
 One of my co-workers was recently chided for emailing a password to access an internal server recently. "Don't email passwords! Email isn't secure!" I don't know if those were the exact words, but you get the point. Don't send around secure data by insecure means, right?
 

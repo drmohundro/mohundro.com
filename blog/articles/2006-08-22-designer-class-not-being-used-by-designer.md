@@ -3,6 +3,7 @@ title: "Designer class not being used by designer"
 author: David
 date: 2006/08/22
 categories: visual studio
+guid: f8494277-7a7e-41b6-b951-447988974a51
 
 In one of my projects at work, I ran into a situation where Visual Studio 2005 didn't recognize my designer files (i.e. MainForm.Designer.vb) so all of the serialized designer code was getting stuck in a new InitializeComponent in my code file (i.e. MainForm.vb). Of course, because my Designer code was a partial class, I got an error out of it. In my experience, this behavior is sort of obscure, but here is an easy fix.
 

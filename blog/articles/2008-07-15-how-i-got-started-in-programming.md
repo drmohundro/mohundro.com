@@ -3,6 +3,7 @@ title: "How I Got Started in Programming"
 author: David
 date: 2008/07/15
 categories: general;programming
+guid: f205cc06-a0da-43a9-adb9-4ba749106451
 
 [Brian Sullivan](http://www.sullivansoftdev.com/blog/) [tagged me with the latest ongoing meme](http://www.sullivansoftdev.com/blog/post/How-I-Got-Started-in-Programming.aspx). I'm really sort of excited because I've missed out on all the other memes going around. [Jeff Atwood](http://www.codinghorror.com/blog/) probably wouldn't even consider me a real geek because of that. (I haven't updated a Wikipedia page either! Gasp!)
 

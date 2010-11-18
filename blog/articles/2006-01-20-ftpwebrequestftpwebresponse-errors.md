@@ -3,6 +3,7 @@ title: "FtpWebRequest/FtpWebResponse Errors"
 author: David
 date: 2006/01/20
 categories: .net
+guid: b49f5cc4-8b1b-4ed5-aa0f-f1b0eb111b0b
 
 I discovered today that the new FtpWebRequest/FtpWebResponse classes might not be the best options for connecting to FTP servers, at least unless you're in control of the FTP server. The classes make some assumptions about the remote FTP server, like the server's file system.
 

@@ -3,6 +3,7 @@ title: "Extending MSBuild with custom tasks"
 author: David
 date: 2006/04/11
 categories: .net;visual studio
+guid: 0827fd13-7636-48cc-9dd1-0f0cfbd282ad
 
 MSBuild is a great tool. If you're not familiar with it, it is Microsoft's new build engine which was released with .NET 2.0. Visual Studio 2005 uses it behind the scenes. If you'd like to see it in action, pull up a VS2005 Command Prompt and type "msbuild YourSolution.sln" and watch the magic. It provides a much faster way of recompiling solutions and projects than reopening Visual Studio.
 

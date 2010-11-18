@@ -3,6 +3,7 @@ title: "NDepend - Static analysis on steroids"
 author: David
 date: 2008/03/26
 categories: .net;general;utilities
+guid: c1eccfb3-6085-4469-83e0-01d2c630f4ca
 
 If you've been working with the .NET Framework for a while, you're hopefully already using some form of static analysis to help you catch problems with your code. One of the most well known is Microsoft's [FxCop](http://msdn2.microsoft.com/en-us/library/bb429476(VS.80).aspx), which is now integrated as the Code Analysis feature in Visual Studio 2005 <sup>[1]</sup> and up. If you're not already using this tool, then please start because it can help you find problem areas like potential NullReferenceExceptions as well as globalization and security issues. 
 

@@ -3,6 +3,7 @@ title: "Another PowerShell tip..."
 author: David
 date: 2006/06/22
 categories: programming;utilities
+guid: f69bee89-b30a-4d19-8256-0114451cf268
 
 I can't help myself, PowerShell is great and I keep finding useful things to do with it. Most of what I've been finding is easily accomplished in other ways, but this just goes to show the power available straight from the PowerShell command prompt.
 

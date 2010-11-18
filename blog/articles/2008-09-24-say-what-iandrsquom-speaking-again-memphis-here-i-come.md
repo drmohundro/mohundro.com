@@ -3,6 +3,7 @@ title: "Say what?!? I&rsquo;m speaking again? Memphis here I come!"
 author: David
 date: 2008/09/24
 categories: .net user group;powershell;speaking
+guid: 1b75fb26-2300-4742-b5b2-698d1f549c88
 
 [Colin](http://www.colinneller.com/blog/) is risking it I say. How is he risking it you might ask? By asking me to speak to the [Memphis .NET User Group](http://mnug.net/blogs/news/archive/2008/09/01/next-meeting-thursday-september-25-2008-6-00-pm.aspx)! 
 

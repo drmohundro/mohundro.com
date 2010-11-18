@@ -3,6 +3,7 @@ title: "Simple tip to change your PowerShell Script Execution Policy in Vista"
 author: David
 date: 2006/09/08
 categories: powershell;windows vista
+guid: 75d3e634-a9ce-4949-bcc6-fffff15948e2
 
 Having trouble changing your PowerShell Script Execution Policy in Vista because of access problems? This whole limited user thing will take some time to get used to, but it certainly is a good idea for security. What I did to fix this problem was I ran the command prompt as an admin. If you go under your start menu and accessories, you'll see a link to the command prompt. If you right click on it, you'll see an option to run as administrator. Here's a screenshot:
 

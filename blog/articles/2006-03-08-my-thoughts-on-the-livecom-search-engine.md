@@ -3,6 +3,7 @@ title: "My thoughts on the Live.com search engine"
 author: David
 date: 2006/03/08
 categories: general;utilities
+guid: 8066a1c3-73b9-4aa3-9ede-bf9fc05484d7
 
 [Live.com](http://www.live.com) received a makeover recently, and their search engine has been revamped. I've played around with Live.com before, but never really used it. The changes they've made are definitely an improvement, but after adding a few of my own feeds to it, I'm still seeing some unexpected behavior such as sections overlapping each other. I'm using the IE7 beta 2 preview.
 

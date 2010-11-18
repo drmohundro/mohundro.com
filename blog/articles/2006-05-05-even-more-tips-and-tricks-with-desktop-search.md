@@ -3,6 +3,7 @@ title: "Even more tips and tricks with Desktop Search"
 author: David
 date: 2006/05/05
 categories: utilities
+guid: c61ac5cd-4a7b-40bb-8100-67150757f3ad
 
 I just found another nifty shortcut to finding items in Desktop Search. Let's assume you want to find an email with test in the subject in body. If you're like me, you'll find a ton of emails because you get to test a lot of code at work. HOWEVER, what if you know it was in the past couple of days? Try this then:
 

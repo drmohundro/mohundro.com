@@ -3,6 +3,7 @@ title: "What does \"user focused\" really mean?"
 author: David
 date: 2006/01/29
 categories: programming
+guid: eee586c2-04b3-43dd-8800-1fbcfefab7d6
 
 I just finished reading an [article](http://www.hacknot.info/hacknot/action/showEntry?eid=82) from [Hacknot](http://www.hacknot.info/hacknot/action/home) that describes the predicament that developers are in while attempting to define a software product's requirements as specified by the user. Here is a quote from the article that I find quite telling:
 

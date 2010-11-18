@@ -3,6 +3,7 @@ title: "Internet Explorer, Firefox, and Cake"
 author: David
 date: 2006/10/24
 categories: general
+guid: 0a2dafb1-eb10-499c-98a9-1819fad00905
 
 For those of you who don't subscribe to digg, [check this out](http://fredericiana.com/2006/10/24/from-redmond-with-love/). 
 

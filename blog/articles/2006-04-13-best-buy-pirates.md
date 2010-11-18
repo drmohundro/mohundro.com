@@ -3,6 +3,7 @@ title: "Best Buy Pirates?!?"
 author: David
 date: 2006/04/13
 categories: general
+guid: c6d2cdc8-877c-4a03-b3f7-4ab9bbb1396e
 
 Check out [this article](http://abcnews.go.com/Technology/wireStory?id=1832946) on ABC News. Or this [press release](http://www.winternals.com/Company/PressRelease77.aspx) from Winternals.
 

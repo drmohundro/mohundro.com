@@ -3,6 +3,7 @@ title: "Class Designer and working with a team"
 author: David
 date: 2006/05/01
 categories: visual studio
+guid: bbd6dfd1-8bcb-4af7-a6fe-2da10d0e1380
 
 I wanted to share an experience I had last week while working with my development team. I think I've mentioned this before, but we're the first group in my company to move to .NET 2.0. As a result, we're also the first to get to really use Visual Studio 2005. We had been working on mockups and UI designs with our users for quite a while on this project.
 
