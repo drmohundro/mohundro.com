@@ -31,9 +31,10 @@ use Rack::Rewrite do
   }
 
   r301 %r{/blog/CommentView,guid,(.+?)\.aspx}, lambda { |match, rack_env|
+    helper = RedirectHelper.new
+
     guid = match[1]
-    # TODO: need to forward the guid to a page that can search the archives for a matching guid...
-    "/blog/"
+    helper.find_path_by_guid guid
   }
 end
 

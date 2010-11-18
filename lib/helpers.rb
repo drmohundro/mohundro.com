@@ -14,6 +14,28 @@ class RedirectHelper
     val
   end
 
+  def find_path_by_guid(guid)
+    cfg = {
+      :root => 'index',
+      :prefix => 'blog',
+      :ext => 'md'
+    }
+
+    Toto::Paths[:templates] = 'blog/templates'
+    Toto::Paths[:pages] = 'blog/templates/pages'
+    Toto::Paths[:articles] = 'blog/articles'
+
+    toto = Toto::Server.new cfg
+    
+    matched_article = (toto.site.class.articles 'md').map do |article|
+      Toto::Article.new(article, cfg).load
+    end.select do |article|
+      article[:guid] == guid
+    end
+
+    matched_article[0].path
+  end
+
   private
 
   def fix_other_links(val)
