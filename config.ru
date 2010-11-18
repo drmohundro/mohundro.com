@@ -30,10 +30,10 @@ use Rack::Rewrite do
     "/blog/categories?#{category}"
   }
 
-  r301 %r{/blog/CommentView,guid,(.+?)\.aspx}, lambda { |match, rack_env|
+  r301 %r{/blog/(PermaLink|CommentView),guid,(.+?)\.aspx}, lambda { |match, rack_env|
     helper = RedirectHelper.new
 
-    guid = match[1]
+    guid = match[2]
     helper.find_path_by_guid guid
   }
 end
