@@ -29,6 +29,12 @@ use Rack::Rewrite do
     category = match[1].downcase
     "/blog/categories?#{category}"
   }
+
+  r301 %r{/blog/CommentView,guid,(.+?)\.aspx}, lambda { |match, rack_env|
+    guid = match[1]
+    # TODO: need to forward the guid to a page that can search the archives for a matching guid...
+    "/blog/"
+  }
 end
 
 #

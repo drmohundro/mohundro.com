@@ -4,6 +4,10 @@
 
 /blog/CommentView,guid,b3e7081f-8249-4e37-a777-9afdfd0d9b3d.aspx
 
+## looks like I'll need to pull guids over in the conversion, too... yay...
+
+- look at EntryId on the xml
+
 
 # Gems to consider pulling in...
 
