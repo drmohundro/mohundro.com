@@ -5,7 +5,7 @@ date: 2007/05/18
 categories: general
 guid: eb773fc6-d837-4527-bf2e-8a40eff60c90
 
-A few weeks ago, I posted on the [Stack Style Tabs extension for Firefox](http://www.mohundro.com/blog/2007/04/24/NiceCtrlTabExtensionForFirefox.aspx). I used it for a little while and I realized that it wasn't exactly what I was looking for... I think it was because I couldn't use my keyboard arrow keys in addition to ALT-TABing around. What I really wanted was a keyboard-centric way to quickly navigate through my tabs. 
+A few weeks ago, I posted on the [Stack Style Tabs extension for Firefox](/blog/2007/04/24/nice-ctrltab-extension-for-firefox/). I used it for a little while and I realized that it wasn't exactly what I was looking for... I think it was because I couldn't use my keyboard arrow keys in addition to ALT-TABing around. What I really wanted was a keyboard-centric way to quickly navigate through my tabs. 
 
 Today, I was going through my feeds and noticed [a post from Lifehacker on a new experimental feature](http://lifehacker.com/software/google/navigate-google-search-results-via-keyboard-shortcuts-261157.php) that Google was working on to allow you to navigate through search results using j/k and a few other keyboard shortcuts. My first thought was that this would be great, because I use the provided keyboard shortcuts to navigate through my feeds in Google Reader all the time. Unfortunately, it was a little rough around the edges still. 
 

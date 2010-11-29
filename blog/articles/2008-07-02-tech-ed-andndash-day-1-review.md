@@ -5,7 +5,7 @@ date: 2008/07/02
 categories: conferences
 guid: f4970045-576d-40f2-ad5b-8fcb7aa8f4f8
 
-I'm continuing my [review of Tech Ed from yesterday](http://www.mohundro.com/blog/2008/07/01/TechEdPreconferenceOverview.aspx). Yes I still realize that I'm a month behind. :-) 
+I'm continuing my [review of Tech Ed from yesterday](/blog/2008/07/01/tech-ed-preconference-overview/). Yes I still realize that I'm a month behind. :-) 
 
 So, after breakfast, I imagine what everyone will be interested in is the keynote by Bill Gates. Here's the view I had after sitting down: 
 
@@ -23,7 +23,7 @@ I walked into a session by [Sara Ford](http://blogs.msdn.com/saraford/) on [Code
  
 Another session I attended that day was by [Jimmy Schementi](http://blog.jimmy.schementi.com/) entitled "Dynamic Languages and the Web." You can probably guess that this one was primarily on [IronRuby](http://www.ironruby.net/). As you might guess, a lot of the talk revolved around how dynamic languages will work with Silverlight. Jimmy pointed out the [Silverlight Dynamic Languages SDK](http://www.codeplex.com/sdlsdk/) which provides tooling for running dynamic languages under Silverlight, including IronRuby, IronPython, and other DLR based languages. It was pretty cool seeing a Rails app running on IronRuby. Jimmy also showed us an IronRuby version of [Try Ruby](http://tryruby.hobix.com/), which runs in the browser with Silverlight instead of having to ship the Ruby commands back to the server to be executed. (note - if you haven't tried out Ruby, go use the Try Ruby site. It is an excellent introduction into an awesome language) 
 
-I spent the rest of that day in Hands on Labs (see my [Virtual Labs post](http://www.mohundro.com/blog/2008/06/18/HaveYouGuysEverLookedAtMicrosoftVirtualLabs.aspx) to get an idea of the what the HOLs were like) and talking to the Microsoft guys. I spent time talking to a couple of developers on the .NET Framework team (whose names I unfortunately missed) and asked them a little bit about the [MAF (Managed AddIn Framework)](http://blogs.msdn.com/clraddins/). Their advice on that was to check with Jesse Kaplan (does Jesse have a blog I can link to?) so I did exactly that later in the week. I also spent time talking to them about versioning headaches and how we attempt to deal with breaking changes. It was interesting. 
+I spent the rest of that day in Hands on Labs (see my [Virtual Labs post](/blog/2008/06/18/have-you-guys-ever-looked-at-microsoft-virtual-labs/) to get an idea of the what the HOLs were like) and talking to the Microsoft guys. I spent time talking to a couple of developers on the .NET Framework team (whose names I unfortunately missed) and asked them a little bit about the [MAF (Managed AddIn Framework)](http://blogs.msdn.com/clraddins/). Their advice on that was to check with Jesse Kaplan (does Jesse have a blog I can link to?) so I did exactly that later in the week. I also spent time talking to them about versioning headaches and how we attempt to deal with breaking changes. It was interesting. 
 
 Afterwards, they told me that the MSDN documentation guys were looking for feedback, so I swung by there. I didn't get much information from them, but I tried to give them a lot of personal feedback on my feelings towards MSDN documentation. I currently still use Google to get to most of the MSDN help. I told them I used the local MSDN help up until Visual Studio 2005, at which point the help application because too slow to use. They seemed very welcome to hear feedback and I really think they're trying to improve. 
 

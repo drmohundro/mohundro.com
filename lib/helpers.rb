@@ -52,7 +52,7 @@ class RedirectHelper
     val.gsub! 'am-iactp-junkie-or-a-beta-junkie', 'am-i-a-ctp-junkie-or-a-beta-junkie'
     val.gsub! 'zoom-it-great-for-presentations-as-well-as-when-your-eyes-are-dilated', 'zoomit---great-for-presentations-as-well-as-when-your-eyes-are-dilated'
     val.gsub! 'visual-studio2010-is-bighellip-at-least-the-ctp-ishellip', 'visual-studio-2010-is-bigandhellip-at-least-the-ctp-isandhellip'
-    val.gsub! 'find-stringps1-ack-for-powershell', 'find-stringps1--ack-for-powershell'
+    val.gsub! 'find-stringps1-ack-for-powershell', 'find-stringps1---ack-for-powershell'
   end
 
   def singular_compound_words

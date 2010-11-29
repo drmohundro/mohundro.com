@@ -7,7 +7,7 @@ guid: e9661fd6-c7f8-48fd-bd49-8e703001d8d1
 
 So, it didn't occur to me until today that I was creating a trilogy here.
 
-If I had thought about it ahead of time, I would've given my titles more creative names like ["devLink"](http://www.mohundro.com/blog/2009/08/24/AnotherYearAnotherDevLinkPart1.aspx), ["devLink Strikes Back"](http://www.mohundro.com/blog/2009/08/25/AnotherYearAnotherDevLinkPart2.aspx) and "the Return of devLink." The true test will be to see if the second post is everyone's favorite. 
+If I had thought about it ahead of time, I would've given my titles more creative names like ["devLink"](/blog/2009/08/24/another-year-another-devlink-part-1/), ["devLink Strikes Back"](/blog/2009/08/25/another-year-another-devlink-part-2/) and "the Return of devLink." The true test will be to see if the second post is everyone's favorite. 
 
 ![Obligatory Ewoks for the 3rd movie... errr post.](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart3_BC80/image_3.png)
 

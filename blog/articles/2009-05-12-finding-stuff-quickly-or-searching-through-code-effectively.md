@@ -5,7 +5,7 @@ date: 2009/05/12
 categories: powershell;utilities
 guid: 83ba3e37-c3e9-402c-9a13-7cfcb306c007
 
-I [blogged a while back about finding in files with PowerShell](http://www.mohundro.com/blog/2006/11/06/FindInFilesWithPowerShell.aspx) and I wanted to share an update on that. 
+I [blogged a while back about finding in files with PowerShell](/blog/2006/11/06/find-in-files-with-powershell/) and I wanted to share an update on that. 
 
 The original post highlighted using a combination of Get-ChildItem and Select-String to quickly find things. It works fine, but the output isn't the easiest to read, because the found text isn't highlighted in any way.
 

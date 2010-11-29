@@ -49,7 +49,7 @@ You bet. I'm a geek to the core.
 
 #### If there was one thing you learned along the way that you would tell new developers, what would it be?
 
-I'd have to agree completely with Brian - *get involved in the community*. Do ***not*** let programming become just the job you perform. Like [JP](http://blog.jpboodhoo.com/), get passionate about developing. If you don't enjoy what you do, there isn't any point in doing it. Start reading blogs and going to [user groups](http://fsdnug.org/). You'll be overwhelmed at how much you didn't know, but remember that no one else knows it all either. We're all [learning together](http://www.mohundro.com/blog/2007/03/15/HowToGetBetterAtWhatYoureDoing.aspx). 
+I'd have to agree completely with Brian - *get involved in the community*. Do ***not*** let programming become just the job you perform. Like [JP](http://blog.jpboodhoo.com/), get passionate about developing. If you don't enjoy what you do, there isn't any point in doing it. Start reading blogs and going to [user groups](http://fsdnug.org/). You'll be overwhelmed at how much you didn't know, but remember that no one else knows it all either. We're all [learning together](/blog/2007/03/15/how-to-get-better-at-what-youre-doing/). 
 
 #### What's the most fun you've ever had... programming?
  

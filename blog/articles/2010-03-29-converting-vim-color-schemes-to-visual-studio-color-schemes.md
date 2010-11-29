@@ -7,7 +7,7 @@ guid: 3d83a526-2dbe-48ad-b741-64380dab79f5
 
 My favorite text editor right now is vim. As a result, I cannot develop without my (customized) vim key bindings. To get around that when writing .NET code, I use ViEmu when I'm in Visual Studio. However, I still miss the huge variety of color schemes that are available for vim when I'm in Visual Studio.
 
-A couple of years ago, I finally sat down and [converted by hand the Wombat theme I was using in vim for Visual Studio](http://www.mohundro.com/blog/2008/01/11/MyAttemptAtConvertingTheVIMWombatThemeToSupportVisualStudio.aspx). At the time, I attempted to write a script to do this conversion process for me, but it didn't really work out. Well, just over a month ago, I decided to try again and finally got a script working. Here's some screenshots using the [Nick Moffitt's version of the railscasts color theme](http://www.vim.org/scripts/script.php?script_id=2175) to give you an idea of how it works: 
+A couple of years ago, I finally sat down and [converted by hand the Wombat theme I was using in vim for Visual Studio](/blog/2008/01/11/my-attempt-at-converting-the-vim-wombat-theme-to-support-visual-studio/). At the time, I attempted to write a script to do this conversion process for me, but it didn't really work out. Well, just over a month ago, I decided to try again and finally got a script working. Here's some screenshots using the [Nick Moffitt's version of the railscasts color theme](http://www.vim.org/scripts/script.php?script_id=2175) to give you an idea of how it works: 
 
 VIM: 
 

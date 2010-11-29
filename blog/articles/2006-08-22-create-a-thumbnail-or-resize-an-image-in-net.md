@@ -5,7 +5,7 @@ date: 2006/08/22
 categories: .net;programming
 guid: e32b3695-c17b-44a2-918c-ec5726999a59
 
-(After [yesterday's post](http://www.mohundro.com/blog/PermaLink,guid,4a32de3b-297a-49bd-be6f-0e568fc26dc2.aspx) on getting metadata from images in .NET, I've decided to continue to post some of the information I find regarding working with images in .NET.) 
+(After [yesterday's post](/blog/2006/08/21/getting-the-caption-of-an-image-programatically/) on getting metadata from images in .NET, I've decided to continue to post some of the information I find regarding working with images in .NET.) 
 As I mentioned yesterday, I'm working on an application to export a folder of images over to a webpage or something (I haven't decided on the output format, whether to a database, XML, or what). I've been learning quite a bit about .NET image support (primarily from GDI+) and it really provides a lot right out of the box. Today's post is on resizing an image without losing too much quality in the process. 
 
 The first resource I found was [System.Drawing.Image.GetThumbmailImage](http://msdn2.microsoft.com/en-us/library/system.drawing.image.getthumbnailimage.aspx). My first thought was, "Surely it isn't this easy!" I was right - it wasn't that easy. Check out this quote from the remarks section of the documentation: 

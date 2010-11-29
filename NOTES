@@ -3,6 +3,9 @@
 ## MUST
 - Move binary content over to S3 (images, zips, etc)
 - What will we do with the "David and Cara's" portion? Wordpress maybe?
+- See the rest of the aspx links:
+  - find-string 'mohundro.com.+?aspx'
+  - things like: 'http://www.mohundro.com/blog/default,month,2008-09.aspx'?
 
 ## NICE TO HAVE
 - Be nice to change internal links over to new format (avoid 301 redirecting at all)

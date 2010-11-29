@@ -5,7 +5,7 @@ date: 2009/11/30
 categories: .net user group
 guid: b71b91e1-fbbf-4ac1-b838-887af7dc4632
 
-Almost 2 years ago a few guys in the Fort Smith area [decided we needed a .NET User Group here](http://www.mohundro.com/blog/2008/02/11/MyFirstNETUserGroupMeetingAndFSDNUG.aspx). We've fairly consistently had a good 20 to 30 people show up to every meeting since then. [Michael Paladino](http://www.mpaladino.com/) has done a great job serving as FSDNUG's president since that time... but [earlier this year he moved up to the Northwest Arkansas area](http://www.mpaladino.com/post/A-New-Adventure.aspx). As you might imagine, it's pretty tough to be the user group president when the group you're presiding over meets a good 45+ minute drive away. Well, he finally stepped down this month which means someone else has to take the reins.
+Almost 2 years ago a few guys in the Fort Smith area [decided we needed a .NET User Group here](/blog/2008/02/11/my-first-net-user-group-meeting-and-fsdnug/). We've fairly consistently had a good 20 to 30 people show up to every meeting since then. [Michael Paladino](http://www.mpaladino.com/) has done a great job serving as FSDNUG's president since that time... but [earlier this year he moved up to the Northwest Arkansas area](http://www.mpaladino.com/post/A-New-Adventure.aspx). As you might imagine, it's pretty tough to be the user group president when the group you're presiding over meets a good 45+ minute drive away. Well, he finally stepped down this month which means someone else has to take the reins.
 
 For good or bad, I'm his replacement :-) 
 

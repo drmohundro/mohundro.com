@@ -7,7 +7,7 @@ guid: 6b15a888-ae1a-41b1-8559-5ac3f8e8fbab
 
 Never heard of [ack](http://betterthangrep.com/)? Well, by ack's admission, it is "better than grep." That's up to you to decide, but it does make searching code easier than grep. 
 
-As a means of illustration, here is a grep example of a recursive search for StringBuilder across multiple C# files that I used back in [my post on "finding stuff quickly."](http://www.mohundro.com/blog/2009/05/12/FindingStuffQuicklyOrSearchingThroughCodeEffectively.aspx) 
+As a means of illustration, here is a grep example of a recursive search for StringBuilder across multiple C# files that I used back in [my post on "finding stuff quickly."](/blog/2009/05/12/finding-stuff-quickly-or-searching-through-code-effectively/) 
 
 ![grep output](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Findingstuffquicklyorsearchingthroughcod_BD54/image_thumb_5.png)
 

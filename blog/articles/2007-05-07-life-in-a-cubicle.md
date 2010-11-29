@@ -5,7 +5,7 @@ date: 2007/05/07
 categories: general
 guid: 64ca7032-2fa9-4b78-afe2-69fc8edc03ae
 
-I've already shared with you about how [cubicles really can be annoying when you sit next to the loudest two individuals in the world](http://www.mohundro.com/blog/2006/08/27/NoisyWorkingConditions.aspx).
+I've already shared with you about how [cubicles really can be annoying when you sit next to the loudest two individuals in the world](/blog/2006/08/27/noisy-working-conditions/).
 
 Now, I'd like to point you to a video that Long Zheng posted (from [istartedsomething](http://www.istartedsomething.com/)) from when [Conan O'Brien visited Intel headquarters](http://www.istartedsomething.com/20070506/conan-intel-video/).
 

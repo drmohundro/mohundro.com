@@ -11,7 +11,7 @@ So, with 2009 as a distant and 5 day old memory, I'd like to share my thoughts o
 
 #### Professional Life
 
-[FSDNUG](http://fsdnug.org) has continued to thrive over the past year. I really look forward to the meetings and getting to hang out with everyone. As I mentioned in my last post, [I'm taking over as president for 2010](http://www.mohundro.com/blog/2009/11/30/BigShoesToFill.aspx). The real test for me will be to see what I will be able to say about the group *next* year :-) 
+[FSDNUG](http://fsdnug.org) has continued to thrive over the past year. I really look forward to the meetings and getting to hang out with everyone. As I mentioned in my last post, [I'm taking over as president for 2010](/blog/2009/11/30/big-shoes-to-fill/). The real test for me will be to see what I will be able to say about the group *next* year :-) 
 
 I continued speaking occasionally at developer events this year, including giving my PowerShell talk the Shreveport, LA DNUG, the Little Rock, AR DNUG and the Conway, AR DNUG as well as at the Northwest Arkansas Code Camp. I'm planning on continuing to practice my speaking skills this year... if I can only pick a topic to talk about! I also gave an open spaces session on Event Driven Architecture at devLink. With all of my presentations this year, I received the [INETA Community Champion award](http://www.inetachamps.com/Profile/Details/drmohundro)! 
 

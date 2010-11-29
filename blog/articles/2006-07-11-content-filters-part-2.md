@@ -5,7 +5,7 @@ date: 2006/07/11
 categories: general
 guid: d7a6fe35-7fba-4571-94af-a5b8bc2289db
 
-Just last month, I [posted](http://www.mohundro.com/blog/PermaLink,guid,65f517c5-9ad6-485b-a512-7c3797b84f08.aspx) on how much I hated corporate content filters, specifically for blocking sites such as [Scott Hanselman's site](http://www.hanselman.com/blog) and [del.icio.us](http://del.icio.us/), labeling them as "personal" sites. I've got good news and bad news regarding my rant from earlier. I spoke with some of my supervisors at work and the technology argument won over regarding Scott's site - they've unblocked it because it is a great technological resource. Unfortunately, del.icio.us does not fall into that category.
+Just last month, I [posted](/blog/2006/06/22/i-hate-corporate-proxies-and-content-filters/) on how much I hated corporate content filters, specifically for blocking sites such as [Scott Hanselman's site](http://www.hanselman.com/blog) and [del.icio.us](http://del.icio.us/), labeling them as "personal" sites. I've got good news and bad news regarding my rant from earlier. I spoke with some of my supervisors at work and the technology argument won over regarding Scott's site - they've unblocked it because it is a great technological resource. Unfortunately, del.icio.us does not fall into that category.
 
 Today, I discovered another site that apparently is not a good resource for information: [Wikipedia](http://en.wikipedia.org/). I guess because users decide on the content of this online encyclopedia, it must be personal. In fact, here is what I see when I attempt to go there at work:
 

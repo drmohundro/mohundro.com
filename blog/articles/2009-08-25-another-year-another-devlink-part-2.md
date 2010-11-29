@@ -5,9 +5,9 @@ date: 2009/08/25
 categories: conferences
 guid: bb8df4e2-52dc-4f46-97d2-04c563ac64bd
 
-Yesterday, [I blogged about the first day of devLink](http://www.mohundro.com/blog/2009/08/24/AnotherYearAnotherDevLinkPart1.aspx) - today, I'll continue the recap with, you guessed it, day 2. 
+Yesterday, [I blogged about the first day of devLink](/blog/2009/08/24/another-year-another-devlink-part-1/) - today, I'll continue the recap with, you guessed it, day 2. 
 
-The Open Spaces side of devLink started on day two, so that's where I went. Like last year, [Alan Stevens](http://netcave.org/) kicked everything off with the opening circle. (if you're unclear on the Open Spaces concept, I gave it more time in [my post from last year](http://www.mohundro.com/blog/2008/08/27/devLink2008Recap.aspx))
+The Open Spaces side of devLink started on day two, so that's where I went. Like last year, [Alan Stevens](http://netcave.org/) kicked everything off with the opening circle. (if you're unclear on the Open Spaces concept, I gave it more time in [my post from last year](/blog/2008/08/27/devlink-2008-recap/))
 
 #### Convening my first open space session
 

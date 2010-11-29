@@ -5,7 +5,7 @@ date: 2006/03/31
 categories: general;visual studio
 guid: 946b5b37-7054-4d05-931c-3c9362bbed18
 
-Yesterday afternoon, I posted on [ShellExecuteEx and executing files with unknown file extensions](http://www.mohundro.com/blog/PermaLink,guid,2e837c6d-a5b5-4eb1-a679-b375d27b3d06.aspx). I was really confused, though, because my feed just wouldn't show up in my aggregator ([RSS Bandit](http://www.rssbandit.org)). I knew it wasn't my reader, though, because I had navigated to my feed's address ([http://feeds.feedburner.com/DavidMohundro](http://feeds.feedburner.com/DavidMohundro)) and it wasn't displaying my added post. I threw a few test posts out there but nothing would show up. I'll admit, I couldn't help but wonder if something had happened with FeedBurner. I shouldn't have doubted, though. It was indirectly my fault.
+Yesterday afternoon, I posted on [ShellExecuteEx and executing files with unknown file extensions](/blog/2006/03/31/opening-files-that-dont-have-associated-programs/). I was really confused, though, because my feed just wouldn't show up in my aggregator ([RSS Bandit](http://www.rssbandit.org)). I knew it wasn't my reader, though, because I had navigated to my feed's address ([http://feeds.feedburner.com/DavidMohundro](http://feeds.feedburner.com/DavidMohundro)) and it wasn't displaying my added post. I threw a few test posts out there but nothing would show up. I'll admit, I couldn't help but wonder if something had happened with FeedBurner. I shouldn't have doubted, though. It was indirectly my fault.
 
 You see, FeedBurner has a nice report called FeedMedic (located under their Troubleshootize tab). I hadn't found that report until this afternoon. It informed me that my source feed was too large. 
 

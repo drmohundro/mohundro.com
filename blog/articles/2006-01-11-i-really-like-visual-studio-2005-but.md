@@ -15,5 +15,5 @@ Oh well.
 
 **NOTE**: Don't take this the wrong way. I still love VS2005 as an IDE. However, it still has quite a few issues. The most annoying of which is the flickering while in the designer. And no, I never got that one up in the debugger either.
 
-**UPDATE**: For more information on this, see my new post [here](http://www.mohundro.com/blog/PermaLink,guid,a59a8f4f-a64d-431a-95b2-93f924c6a48a.aspx).
+**UPDATE**: For more information on this, see my new post [here](/blog/2006/01/12/more-information-on-yesterdays-vs2005-bug/).
 

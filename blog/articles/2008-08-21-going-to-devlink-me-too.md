@@ -5,7 +5,7 @@ date: 2008/08/21
 categories: conferences
 guid: 9a842f4e-b384-43bf-a1b1-3229239ede88
 
-Last year, [I attended DevLink](http://www.mohundro.com/blog/2007/10/17/devLink2007Recap.aspx). It was very well done and so, this year, I'm going again! 
+Last year, [I attended DevLink](/blog/2007/10/17/devlink-2007-recap/). It was very well done and so, this year, I'm going again! 
 
 This time, though, I'm bringing a full contingent from the Northwest Arkansas region. Well, okay... maybe three people total isn't a contingent. Certainly not enough to warrant [getting a bus](http://devlink.net/TravelInfo/RidethedevLinkBus/tabid/116/Default.aspx)! However, I am still looking forward to heading to DevLink with [Randy Walker](http://www.mysoftwarestartup.com/) and [Michael Johnson](http://michaelcodes.net/). 
 

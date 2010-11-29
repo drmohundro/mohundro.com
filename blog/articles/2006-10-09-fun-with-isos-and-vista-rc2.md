@@ -5,7 +5,7 @@ date: 2006/10/09
 categories: utilities;windows vista
 guid: 865fcaca-d9e4-4bba-a92f-32a68685a9c3
 
-I recently updated my Vista installation to RC2 (build 5744), which went fairly smoothly for me. The installation went even better than for RC1, [because I had moved my documents to my D: drive](http://www.mohundro.com/blog/PermaLink,guid,d2103c85-a702-47ae-b149-48c3ba43fcb2.aspx), so once I told Vista where they were, most of my initial configuration was done! I did have one weird problem with installation, but it disappeared when I booted from the DVD instead of attempting to install from within the previous install of Vista. 
+I recently updated my Vista installation to RC2 (build 5744), which went fairly smoothly for me. The installation went even better than for RC1, [because I had moved my documents to my D: drive](/blog/2006/10/03/why-cant-i-move-my-public-folders-in-vista/), so once I told Vista where they were, most of my initial configuration was done! I did have one weird problem with installation, but it disappeared when I booted from the DVD instead of attempting to install from within the previous install of Vista. 
 
 I ran into my biggest problem today, though, when I attempted to install Visual Studio 2005. I had downloaded the ISO quite a while back and had used it to install VS2005 first on Windows XP SP2 and later on Vista RC1 without any problems. Under XP, I was able to use the Virtual CD tool that Microsoft provides, but it wasn't supported under Vista. As a result, I had found the [SlySoft Virtual CloneDrive](http://www.slysoft.com/en/virtual-clonedrive.html), which worked great on Vista RC1. It didn't seem to work so well on Vista RC2 and I have no idea why. 
 

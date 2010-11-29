@@ -5,7 +5,7 @@ date: 2008/01/30
 categories: languages;programming
 guid: 40964d74-84a7-43b1-b813-3d89900212c0
 
-In [my post looking forward to 2008](http://www.mohundro.com/blog/2008/01/01/Welcome20082007InReview.aspx), I mentioned that I wanted to take more time this year to learn new technologies, particularly outside of the Microsoft communities. With all of the push in .NET towards dynamic languages right now, why not look to some of the dynamic languages that have been out there being used for years? 
+In [my post looking forward to 2008](/blog/2008/01/01/welcome-2008-2007-in-review/), I mentioned that I wanted to take more time this year to learn new technologies, particularly outside of the Microsoft communities. With all of the push in .NET towards dynamic languages right now, why not look to some of the dynamic languages that have been out there being used for years? 
 
 I know what you're thinking - looks like David here decided to learn Ruby. I mean, that's what everyone is using, right? Ruby and Ruby on Rails? Nahhh, I'm actually learning Python! Probably the key factor for me was [the Python Challenge](http://www.pythonchallenge.com/). I follow [MoW's Powershell blog](http://thepowershellguy.com/blogs/posh/default.aspx) and he's started up a series on [working through the Python Challenge using Powershell](http://thepowershellguy.com/blogs/posh/archive/2008/01/09/posh-challenge-part-1.aspx). I had heard about the challenge before, but hadn't really looked into it much, but this was enough to prompt me to get over there and try it out. (I am planning on still learning Ruby, though - I'll just go through the challenges with Ruby later) 
 
