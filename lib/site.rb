@@ -6,6 +6,10 @@ class Site
     [status, {"Content-Type" => "text/html"}, [content]]
   end
 
+  def not_found
+    render(qualify_path '404')
+  end
+
   private
 
   def get_status_and_content(path)

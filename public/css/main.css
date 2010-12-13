@@ -57,7 +57,7 @@ h1:before {
   content: '\00bb' " "
 }
 .top {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .top nav, .top header, .top ul {
   display: inline;

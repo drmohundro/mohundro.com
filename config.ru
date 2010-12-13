@@ -3,6 +3,7 @@ require 'rack-rewrite'
 
 $LOAD_PATH.unshift File.dirname(__FILE__) + '/lib'
 require 'helpers'
+require 'site'
 
 # Rack config
 use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
@@ -44,18 +45,11 @@ use Rack::Rewrite do
   }
 end
 
-#
-# Create and configure a toto instance
-#
 toto = Toto::Server.new do
   Toto::Paths[:templates] = 'blog/templates'
   Toto::Paths[:pages] = 'blog/templates/pages'
   Toto::Paths[:articles] = 'blog/articles'
 
-  #
-  # Add your settings here
-  # set [:setting], [value]
-  # 
   set :author,    'David Mohundro'
   set :title,     'David Mohundro'
   set :root,      'index'
@@ -63,10 +57,11 @@ toto = Toto::Server.new do
   set :date,      lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :markdown,  :smart
   set :url,       'http://localhost:9292/blog/'
-  set :disqus,    'mohundro'                                  # disqus id, or false
+  set :disqus,    'mohundro'
   # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
-  set :ext,       'md'                                        # file extension for articles
+  set :ext,       'md'
   # set :cache,      28800                                    # cache duration, in seconds
+  set :error,     lambda { |env| Site.new.not_found }
 end
 
 app = Rack::Builder.new do
@@ -77,7 +72,6 @@ app = Rack::Builder.new do
   end
 
   map '/' do
-    require 'site'
     run Site.new
   end
 end
