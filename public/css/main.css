@@ -40,6 +40,7 @@ header, footer, section, article {
 }
 a {
   color: #b83000;
+  text-decoration: none;
 }
 h1 a {
   color: black;
@@ -49,11 +50,12 @@ a:hover {
   text-decoration: underline;
 }
 #fullpage > header > h1 {
-	border-left: 15px solid black;
-	padding-left: 30px;
-  font-size: 75px;
+  font-size: 50px;
   margin: 15px 0 15px 0;
   font-weight: normal;
+}
+#fullpage > header > h1:before {
+  content: '\00bb' " "
 }
 .top {
   padding-bottom: 50px;
@@ -101,8 +103,6 @@ nav > ul > li {
 .more a:hover { text-decoration: underline }
 #fullpage > header {
 	display: block;
-	padding-top: 30px;
-	line-height: 75px;
 	margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
