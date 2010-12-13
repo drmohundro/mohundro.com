@@ -1,7 +1,7 @@
 html { margin: 20px }
 body {
   margin: 0 auto;
-  font-family: 'Baskerville', Georgia, Times, serif;
+  font-family: 'PT Sans', 'Baskerville', Georgia, Times, serif;
   font-size: 20px;
   line-height: 30px;
   padding: 15px;
@@ -113,8 +113,8 @@ ul, li {
   list-style-type: none;
 }
 code {
-  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
-  font-size: 14px;
+  font-family: 'Inconsolata', 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+  font-size: 20px;
 }
 pre {
   padding: 20px;
