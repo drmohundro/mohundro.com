@@ -11,7 +11,7 @@ Where am I going with this? Well, I've seen more and more of my coworkers jumpin
 
 I really think that Jeff Atwood hit the nail on the head when he said that we should "we let the user enter the number however they like, and accept lots of formats" (see his post [here](http://www.codinghorror.com/blog/archives/000532.html)). I think that the masked textbox idea could work if the mask it displays were gray and showed the user an example of what the input might look like; however, I don't think it should hinder a user's input. As soon as the user focuses, it could clear so they could type freely. Outlook has a similar feature in the search contact box at the top of the window (see image below).
 
-![Outlook screenshot](http://www.mohundro.com/blog/content/binary/2006-03-22-OutlookFindContact.png)
+![Outlook screenshot](https://s3.amazonaws.com/mohundro/blog/2006-03-22-OutlookFindContact.png)
 
 I'd be curious if anyone has any really successful uses of masked textboxes. And I'm talking about cases where you know the user likes the functionality, not where you like it because it saved you a little bit of validation time :)
 

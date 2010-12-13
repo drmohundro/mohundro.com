@@ -9,5 +9,5 @@ Yesterday, after I had been at work for about an hour, Outlook started giving me
 
 Below is a screenshot of my eventvwr after my disk was ghosted to a new, working drive. As you can see, the all-wise eventvwr knew there were problems before I did.
 
-![Event Viewer Screenshot](http://www.mohundro.com/blog/content/binary/2006-03-24-diskEvents.png)<img src="" border="0">
+![Event Viewer Screenshot](https://s3.amazonaws.com/mohundro/blog/2006-03-24-diskEvents.png)
 

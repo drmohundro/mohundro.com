@@ -7,7 +7,7 @@ guid: 3790cea0-9197-4008-84b7-a402cfcc91b3
 
 Ever seen this error in Visual Studio 2005?
 
-![Designer Error](http://www.mohundro.com/blog/content/binary/2006-04-14-designer-error.gif)
+![Designer Error](https://s3.amazonaws.com/mohundro/blog/2006-04-14-designer-error.gif)
 
 I've seen it all too often and it is really annoying.
 

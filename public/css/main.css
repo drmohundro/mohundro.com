@@ -58,6 +58,7 @@ h1:before {
 }
 .top {
   padding-bottom: 60px;
+  font-size: 25px;
 }
 .top nav, .top header, .top ul {
   display: inline;

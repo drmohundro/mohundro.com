@@ -5,7 +5,7 @@ date: 2006/04/27
 categories: general;utilities
 guid: 4d1e8709-c5bb-4e46-aea8-80bfdfea94d8
 
-![Desktop Search Screenshot](http://www.mohundro.com/blog/content/binary/2006-04-27-desktopsearch.gif)
+![Desktop Search Screenshot](https://s3.amazonaws.com/mohundro/blog/2006-04-27-desktopsearch.gif)
 
 I've really become a fan of [MSN Desktop Search](http://desktop.msn.com/) at work. I don't really use the toolbar at all, because I've got tabbed browsing in both Firefox and the IE7 beta, but the search features are great. I also like it better than Google's offering because the results don't pull up in a webpage. Even with all the buzz over AJAX lately, there is still a lot more interaction that can happen with a true client application.
 
