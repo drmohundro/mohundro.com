@@ -19,10 +19,11 @@ use Rack::Rewrite do
     (\d{2})/  # day
     (\w+?)    # slug
     \.aspx$}x, lambda { |match, rack_env|
-      helper = RedirectHelper.new
 
-      year, month, day, slug = match[1], match[2], match[3], helper.convert_legacy_slug(match[4])
-      "/blog/#{year}/#{month}/#{day}/#{slug}/"
+    helper = RedirectHelper.new
+
+    year, month, day, slug = match[1], match[2], match[3], helper.convert_legacy_slug(match[4])
+    "/blog/#{year}/#{month}/#{day}/#{slug}/"
   }
 
   r301 %r{/blog/CategoryView,category,(\w+?)\.aspx}, lambda { |match, rack_env|
@@ -35,6 +36,11 @@ use Rack::Rewrite do
 
     guid = match[2]
     helper.find_path_by_guid guid
+  }
+
+  r301 %r{blog/default,month,(\d{4})-(\d{2}).aspx}, lambda { |match, rack_env |
+    year, month = match[1], match[2]
+    "/blog/month?#{year}-#{month}"
   }
 end
 

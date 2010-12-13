@@ -1,0 +1,21 @@
+<% 
+  req = Rack::Request.new @env 
+  date = Date.parse("#{req.query_string}-01")
+
+  matching_posts = @articles.select do |entry| 
+    entry_date = Date.parse(entry.date)
+    entry_date.year == date.year and entry_date.month == date.month
+  end
+%>
+<h1>All posts from <%=date.strftime("%B %Y")%></h1>
+<ul>
+<% if matching_posts.length > 0 %>
+  <% matching_posts.each do |entry| %>
+    <li>
+    <a href="<%= entry.path %>"><%= entry.title %></a>
+    </li>
+  <% end %>
+<% else %>
+  <li>No posts were found.</li>
+<% end %>
+</ul>

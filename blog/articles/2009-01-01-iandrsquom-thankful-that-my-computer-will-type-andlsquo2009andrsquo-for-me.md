@@ -21,7 +21,7 @@ I was fortunate enough to attend both [Tech Ed](/blog/2008/07/02/tech-ed-andndas
 
 #### Presentations
 
-I presented on PowerShell three times in 2008. [Once to FSDNUG](/blog/2008/09/09/powershell-fsdnug-presentation-with-slides-and-notes/), [once to MNUG](/blog/2008/09/30/slides-and-notes-from-mnug-talk/) and then once to Harding University CS students. My presentations pretty much took up [all of September](http://www.mohundro.com/blog/default,month,2008-09.aspx). It was a great experience and I'm looking forward to speaking to the Shreveport .NET User Group in March! 
+I presented on PowerShell three times in 2008. [Once to FSDNUG](/blog/2008/09/09/powershell-fsdnug-presentation-with-slides-and-notes/), [once to MNUG](/blog/2008/09/30/slides-and-notes-from-mnug-talk/) and then once to Harding University CS students. My presentations pretty much took up [all of September](/blog/month?2008-09). It was a great experience and I'm looking forward to speaking to the Shreveport .NET User Group in March! 
 
 #### Posts
 
