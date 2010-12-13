@@ -57,7 +57,7 @@ toto = Toto::Server.new do
   set :date,      lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :markdown,  :smart
   set :url,       'http://localhost:9292/blog/'
-  set :disqus,    'mohundro'                                     # disqus id, or false
+  set :disqus,    'mohundro'                                  # disqus id, or false
   # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
   set :ext,       'md'                                        # file extension for articles
   # set :cache,      28800                                    # cache duration, in seconds
@@ -71,7 +71,8 @@ app = Rack::Builder.new do
   end
 
   map '/' do
-    run Proc.new {|env| [200, {"Content-Type" => "text/html"}, ["Hello Rack!"]]}
+    require 'site'
+    run Site.new
   end
 end
 

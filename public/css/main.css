@@ -43,11 +43,27 @@ a:hover {
   text-decoration: underline;
 }
 body > header > h1 {
-	border-left: 30px solid black;
+	border-left: 15px solid black;
 	padding-left: 30px;
-  font-size: 201px;
-  margin: 100px 0 15px 0;
+  font-size: 75px;
+  margin: 15px 0 15px 0;
   font-weight: normal;
+}
+.top {
+  padding-bottom: 50px;
+}
+.top nav, .top header, .top ul {
+  display: inline;
+}
+.top header {
+  float: left;
+}
+.top nav { 
+  float: right;
+}
+nav > ul > li {
+  display: inline;
+  padding: 0px 15px 0px 15px;
 }
 .post header {
 	margin-bottom: 10px;
@@ -99,6 +115,11 @@ pre {
 }
 blockquote {
   font-style: italic;
+  padding: 15px 0px 0px 75px;
+  background: transparent url('/images/quoteleft.png') no-repeat;
+}
+blockquote .attributed {
+  text-align: right;
 }
 
 body > footer {
