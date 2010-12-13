@@ -7,25 +7,26 @@
     <title><%= title %></title>
   </head>
   <body>
-    <div class="top">
-      <header><a href="/">mohundro.com</a></header>
+    <div id="fullpage">
+      <div class="top">
+        <header><a href="/">mohundro.com</a></header>
 
-      <nav>
-        <ul>
-          <li><a href="/blog/">blog</a></li>
-          <li><a href="/about/">about</a></li>
-          <li><a href="http://feeds.feedburner.com/DavidMohundro/">feed</a></li>
-          <li><a href="/contact/">contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="/blog/">blog</a></li>
+            <li><a href="/about/">about</a></li>
+            <li><a href="http://feeds.feedburner.com/DavidMohundro/">feed</a></li>
+            <li><a href="/contact/">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <section>
+        <%= yield %> 
+      </section>
+      <footer>
+        powered by <a href="http://cloudhead.io/toto">toto</a>
+      </footer>
     </div>
-
-    <section>
-      <%= yield %> 
-    </section>
-    <footer>
-      powered by <a href="http://cloudhead.io/toto">toto</a>
-    </footer>
   </body>
 </html>
-

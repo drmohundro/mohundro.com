@@ -6,7 +6,13 @@ body {
   line-height: 30px;
   padding: 15px;
   width: 720px;
-
+  background-color: #2B2B2B;
+}
+#fullpage {
+  background-color: white;
+  padding: 25px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
 }
 header, footer, section, article {
 	display: block;
@@ -42,7 +48,7 @@ h1 a {
 a:hover {
   text-decoration: underline;
 }
-body > header > h1 {
+#fullpage > header > h1 {
 	border-left: 15px solid black;
 	padding-left: 30px;
   font-size: 75px;
@@ -93,10 +99,10 @@ nav > ul > li {
   text-decoration: none;
 }
 .more a:hover { text-decoration: underline }
-body > header {
+#fullpage > header {
 	display: block;
 	padding-top: 30px;
-	line-height: 180px;
+	line-height: 75px;
 	margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
@@ -122,7 +128,7 @@ blockquote .attributed {
   text-align: right;
 }
 
-body > footer {
+#fullpage > footer {
   text-align: left;
   margin-left: 10px;
 	font-style: italic;
