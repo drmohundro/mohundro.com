@@ -130,11 +130,17 @@ blockquote {
 blockquote .attributed {
   text-align: right;
 }
-
 #fullpage > footer {
   text-align: left;
   margin-left: 10px;
 	font-style: italic;
   font-size: 18px;
   color: #888;
+}
+img.photo {
+  float: right;
+  -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;
+  margin: 15px;
 }
