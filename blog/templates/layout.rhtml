@@ -2,9 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="alternate" type="application/atom+xml" title="<%= title %> - feed" href="/index.xml" />
+    <link rel="alternate" type="application/atom+xml" title="David Mohundro" href="http://feeds.feedburner.com/DavidMohundro/" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <title><%= title %></title>
+    <title>
+      <% if @path == 'index' %>
+        David Mohundro
+      <% else %>
+        <%= title %> | David Mohundro
+      <% end %>
+    </title>
   </head>
   <body>
     <div id="fullpage">

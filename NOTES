@@ -5,10 +5,12 @@
 - What will we do with the "David and Cara's" portion? Wordpress maybe?
 - See the rest of the aspx links:
   - find-string 'mohundro.com.+?aspx'
-
-## NICE TO HAVE
-- Be nice to change internal links over to new format (avoid 301 redirecting at all)
+- point feedburner to /blog/index.xml
 
 # Gems to consider pulling in...
 
 - http://github.com/webficient/rack-coderay
+
+# helpful and useful sites used in the transition
+
+- http://fadeyev.net/2010/05/10/getting-started-with-toto/
