@@ -115,9 +115,12 @@ ul, li {
 }
 code {
   font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+  font-size: 14px;
 }
 pre {
   padding: 20px;
+  width: 630px;
+  overflow: auto;
 }
 blockquote {
   font-style: italic;
