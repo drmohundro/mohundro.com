@@ -130,6 +130,7 @@ blockquote .attributed {
   text-align: right;
 }
 #fullpage > footer {
+  padding-top: 15px;
   text-align: left;
   margin-left: 10px;
 	font-style: italic;
