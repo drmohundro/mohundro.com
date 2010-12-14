@@ -9,14 +9,14 @@ I just wanted to share a quick tip on something that had been tripping me up. I'
 
 One problem. The VPN client couldn't see outside networks. In fact, I couldn't even ping. 
 
-![Attempting to ping  from XPM](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_3.png)
+![Attempting to ping  from XPM](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_3.png)
 
  The default networking adapter seems to be "Shared Networking (NAT)" - just change it to your actual network adapter. 
 
-![Networking adapter settings](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_6.png)
+![Networking adapter settings](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_6.png)
 
 Success! 
 
-![Successful ping!](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_9.png)
+![Successful ping!](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PingVPNetcfromWindowsXPMode_12ADF/image_9.png)
 
 

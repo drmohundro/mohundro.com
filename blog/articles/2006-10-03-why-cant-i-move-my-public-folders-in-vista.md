@@ -7,11 +7,11 @@ guid: d2103c85-a702-47ae-b149-48c3ba43fcb2
 
 I recently moved my documents from my C: drive over to my D: drive at home. My C: drive is a 10,000 RPM Raptor drive, which is insanely fast, but doesn't provide as much disk space (still a completely worthwhile tradeoff IMHO). As a result, though, I don't have room on my C: drive for a lot of other things like programs and games, which is why moving my documents to the D: drive is so nice. This is what it looks like in Vista: 
 
-![Documents Properties Screenshot](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/WhycantImovemypublicfoldersinVista_113B5/image%7B0%7D%5B7%5D.png)
+![Documents Properties Screenshot](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/WhycantImovemypublicfoldersinVista_113B5/image%7B0%7D%5B7%5D.png)
 
 Now, notice the buttons on this screenshot, specifically the "Restore Default," "Move," and "Find Target" buttons. Do you see them in the screenshot below? 
 
-![Public Documents Properties Screenshot](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/WhycantImovemypublicfoldersinVista_113B5/image%7B0%7D%5B10%5D.png)
+![Public Documents Properties Screenshot](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/WhycantImovemypublicfoldersinVista_113B5/image%7B0%7D%5B10%5D.png)
 
 I don't!!! 
 

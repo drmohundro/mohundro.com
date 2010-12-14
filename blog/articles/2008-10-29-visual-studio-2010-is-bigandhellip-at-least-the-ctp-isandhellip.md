@@ -11,7 +11,7 @@ And... it is big. Really big.
 
 Pictures are worth a thousand words... in this case, they're worth just over 30 GB. 
 
-![Visual Studio 2010 CTP is BIG](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/VisualStudio2010isbigatleasttheCTPis_13948/image_2.png)
+![Visual Studio 2010 CTP is BIG](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/VisualStudio2010isbigatleasttheCTPis_13948/image_2.png)
 
 Wow.
 

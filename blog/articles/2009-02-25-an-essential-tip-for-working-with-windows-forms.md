@@ -11,11 +11,11 @@ I'll mix it up some and show with pictures instead of text, though.
 
 Step 1. Right click on a Form, UserControl, or Component and select "Open With..." 
 
-![Open With...](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnEssentialTipforWorkingwithWindowsForms_9428/image_2.png)
+![Open With...](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnEssentialTipforWorkingwithWindowsForms_9428/image_2.png)
 
 Step 2. Select "CSharp Editor" and click "Set as Default" - (note that this setting only applies to C# code, though you can perform the identical setup for VB.NET as well) 
 
-![CSharp Editor (default)](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnEssentialTipforWorkingwithWindowsForms_9428/image_4.png)
+![CSharp Editor (default)](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnEssentialTipforWorkingwithWindowsForms_9428/image_4.png)
 
 Step 3. Enjoy your delicious, hot meal of faster Visual Studio! 
 

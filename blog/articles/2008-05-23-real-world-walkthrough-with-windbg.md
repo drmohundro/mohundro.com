@@ -11,11 +11,11 @@ First thing, install [Debugging Tools for Windows](http://www.microsoft.com/whdc
 
 Next, I remoted into the machine with the problem and ran [adplus](http://msdn.microsoft.com/en-us/library/cc265639.aspx) to get a memory dump. To do this, I first copied over the debugging directory to the remote machine from my share. Luckily, the Debugging Tools can be copied and therefore don't need an MSI or setup executable. To get the dump, I pulled up a command prompt, moved to the debugging directory, and ran `adplus -hang -p 3423` where 3423 was the process ID for the application that was hanging. If you're dealing with an application that is crashing, you would need to pass different arguments in. By the way, note that adplus is just a VBScript - this means that you can open it and see what they're doing if you're so inclined. You can get the PID from either task manager or process explorer. 
 
-![adplug -hang -p 1234](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_2.png)
+![adplug -hang -p 1234](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_2.png)
 
 Let this script run to completion and it should create the memory dump (in this case, a [minidump](http://msdn.microsoft.com/en-us/library/ms680369(VS.85).aspx)) in a directory that looks something like this: 
 
-![Minidump Directory](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_6.png)
+![Minidump Directory](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_6.png)
 
 I then zipped up this directory and copied it back over to my machine so that the user could get back to work :-) Get back to your desk because you'll be able to do everything else there. 
 
@@ -23,13 +23,13 @@ This is where it gets fun, because we get to use WinDbg. Before doing any real w
 
 Next, you can open your minidump. Under the File menu, there is an "Open Crash Dump" command that you can use (Ctrl+D for you keyboard guys) so pull that up and open your minidump file. It should look something like this: 
 
-![WinDbg](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_8.png)
+![WinDbg](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_8.png)
 
 You can think of WinDbg sort of like a command prompt, even though it has windows and buttons. It is just as user friendly as the command prompt is when you're sitting at the C: prompt. In other words, it isn't friendly at all. In this case, instead of a C: prompt, you have the prompt at the bottom of the screen. 
 
 WinDbg starts out as an unmanaged/native debugger, which means you could debug your managed application, but it will be fairly difficult with just native commands. What you need to use is a tool called [SOS](http://msdn.microsoft.com/en-us/library/bb190764(VS.80).aspx). [John Robbin's, master debugging guru guy](http://www.wintellect.com/cs/blogs/jrobbins/default.aspx), has an excellent [MSDN Magazine article on SOS](http://msdn.microsoft.com/en-us/library/bb190764(VS.80).aspx) that you should read for more information. My next step was to load up the SOS extension in WinDbg by typing `.loadby sos mscorwks` which tells WinDbg to load the SOS extension from the same directory as the mscorwks assembly was loaded from. (check out [this comment for cases when the loadby might not work](http://blogs.msdn.com/johan/archive/2007/11/13/getting-started-with-windbg-part-i.aspx#6503848), such as when mscorwks hasn't been loaded yet) 
 
-![.loadby sos mscorwks](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_10.png)
+![.loadby sos mscorwks](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_10.png)
 
 When I typed it in, I unfortunately got an error, though (pasted below for Googlibility, if that's a word).
 
@@ -55,11 +55,11 @@ This got me digging for a while to figure out why I couldn't load up SOS. [Quite
 
 To confirm this, you can use the loaded modules command (lm) to see all of the modules that were loaded at the time of the minidump. I specifically used `lmv m mscorwks`. The 'v' apparently means details or something and the 'm mscorwks' tells the command to match on modules named 'mscorwks'. Here is the result, with the file version info from my local mscorwks file as well (found in c:\windows\microsoft.net\framework\v2.0.50727).
 
-![mscorwks Version Differences](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_16.png) 
+![mscorwks Version Differences](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_16.png) 
 
 Don't despair if you're in this situation, because I have a solution. Virtual machines! It takes a bit of work, but you can get a VM set up with the same framework version. I started out with blank Windows XP SP2 VM and installed the .NET Framework 2.0 RTM on it. Turns out, I was still off. The below screenshot is from the VM.
 
-![Virtual Machine with WinDbg](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_18.png) 
+![Virtual Machine with WinDbg](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_18.png) 
 
 I was starting to get frustrated at this point, but [Doug Stewart](http://blogs.msdn.com/dougste/default.aspx) saved the day with a couple of posts on .NET 2.0 versions, [one on .NET 2.0 revisions](http://blogs.msdn.com/dougste/archive/2007/11/22/6467645.aspx) and [one on the version history of the CLR 2.0](http://blogs.msdn.com/dougste/archive/2007/09/06/version-history-of-the-clr-2-0.aspx). I was able to determine that the problem computer was running a [patch from KB928365](http://support.microsoft.com/kb/928365). I installed the patch on the VM and... SUCCESS! SOS loaded up!
 
@@ -67,29 +67,29 @@ With SOS loaded, you run a lot more interesting and powerful commands from WinDb
 
 I ran !threads, which displayed all of the threads that were running at the time the minidump was taken.
 
-![!threads output](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_20.png) 
+![!threads output](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_20.png) 
 
 You can see that, though it looks like a lot was going on, there really was the main STA thread (the thread that contains the WndProc which pumps the Windows messages) and a lot of system threads like the Finalizer threads and Completion Port threads.
 
 You can switch between threads, by using the ~[THREAD]s command, like ~11s, which switches to the thread with the ID of 11. Once switched to a thread, you can run !clrstack and get the call stack for that thread.
 
-![!CLRStack output for thread 11](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_22.png) 
+![!CLRStack output for thread 11](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_22.png) 
 
 It looks like thread 11 was an animation timer. Back on the main thread (STA), it really just looks like normal WndProc activity - nothing too strange.
 
-![!CLRStack output for thread 0](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_24.png) 
+![!CLRStack output for thread 0](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_24.png) 
 
 It was looking like I wasn't getting anywhere, so I decided to try something else. I ran the DumpStackObjects (!dso) command, which gives me all of the object instances on the stack.
 
-![DumpStackObjects](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_26.png) 
+![DumpStackObjects](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_26.png) 
 
 Looks like the application in question was using an Infragistics library, but the thing I was really interested in was the bottom one, the WinFormsAppContext, which was an instance of an [ApplicationContext](http://msdn.microsoft.com/en-us/library/system.windows.forms.applicationcontext.aspx). From that instance, I could run the !do (dump object) command to see details about it.
 
-![DumpObject output for ApplicationContext](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_28.png) 
+![DumpObject output for ApplicationContext](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_28.png) 
 
 From there, I wanted to find which mainForm it was using. I ran !do on the Value column of the mainForm instance.
 
-![DumpObject output for MainForm](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_30.png) 
+![DumpObject output for MainForm](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/RealworldwalkthroughwithWinDbg_8BDB/image_30.png) 
 
 Nice! Now I know the name of the instance that was loaded! At this point, I've got a much better idea about what is going on and can now start digging through some code to try to determine what it is doing.
 

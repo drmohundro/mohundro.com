@@ -9,7 +9,7 @@ In case you haven't heard, Apple has released a [public beta of Safari](http://w
 
 The surprising news is that it supports Windows. 
 
-![Safari on Windows?](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NeverthoughtIdactuallyberunningSafari_D1AF/David%20Mohundro.png)
+![Safari on Windows?](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NeverthoughtIdactuallyberunningSafari_D1AF/David%20Mohundro.png)
 
 I have to admit that this is a really good move for Apple. Their software has been intriguing me quite a bit lately, and watching <a href="http://sessions.visitmix.com/default.asp?event=1011&session=2012&pid=DEV02&disc=&id=1511&year=2007&search=DEV02">John Lam demo Silverlight on a Mac</a> certainly doesn't make me <em>not</em> want to try it out for myself. My only experience with Mac OS X is via tech support while I was in college. We had an iMac desktop in the office for the rare occasion when a Mac user would call in asking for help getting their LAN connection set up (note, the rarity had more to do with the lack of Macs on the network than the lack of problems). The system ran quite slowly because it didn't have enough RAM and it didn't have any software on it. The dock was pretty cool, but it didn't seem to add much value at the time. 
 

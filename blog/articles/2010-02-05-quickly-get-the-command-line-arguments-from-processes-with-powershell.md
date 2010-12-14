@@ -11,7 +11,7 @@ We've got a few programs at work that do a lot of interprocess communication (IP
 
 The easiest way to get this information is with [Process Explorer](http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx). You can either right click the process and select its properties, or you can add a custom column with the command line. What you'll get is something like this: 
 
-![Process Properties](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Quicklygetthecommandlineargumentsfrompro_BAE3/image_4.png)  
+![Process Properties](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Quicklygetthecommandlineargumentsfrompro_BAE3/image_4.png)  
 
 You can see that I passed "haha.txt" into GVim. 
 
@@ -58,5 +58,5 @@ To inform Powershell about this, just run this:
 
 You'll probably want to put that in your profile so that it runs every time you start Powershell. Here's a screenshot of it in action:
 
-![Command Line Arguments from Get-Process](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Quicklygetthecommandlineargumentsfrompro_BAE3/image_6.png)
+![Command Line Arguments from Get-Process](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Quicklygetthecommandlineargumentsfrompro_BAE3/image_6.png)
 

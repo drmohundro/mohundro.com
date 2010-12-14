@@ -11,29 +11,29 @@ However, while FxCop is great at catching small problems and details, it isn't t
 
 I'd like to run through a few of the features of NDepend using [Rhino Mocks](http://www.ayende.com/projects/rhino-mocks/downloads.aspx) as the target of my static analysis. Rhino Mocks is a neat example because it is only one assembly, but it is the result of an ILMerge of quite a few different libraries, so we get to see how NDepend handles this. Here is NDepend's class browser showing Rhino Mocks: 
 
-![NDepend Class Browser](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_6.png)
+![NDepend Class Browser](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_6.png)
 
 As you can see, it handles Rhino Mocks accurately. In fact, it almost feels like the class browser in Reflector, so that is already a plus. In fact, as you can see, the context menu supports jumping to Reflector for the selected type. 
 
 The "Who is directly using me?" option is also pretty cool and highlights the extensive use of CQL in NDepend: 
 
-![Who is directly using me?](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_8.png)
+![Who is directly using me?](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_8.png)
 
 CQL, or [Code Query Language](http://www.ndepend.com/CQL.htm), is the centerpiece of NDepend and is how all of the analysis happens. You can think of it as SQL against IL. The massive benefit that NDepend has over FxCop <acronym title="in my humble opinion">IMHO</acronym> is that you can create your own analysis rules in CQL instead of having to write and compile a DLL to extend FxCop (for an example of this, check out [this FxCop rule that ensures that ArrayLists are List&lt;T&gt;s instead](http://www.binarycoder.net/fxcop/html/ar01s22.html)). Even better, NDepend provides a complete editor *with intellisense* that allows you to test your queries out against your assemblies. 
 
-![NDepend Screenshot](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_14.png)
+![NDepend Screenshot](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_14.png)
 
 Take a look at this screenshot. You can see the intellisense at the bottom right hand of the screen. At the top left is the CQL Query Results. The top right is all of the types in the assemblies, but the highlighted ones in blue are those that were returned by the query. This all happened *as I typed the query in*. Actually, I got red when I typed it in the first time, because my query had some mistakes in it, but NDepend was very helpful in showing me how to correct my query. 
 
 The query editor also has different types of intellisense depending on the value. 
 
-![CQL Editor](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_16.png)
+![CQL Editor](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_16.png)
 
 I'll admit that it might seem weird to have a slider when you're just typing a number in, but the cool part is when you change the value, the query results automatically change to reflect the new value. In this case, you can watch the results of the query to get a feel for which types have the most methods. 
 
 From an agile coding perspective, NDepend ties in well with [Continuous Integration](http://www.altnetpedia.com/ContinuousIntegration.ashx). It ships with both a [NANT](http://nant.sourceforge.net/) and an [MSBuild](http://msdn2.microsoft.com/en-us/library/0k6kkbsd.aspx) task to run the NDepend console against an NDepend project file (which is just XML). The report that it provides is *insanely* detailed. I'd say this where the value of application-specific CQL queries would come in handy, because you can come up with some detailed queries that are run on every CI build to ensure that the code still matches whatever design criteria was decided upon when the queries were written. 
 
-![CQL Warning Screenshot](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_18.png)
+![CQL Warning Screenshot](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NDependStaticanalysisonsteroids_E81A/image_18.png)
 
 For future versions of the tool, I'd think it would be neat to have a lightweight version of the CQL tool that you could ad hoc queries against assemblies, like as a Reflector addin or something. That'd be cool. Or maybe a Powershell cmdlet/PSDrive provider so that you could do something like this:
 

@@ -9,5 +9,5 @@ If you'll be in the northwest Arkansas area tomorrow (April 25), be sure to come
 
 I'm looking forward to it! 
 
-[<img src="http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NWACodeCamp2009istomorrow_691F/image_9.png" width="244" height="75">](http://codecamp.nwadnug.org/)
+[<img src="https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NWACodeCamp2009istomorrow_691F/image_9.png" width="244" height="75">](http://codecamp.nwadnug.org/)
 

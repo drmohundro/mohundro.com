@@ -13,7 +13,7 @@ Taking a failure to update as a bad sign, I instead took Scott Hanselman's advic
 
 Here's what the web administration tool looks like with the DD-WRT firmware installed: 
 
-![DD-WRT Control Panel](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/UpgradingmyroutersfirmwaretoDDWRT_1327A/DD-WRT%20-%20Setup%20-%20Mozilla%20Firefox.png)
+![DD-WRT Control Panel](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/UpgradingmyroutersfirmwaretoDDWRT_1327A/DD-WRT%20-%20Setup%20-%20Mozilla%20Firefox.png)
 
 Much snazzier than the "official" firmware. 
 

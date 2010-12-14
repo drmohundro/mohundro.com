@@ -40,3 +40,20 @@ def ask message
   STDIN.gets.chomp
 end
 
+desc "Convert old binary links over to s3 binary links"
+task :convert_images do
+  Dir["blog/**/*.md"].each do |f|
+    puts "Converting #{f}"
+    original = File.read f
+
+    next if not original =~ /www.mohundro.com/
+
+    # note - this *could* match on more than I want...
+    original.gsub! 'http://www.mohundro.com/blog/', 'https://s3.amazonaws.com/mohundro/blog/'
+    original.gsub! '/content/binary/', '/'
+
+    File.open(f, 'w') do |out|
+      out << original
+    end
+  end
+end

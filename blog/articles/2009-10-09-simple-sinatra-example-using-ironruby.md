@@ -48,7 +48,7 @@ If you wish to see all of the gems installed locally, just run:
 
 After installing Sinatra, you should see at least the following gems installed: 
 
-![igem list --local](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_6.png)
+![igem list --local](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_6.png)
 
 > NOTE: If you happen to be at work and are behind a proxy, you might have trouble with the gem install command. Ruby and RubyGems take the Unix/Linux approach to proxies. That is, they're expecting you to have an environment variable set up named [HTTP_PROXY](http://www.google.com/search?q=http_proxy+environment+variable). I have a PowerShell script that I run to initialize this for me, but it basically just does this (assuming you have populated the required PowerShell variables): 
 
@@ -79,13 +79,13 @@ What those lines say is, when the '/' path (the root of the site) receives an HT
 
 To run your code in sinatra, you use the ir command (ir = IronRuby) against your Ruby source file. You should see something like the following when you run it:
 
-![ir .\myironrubyapp.rb](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_5.png)
+![ir .\myironrubyapp.rb](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_5.png)
 
 In case you missed it from the screenshot, sinatra outputs that it "has taken the stage on 4567 for development." 4567 is the port that sinatra is listening on. This means you can browse to http://localhost:4567.
 
 You should see something like the following when you browse to this address.
 
-![Sinatra Running!](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_9.png)
+![Sinatra Running!](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SimpleSinatraexampleusingIronRuby_8831/image_9.png)
 
 So, there you go. Your first Sinatra app with IronRuby. If there is interest, I'll share more about how you can use Sinatra including how to use ERB to have templates with Sinatra.
 

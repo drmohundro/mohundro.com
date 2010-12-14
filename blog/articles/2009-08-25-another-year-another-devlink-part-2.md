@@ -33,7 +33,7 @@ After Elijah's talk, I went to [Sarah Dutkiewicz's](http://www.codinggeekette.co
 
 On the way back to the Open Spaces room, I ran into a group of people learning Rails from Leon in the hallway. Note that this wasn't a planned session - it just happened. Two or three people were sitting on a bench in the hall while everyone else was sitting in the floor. Most had laptops, but a few were looking over shoulders. If I can find a picture, I'll post it - a picture would communicate this a lot better than I can. 
 
-![Impromptu Rails Session](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart2_F5A9/image_3.png)
+![Impromptu Rails Session](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart2_F5A9/image_3.png)
 
 UPDATE: thanks to [Matt Brewer](http://mattbrewer.mp/) for providing a link to the above picture of the impromptu Rails learning session with Leon - and thanks to [John Kellar](http://www.johnkellar.com/) for posting it to his Facebook photo album!
 

@@ -36,7 +36,7 @@ I ended up coding up the following XAML to get the behavior:
 
 The problem with this code is that Blend (currently v2 SP1) doesn't like EventSetters. 
 
-![Expression Blend Error](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/ProgrammaticallyaddingEventSettersinWPF_A8F8/image_4.png) 
+![Expression Blend Error](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/ProgrammaticallyaddingEventSettersinWPF_A8F8/image_4.png) 
 
 I wanted to keep the events hooked up so that, while testing, I could keep the behavior but, at the same time, I want to be able to at least try to design in blend. So I took to implementing the above XAML in code. 
 

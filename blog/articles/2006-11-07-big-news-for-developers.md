@@ -13,7 +13,7 @@ The second post is even better news. In addition to some new releases of some gr
 
 Here's a screenshot of Process Monitor in action: 
 
-![Process Monitor](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/BigNewsforDevelopers_109DF/image%7B0%7D%5B2%5D.png)
+![Process Monitor](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/BigNewsforDevelopers_109DF/image%7B0%7D%5B2%5D.png)
 
 Unrelated to this post, but I used the [Snipping Tool in Vista](http://blogs.zdnet.com/Bott/?page_id=164&page=4) to get this screenshot. It works pretty well.
 

@@ -15,7 +15,7 @@ They are the epitome of the user friendly error message. Developers love them, b
 
 Below is an example of one of these messages that a friend sent: 
 
-![Crazy JavaScript Error](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Saywhatisnotanobject_9AEE/crazy-javascript-error%5B2%5D.png)
+![Crazy JavaScript Error](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Saywhatisnotanobject_9AEE/crazy-javascript-error%5B2%5D.png)
 
 Nice, eh? 
 

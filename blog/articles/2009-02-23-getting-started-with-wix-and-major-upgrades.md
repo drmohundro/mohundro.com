@@ -13,7 +13,7 @@ First off, WiX stands for Windows Installer XML and, from what I understand, [is
 
 To get started, I wouldn't even bother with the release version of 2.0. The real fun is in [version 3.0](http://wix.sourceforge.net/downloadv3.html), which, even though it is in beta, is plenty stable (IMHO) and supports Visual Studio with a project template and intellisense support via schema files. It also makes the building step a lot easier. 
 
-![WiX New Project](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/GettingstartedwithWiXandMajorUpgrades_BFD6/image_2.png)
+![WiX New Project](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/GettingstartedwithWiXandMajorUpgrades_BFD6/image_2.png)
 
 #### My First WiX Project
 
@@ -48,7 +48,7 @@ It has most of the things that you'll be interested in.
 
 The Product element is likely the most important element as it defines the application that your MSI will install. You'll notice that WiX is built around a lot of Guids. MSIs, or Windows Installer actually, is built around tables. Using the [orca tool that ships with the Windows SDK](http://msdn.microsoft.com/en-us/library/aa370557.aspx), you can actually see these tables for any MSI. (FYI, you'll find your Product Id Guid if you look under \\\\HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ after installation.)
 
-![Orca's view of an MSI](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/GettingstartedwithWiXandMajorUpgrades_BFD6/image_4.png) 
+![Orca's view of an MSI](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/GettingstartedwithWiXandMajorUpgrades_BFD6/image_4.png) 
 
 #### You Can Refactor WiX, Too
 

@@ -24,7 +24,7 @@ Here are a couple of my favorite features so far:
 
 Here's a screenshot of it in action: 
 
-![Vimperator](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/VimperatorreallyisagreatFirefoxextension_1299D/vimperator%5B2%5D.png)
+![Vimperator](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/VimperatorreallyisagreatFirefoxextension_1299D/vimperator%5B2%5D.png)
 
 There are a lot of other options that are probably great, but I still need to spend more time learning them. I encourage you to give it a try, too. Don't worry if it seems a little overwhelming. You can always turn to vimperator's help, which is excellent.
 

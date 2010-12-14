@@ -17,11 +17,11 @@ Leon helped everyone get Ruby othat was done, we broke up into pairs and went th
 
 Let me share the first koan with you as an example. Pull up your favorite command prompt and go to the directory where you extracted ruby_koans. Once in that directory, run rake (rake is to ruby as make is to C or as nant/msbuild is to C#/VB.NET). 
 
-![Running Ruby Koans](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image_8.png)
+![Running Ruby Koans](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image_8.png)
 
 The rake file changes the directory to the koans directory and then executes the various ruby files in it, which are unit tests. The first test fails in the ./about_basics.rb file on line 10. Here is what that file looks like: 
 
-![Ruby Koan 1](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image4.png)
+![Ruby Koan 1](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image4.png)
 
 You don't really even have to know programming to see what you should do here. Just change the false to be true to get your test to pass. Once that is done, move to the next test and so on. 
 
@@ -29,7 +29,7 @@ The koans start at the simplest level and then move up to higher levels of compl
 
 Thanks to Leon for sharing this with us and helping to bring us all closer to Ruby enlightenment! 
 
-![Ruby Koans session](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image_7.png)
+![Ruby Koans session](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/image_7.png)
 
 (thanks to the [devLink](http://devlink.net) site for the above picture of the Ruby Koans session)
 
@@ -55,7 +55,7 @@ And now for something completely different...
 
 They carry code. Below is a picture that [Micky McQuade](http://twitter.com/mmcquade) took of me trying to explain closures of all things to [Anthony Ford](http://twitter.com/anthonyford). My communication skills were lacking at the time, so I decided to try to communicate with code and, seeing as how the lunch box was the closest writing medium I could find, I used it. 
 
-![Me writing on a lunch box](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/photo_3.jpg)
+![Me writing on a lunch box](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/photo_3.jpg)
 
 The code snippet below is approximately something like:
 
@@ -68,5 +68,5 @@ The code snippet below is approximately something like:
 
 I wanted to show how, if the lambda were moved out to its own function, it wouldn't be able to access the x variable. 
 
-![Code on a lunch box](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/photo2.jpg)
+![Code on a lunch box](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnotheryearanotherdevLinkpart1_94E1/photo2.jpg)
 

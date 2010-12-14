@@ -13,7 +13,7 @@ However, [Selenium](http://www.openqa.org/selenium/) will work fine!
 
 Selenium runs *in the browser*! 
 
-![Selenium in the Browser](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/System.Windows.For.WebBrowserandSelenium_C2DD/image.png)
+![Selenium in the Browser](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/System.Windows.For.WebBrowserandSelenium_C2DD/image.png)
 
 That's a picture of a little WinForms application I put together that is hosting the WebBrowser control. As you can see, all but one of shipped Selenium tests passed (the only one that failed had to do with opening an XHTML page).
 

@@ -9,9 +9,9 @@ A couple of weeks ago, I was fortunate enough to attend the Tech Ed 2008 Develop
 
 Apparently, Microsoft is using the same setup *over the web*. Maybe I've been in the dark for a long time, but I've never used a VM in a browser window before. Check the screenshot out: 
 
-![Microsoft Virtual Labs](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/HaveyouguyseverlookedatMicrosoftVirtualL_70DA/image_4.png)
+![Microsoft Virtual Labs](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/HaveyouguyseverlookedatMicrosoftVirtualL_70DA/image_4.png)
 
 Seriously, look at the browser title - this is in IE. On the right side of the screen, you've got the lab walkthrough, too. If you've been unable to look at new technology like .NET 3.5, LINQ, WPF, WCF, etc, you should check out Microsoft's Virtual Labs. The MSDN Virtual Labs are at [http://msdn.microsoft.com/en-us/virtuallabs/default.aspx](http://msdn.microsoft.com/en-us/virtuallabs/default.aspx "http://msdn.microsoft.com/en-us/virtuallabs/default.aspx"), but [TechNet also has labs](http://technet.microsoft.com/en-us/bb467605.aspx) for things like Windows Server 2008. 
  
-![TechNet Virtual Labs](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/HaveyouguyseverlookedatMicrosoftVirtualL_70DA/image_8.png)
+![TechNet Virtual Labs](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/HaveyouguyseverlookedatMicrosoftVirtualL_70DA/image_8.png)
 

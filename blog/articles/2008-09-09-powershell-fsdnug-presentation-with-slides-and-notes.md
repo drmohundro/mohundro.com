@@ -15,7 +15,7 @@ Tonight, I presented on [PowerShell](http://www.microsoft.com/windowsserver2003/
 
 Many thanks to [Chris Green](http://blogs.msdn.com/chris.green/) for allowing me to use some of the content from the presentation that [he shared at Tech Ed 2007 Australia](http://blogs.msdn.com/chris.green/archive/2007/12/17/presentation-and-demo-material-an-introduction-to-powershell.aspx). Thanks also to Ben Pearce for his great [PowerShell cheat sheet](http://blogs.msdn.com/powershell/archive/2007/01/24/powershell-cheat-sheet.aspx). Final thanks to [Michael Paladino](http://www.mpaladino.com/) for helping me with a run-through of my presentation ahead of time. 
 
-I've zipped up my PowerPoint presentation along with my demo.txt (to go along with the Start-Demo script), the source for my PipelineDemo program, and my custom ps1xml file. You can get the [zip with the presentation contents here](http://www.mohundro.com/blog/content/binary/2008-09-08-fsdnug-powershell-presentation.zip). The PowerPoint presentation has a lot of relevant links that I didn't explicitly post here. 
+I've zipped up my PowerPoint presentation along with my demo.txt (to go along with the Start-Demo script), the source for my PipelineDemo program, and my custom ps1xml file. You can get the [zip with the presentation contents here](https://s3.amazonaws.com/mohundro/blog/2008-09-08-fsdnug-powershell-presentation.zip). The PowerPoint presentation has a lot of relevant links that I didn't explicitly post here. 
 
 I hope everyone enjoyed the talk! I enjoyed giving it!
 

@@ -9,7 +9,7 @@ If anyone out there knew about the BindingList before today, I sure wish one of 
 
 Okay, all joking aside, the BindingList is what I've been trying to find for a long time. With Visual Studio 2005, the option to bind to an object data source is now possible (see screenshot).
 
-![Visual Studio Data Binding screenshot](http://www.mohundro.com/blog/content/binary/2006-06-30-object-datasource.png)
+![Visual Studio Data Binding screenshot](https://s3.amazonaws.com/mohundro/blog/2006-06-30-object-datasource.png)
 
 The typical usage scenario for me with this data binding option is that I have just used .NET remoting to pull a collection of business objects back from a remote server. After that, I usually want to bind this collection to a datagrid or something like. For the past few months, I had used the new BindingSource object and set its DataSource property to my collection (usually a System.Collections.Generic.List&lt;T&gt; or a System.Collections.ObjectModel.Collection&lt;T&gt;). The problem I had was that any changes to either of those collections later would not fire ListChanged events. I had settled myself to the fact that I would have to reset the binding everytime.
 

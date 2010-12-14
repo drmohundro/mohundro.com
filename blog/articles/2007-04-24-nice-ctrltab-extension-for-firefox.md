@@ -9,5 +9,5 @@ I just wanted to share a Firefox extension I found recently. [Stack Style Tabs](
 
 Here's a screenshot of it on my desktop: 
 
-![Firefox Alt Tab](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/NiceCtrlTabextensionforFirefox_B752/firefox-alt-tab%5B2%5D.png)
+![Firefox Alt Tab](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/NiceCtrlTabextensionforFirefox_B752/firefox-alt-tab%5B2%5D.png)
 

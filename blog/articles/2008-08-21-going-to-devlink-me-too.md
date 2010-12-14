@@ -11,6 +11,6 @@ This time, though, I'm bringing a full contingent from the Northwest Arkansas re
 
 If you're going, look me up. See you there! 
 
-[<img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="105" alt="image" src="http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/GoingtoDevLinkMetoo_12A69/image_3.png" width="179" border="0">](http://devlink.net/)
+[<img title="image" style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="105" alt="image" src="https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/GoingtoDevLinkMetoo_12A69/image_3.png" width="179" border="0">](http://devlink.net/)
 
 

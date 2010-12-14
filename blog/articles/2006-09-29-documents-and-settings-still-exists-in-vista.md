@@ -17,7 +17,7 @@ Anyway, I started to delete what I thought were duplicates and suddenly noticed 
 
 Thankfully, Vista's excellent Restore previous versions worked great so I didn't lose any pictures. 
 
-![Restore Previous Versions](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DocumentsandSettingsstillexistsinVista_12956/20060928vistarestore2.png)
+![Restore Previous Versions](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DocumentsandSettingsstillexistsinVista_12956/20060928vistarestore2.png)
 
 One note about the Restore previous versions that caught me though is that if you have the folder open, it won't let you restore it. You actually have to collapse the folder in Explorer and right click on it for it to work. Or at least I did. 
 

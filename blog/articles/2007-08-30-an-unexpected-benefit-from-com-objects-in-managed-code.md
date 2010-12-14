@@ -11,7 +11,7 @@ Because an interface is created for the COM objects as well as the implementatio
 
 Let's say you wanted to unit test some code that had a dependency on the Windows Media Player COM object. Here's how you could do it.\* 
 
-![Windows Media Player COM Class](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/AnunexpectedbenefitfromCOMobjectsinmanag_E99E/image_1.png) 
+![Windows Media Player COM Class](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/AnunexpectedbenefitfromCOMobjectsinmanag_E99E/image_1.png) 
 
     // Code to be tested
     public class SomeClass

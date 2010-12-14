@@ -9,7 +9,7 @@ I recently upgraded Firefox to the 2.0 beta version. It has some nice features b
 
 I recently discovered that Firefox 2.0 has this ability built in, but it isn't the most intuitive to find yet, at least for me. Here's a screenshot of what the options dialog looks like on my PC: 
 
-![Firefox Options](http://www.mohundro.com/blog/content/binary/2006-09-13-firefox.png)
+![Firefox Options](https://s3.amazonaws.com/mohundro/blog/2006-09-13-firefox.png)
 
 What's funny is that this option is right on the Main tab! I guess I should have looked more closely, but I had spent most of the time looking in the tab options. If you're wondering where to find this new functionality, look no further.
 

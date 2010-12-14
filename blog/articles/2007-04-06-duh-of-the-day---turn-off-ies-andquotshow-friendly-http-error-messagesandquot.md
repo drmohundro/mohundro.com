@@ -7,7 +7,7 @@ guid: 524875e7-da1e-4559-ae8d-ba585de25ef2
 
 I'm sure you've seen this page before: 
 
-!["The website cannot display the page"](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DuhoftheDayTurnoffIEsShowfriendlyHTTPerr_937B/sshot2%5B2%5D.png) 
+!["The website cannot display the page"](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DuhoftheDayTurnoffIEsShowfriendlyHTTPerr_937B/sshot2%5B2%5D.png) 
 
 I've seen a million posts on it, too. Jeff Atwood posted about this problem when he was talking about [user-friendly 404 pages](http://www.codinghorror.com/blog/archives/000819.html). Internet Explorer tries to hide ugly error pages from you unless the page displayed is greater than 512 bytes in size. 
 
@@ -15,7 +15,7 @@ I used to have this setting turned off, but my employers recently pushed out Int
 
 To turn the setting off, go here: 
 
-![Don't Show Friendly HTTP Errors](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DuhoftheDayTurnoffIEsShowfriendlyHTTPerr_937B/sshot1%5B2%5D.png) 
+![Don't Show Friendly HTTP Errors](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DuhoftheDayTurnoffIEsShowfriendlyHTTPerr_937B/sshot1%5B2%5D.png) 
 
 As Jeff points out, the best solution is to make sure that your error pages are bigger than 512 bytes. Most of the time, ASP.NET error pages are far larger than 512 bytes, too. HOWEVER, error messages from HTTP Remoting\* are NOT always greater than 512 bytes and I'm not sure if you can customize those or not. So I like to just save myself the headache and turn this off. 
 

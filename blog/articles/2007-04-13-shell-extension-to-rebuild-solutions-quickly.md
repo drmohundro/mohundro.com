@@ -9,7 +9,7 @@ Ever want to build Visual Studio solutions quickly, but without having to open V
 
 Like this? 
 
-![MSBuild Shell Extension](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Shellextensiontorebuildsolutionsquickly_C534/msbuildshellext4.png)
+![MSBuild Shell Extension](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Shellextensiontorebuildsolutionsquickly_C534/msbuildshellext4.png)
 
 Just copy and paste the following into a file (msbuild.reg) and run it: 
 

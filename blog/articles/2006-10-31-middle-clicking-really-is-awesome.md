@@ -13,11 +13,11 @@ The mouse in question that I'm using is the [Logitech MX700](http://froogle.goog
 
 Here's what my mouse settings dialog looked like when it didn't work: 
 
-![Logitech Mouse Settings](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Middleclickingreallyisawesome_B9C3/image%7B0%7D%5B4%5D.png)  
+![Logitech Mouse Settings](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Middleclickingreallyisawesome_B9C3/image%7B0%7D%5B4%5D.png)  
 
 Now that it does work, it looks like this: 
 
-![Logitech Mouse Settings](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/Middleclickingreallyisawesome_B9C3/image%7B0%7D%5B5%5D.png)  
+![Logitech Mouse Settings](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/Middleclickingreallyisawesome_B9C3/image%7B0%7D%5B5%5D.png)  
 
 The difference is subtle, but all I did was change the functionality for the middle button from "Universal Scroll" to "Middle Button." That was way too easy for me to have missed it for this long, but I'm glad I finally found it. If you're having a similar problem getting your MX700 (or other similar Logitech mouse) doing middle clicks the way you want, check out what your setting is. 
 

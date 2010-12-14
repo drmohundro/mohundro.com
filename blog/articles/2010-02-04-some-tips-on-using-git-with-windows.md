@@ -15,7 +15,7 @@ First off, you have two options for running git in Windows - [msysgit](http://co
 
 After the install, you can verify things are set up correctly by pulling up powershell and typing get-command git. If everything was installed correctly, you should see something like this: 
 
-![Get-Command git](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_2.png)
+![Get-Command git](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_2.png)
 
 You can now type "git --version" to verify that the install worked. Mine outputs "git version 1.6.5.1.msysgit.1". 
 
@@ -23,7 +23,7 @@ You can now type "git --version" to verify that the install worked. Mine outputs
 
 The next step is one of the most important ones in my opinion. Don't use the default cmd.exe. Use a better one. I recommend [Console2](http://sourceforge.net/projects/console/). It's a tabbed console host for windows. You can use it to host the standard cmd prompt, powershell, cygwin, git bash, etc. It has *much* better font and color support, too. None of this [adding fonts to the registry so that cmd.exe can use Consolas mess](http://www.google.com/search?q=cmd.exe%20consolas). Here's what mine looks like: 
 
-![Console2](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_4.png)
+![Console2](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_4.png)
 
 I've customized my colors so that the black is more of a dark gray and some of the other colors aren't quite as bold. I've changed my font to Consolas, I've got the menu, toolbar and status bar hidden, I have copy on cursor select checked, and more. Some people don't care about aesthetics when coding or using the command prompt, but I do.
 
@@ -33,11 +33,11 @@ Speaking of aesthetics, I cringe every time I see someone run git status and see
 
 Without color...
  
-![Without color](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_8.png)  
+![Without color](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_8.png)  
 
 With color! 
 
-![With color!](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_10.png)  
+![With color!](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_10.png)  
 
 Now, if you've used git, you may be aware of the git config option (or see ~/.gitconfig) to turn color on. I actually have mine set to auto. This means that git tries to determine, based on your terminal, if it thinks you can handle color or not. It doesn't think Windows can handle color very well, so auto on Windows means no color. So, if I'm not using the global color option, what am I doing to tell git to use color anyway? I'm using an environment variable tweak that I learned about via one of the msysgit issues (see [http://code.google.com/p/msysgit/issues/detail?id=326&q=color&colspec=ID%20Type%20Status%20Priority%20Component%20Owner%20Summary#c5](http://code.google.com/p/msysgit/issues/detail?id=326&q=color&colspec=ID%20Type%20Status%20Priority%20Component%20Owner%20Summary#c5)). Here's the line from my powershell profile:
 
@@ -50,11 +50,11 @@ Here's how this changes things...
 
 Before: 
 
-![Before the ENV variables](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_16.png)
+![Before the ENV variables](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_16.png)
 
 After! 
 
-![After the ENV variables](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_18.png)
+![After the ENV variables](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/SometipsonusinggitwithWindows_BECE/image_18.png)
 
 It's pretty clear now what's changed.
 

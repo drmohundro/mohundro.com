@@ -9,11 +9,11 @@ I'm continuing my [review of Tech Ed from yesterday](/blog/2008/07/01/tech-ed-pr
 
 So, after breakfast, I imagine what everyone will be interested in is the keynote by Bill Gates. Here's the view I had after sitting down: 
 
-![Getting ready for Bill Gates' keynote](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/TechEdDay1Review_8272/Tech%20Ed%202008%202008-06-02%20002.jpg)
+![Getting ready for Bill Gates' keynote](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/TechEdDay1Review_8272/Tech%20Ed%202008%202008-06-02%20002.jpg)
 
 Woohoo! Below is my great picture of Bill Gates, too. I tweaked the image slightly so that you can spot him. 
 
-![There is Bill Gates](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/TechEdDay1Review_8272/Tech%20Ed%202008%202008-06-02%20004_2.jpg)
+![There is Bill Gates](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/TechEdDay1Review_8272/Tech%20Ed%202008%202008-06-02%20004_2.jpg)
 
 Anyway, keynote... yeah. Sort of boring. They started off with the [Bill Gates Retirement Video](http://www.google.com/search?source=ig&hl=en&rlz=&=&q=bill%20gates%20retirement%20video). I think there might have been a little bit more content than the first time it was released, but still, nothing new. There was talk about [Oslo](http://www.microsoft.com/soa/products/oslo.aspx), but I wasn't really interested. I don't really want modeling tools to improve architecture, when the drag/drop designer tools are leading me away from good architecture anyway. If you're interested in any more regarding the keynote, check out [Herding Code](http://herdingcode.com/)'s [overview of the keynote announcements](http://herdingcode.com/?p=15). 
 

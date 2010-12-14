@@ -19,7 +19,7 @@ What I didn't realize until today is that you can create completely new variable
 
 Here's a screenshot of this behavior in action:
 
-![Immediate Window](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DidyouknowthattheImmediatewindowinVisual_A747/image_2.png) 
+![Immediate Window](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DidyouknowthattheImmediatewindowinVisual_A747/image_2.png) 
 
 Right now, I'm using this behavior while working with a new WPF application. I've got an IMultiValueConverter and it is a hassle casting my generic array of objects into types, especially when I'm still deciding on the various bindings I'd like to pass in. With this, I can just set a breakpoint and use the Immediate window to play with the code.
 

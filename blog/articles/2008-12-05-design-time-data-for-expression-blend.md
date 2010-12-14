@@ -11,7 +11,7 @@ In my experience, real world applications (aka NOT demos) don't display data tha
 
 Check out the below screenshot of an amazing application that I created this morning. 
 
-![Amazing WPF app](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_2.png)
+![Amazing WPF app](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_2.png)
 
 As you can tell, I'm displaying a list of accounts by name and balance. The UI on this thing is unbelievable, too, because it also makes the balance *red* when their balance is below zero. Go WPF! 
 
@@ -148,7 +148,7 @@ Here, I'm just using relative binding (Binding Path=Property) here. This means I
 
 So, where's the problem? Let's look at this from the designer perspective by opening AccountDisplay.xaml in Blend.
 
-![Pretty blank Designer in Blend](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_4.png) 
+![Pretty blank Designer in Blend](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_4.png) 
 
 It... it looks really great. So... white and everything. Anyone know what the problem is? My Presenter is the guy who does the work to return accounts to bind to, but Blend is just showing us the XAML. This is good - we don't want the fact that we're designing this to actually run our code and hit our services. But... we still want some test data to design with, right? We could add some data to our XAML file... but then that affects us when we actually *run* the application. Besides, I personally want test data to match the structure of the model I'm binding to.
 
@@ -224,7 +224,7 @@ In the XAML, what ends up getting set is a BlendPresentationModel, which looks l
 
 With my approach, I've created an object that inherits from my PresentationModel, so the object I'm binding my UI to is the same type that I'm using when running, but I'm providing test data instead. This is what it looks like in Blend now:
 
-![Expression Blend showing my PresentationModel](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_6.png) 
+![Expression Blend showing my PresentationModel](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/DesignTimeDataforExpressionBlend_73DD/image_6.png) 
 
 In one of my projects, I've been dropping these guys around in various UserControls and even one at the top level Window so that I can see what it all looks like together. So far, it is working well. 
 

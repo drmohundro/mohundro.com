@@ -11,7 +11,7 @@ PowerShell ISE Themes.
 
 Okay, so, it doesn't actually ship with themes. But you can create them. Let me provide some background. The "ISE" in PowerShell ISE stands for Integrated Scripting Environment and is based on the [upcoming WPF editor that will ship with Visual Studio 2010](http://blogs.msdn.com/powershell/archive/2008/10/31/powershell-ise-and-visual-studio.aspx). Here is a screenshot of it. 
 
-![PowerShell ISE](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PowerShellISEThemes_8295/image_4.png)
+![PowerShell ISE](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PowerShellISEThemes_8295/image_4.png)
 
 As you can see, there are three panes included: one that allows you to edit PS1 scripts (with syntax highlighting and tab completion included), one that displays the output of your commands (whether from the script editor or the command pane), and one that allows you to type in commands (the equivalent of the prompt you get in the console host). 
 
@@ -19,7 +19,7 @@ I'll admit, when I heard about the graphical host, I thought it was nice but I r
 
 The [$psISE variable offers up a wealth of options](http://blogs.msdn.com/powershell/archive/2008/12/29/powershell-ise-can-do-a-lot-more-than-you-think.aspx). I'm particularly fond of the Options property off of $psISE. I'll let the screenshot describe why: 
 
-[PowerShell ISE with themes](http://www.mohundro.com/blog/content/binary/WindowsLiveWriter/PowerShellISEThemes_8295/image_6.png)
+[PowerShell ISE with themes](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PowerShellISEThemes_8295/image_6.png)
 
 Looks different, eh? Below is the code to get it to work:
 
