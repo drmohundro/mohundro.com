@@ -2,14 +2,7 @@
 
 ## MUST
 - Convert old dasBlog posts from "David and Cara" over to new wordpress blog (mohundrofamily.wordpress.com)
-- See the rest of the aspx links:
-  - find-string 'mohundro.com.+?aspx' || ack mohundro.com --all
-  - I'm thinking I'll just remove some of these links...
 - point feedburner to /blog/index.xml
-
-## Nice to haves
-
-- Find images that aren't being used by the site and *drop* them
 
 # Gems to consider pulling in...
 
