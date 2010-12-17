@@ -1,10 +1,5 @@
 # Still left to do?
 
-## MUST
-- Convert old dasBlog posts from "David and Cara" over to new wordpress blog (mohundrofamily.wordpress.com)
-- point feedburner to /blog/index.xml
-  - both davidmohundro and http://feeds.feedburner.com/DavidAndCaraMohundro
-
 # Gems to consider pulling in...
 
 - http://github.com/webficient/rack-coderay
