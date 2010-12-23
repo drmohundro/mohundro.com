@@ -19,7 +19,7 @@ I'll admit, when I heard about the graphical host, I thought it was nice but I r
 
 The [$psISE variable offers up a wealth of options](http://blogs.msdn.com/powershell/archive/2008/12/29/powershell-ise-can-do-a-lot-more-than-you-think.aspx). I'm particularly fond of the Options property off of $psISE. I'll let the screenshot describe why: 
 
-[PowerShell ISE with themes](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PowerShellISEThemes_8295/image_6.png)
+![PowerShell ISE with themes](https://s3.amazonaws.com/mohundro/blog/WindowsLiveWriter/PowerShellISEThemes_8295/image_6.png)
 
 Looks different, eh? Below is the code to get it to work:
 
