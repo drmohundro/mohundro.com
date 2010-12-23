@@ -2,6 +2,9 @@ require 'toto'
 
 @config = Toto::Config::Defaults
 
+@config[:ext] = 'md'
+Toto::Paths[:articles] = 'blog/articles'
+
 task :default => :new
 
 desc "Create a new article."
