@@ -1,6 +1,6 @@
 --- 
 title: The new blog is live!
-date: 12/23/2010
+date: 2010/12/23
 
 So, my blog looks different now... and it isn't just a new theme. It's
 new blog engine, new web host, new look and feel, new everything!
