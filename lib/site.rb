@@ -25,16 +25,13 @@ class Site
 
     return http_return, render(full_path)
   end
-
-  def header
-    render(qualify_path '_header')
-  end
-
-  def footer
-    render(qualify_path '_footer')
-  end
-
+  
   def render(path)
+    content = to_html(path)
+    to_html("#{File.dirname(__FILE__)}/../blog/templates/layout.rhtml", &Proc.new { content })
+  end
+
+  def to_html(path, &blk)
     ERB.new(File.read(path)).result(binding)
   end
 
