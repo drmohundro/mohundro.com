@@ -26,22 +26,24 @@ class RedirectHelper
 
   def get_articles
     (get_toto.site.class.articles 'md').map do |article|
-      Toto::Article.new(article, cfg).load
+      Toto::Article.new(article, config).load
     end
   end
 
   def get_toto
-    cfg = {
-      :root => 'index',
-      :prefix => 'blog',
-      :ext => 'md'
-    }
-
     Toto::Paths[:templates] = 'blog/templates'
     Toto::Paths[:pages] = 'blog/templates/pages'
     Toto::Paths[:articles] = 'blog/articles'
 
-    toto = Toto::Server.new cfg
+    toto = Toto::Server.new config
+  end
+
+  def config
+    {
+      :root => 'index',
+      :prefix => 'blog',
+      :ext => 'md'
+    }
   end
 
   def fix_other_links(val)
