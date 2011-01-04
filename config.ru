@@ -50,6 +50,12 @@ use Rack::Rewrite do
     year, month = match[1], match[2]
     "/blog/month?#{year}-#{month}"
   }
+
+  if ENV['RACK_ENV'] == 'production'
+    r301 %r{.*}, 'http://mohundro.com$&', :if => Proc.new {|rack_env|
+      rack_env['SERVER_NAME'] != 'mohundro.com'
+    }
+  end
 end
 
 toto = Toto::Server.new do
@@ -63,7 +69,7 @@ toto = Toto::Server.new do
   set :prefix,    'blog'
   set :date,      lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
   set :markdown,  :smart
-  set :url,       'http://www.mohundro.com/'
+  set :url,       'http://mohundro.com/'
   set :disqus,    'mohundro'
   # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
   set :ext,       'md'
