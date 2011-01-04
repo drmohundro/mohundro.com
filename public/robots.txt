@@ -1,0 +1,5 @@
+# /robots.txt for http://mohundro.com
+# See http://www.robotstxt.org/ for details about the robots.txt file
+
+User-agent: *
+Disallow:
