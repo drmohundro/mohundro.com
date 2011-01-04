@@ -19,7 +19,11 @@ class RedirectHelper
     
     matched_article = get_articles.select { |article| article[:guid] == guid }
 
-    matched_article[0].path
+    if matched_article[0].nil?
+      "/404/"
+    else
+      matched_article[0].path
+    end
   end
 
   private
