@@ -39,6 +39,13 @@ use Rack::Rewrite do
     helper.find_path_by_guid guid
   }
 
+  r301 %r{/blog/CommentView\.aspx\?guid=(.+)}, lambda { |match, rack_env|
+    helper = RedirectHelper.new
+
+    guid = match[1]
+    helper.find_path_by_guid guid
+  }
+
   r301 %r{blog/default,month,(\d{4})-(\d{2}).aspx}, lambda { |match, rack_env |
     year, month = match[1], match[2]
     "/blog/month?#{year}-#{month}"
