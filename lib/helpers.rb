@@ -66,6 +66,7 @@ class RedirectHelper
     val.gsub! 'visual-studio2010-is-bighellip-at-least-the-ctp-ishellip', 'visual-studio-2010-is-bigandhellip-at-least-the-ctp-isandhellip'
     val.gsub! 'find-stringps1-ack-for-powershell', 'find-stringps1---ack-for-powershell'
     val.gsub! 'n-doc2005', 'ndoc-2005'
+    val.gsub! 'no-multiline-lambdas-in-vb2008', 'no-multi-line-lambdas-in-vb-2008'
   end
 
   def singular_compound_words
