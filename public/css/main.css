@@ -138,6 +138,18 @@ blockquote .attributed {
   font-size: 18px;
   color: #888;
 }
+#fullpage > footer section {
+  float: left; 
+  width: 275px;
+}
+#fullpage > footer section + section {
+  float: right; 
+  width: 350px; 
+  text-align: right;
+}
+.clear {
+  clear: both;
+}
 img.photo {
   float: right;
   -moz-box-shadow: 10px 10px 5px #888;
