@@ -5,18 +5,18 @@ date: 2011/05/31
 I know what you're thinking... "did he just say 'binary data'? Like, 1's and
 0's?" Well, yes, yes I did.  If you're like me, the last time you actively had
 to do anything with straight binary data was in college when you were learning
-how to convert between binary to hex to decimal and back again. I would imaging
+how to convert between binary to hex to decimal and back again. I would imagine
 that most of us run into hex somewhat frequently, but that we don't actually
 have to deal with binary data as often.
 
 ## Some Background
 
-As one of my recent projects, I had to write an API that interfaced with some
+On one of my recent projects, I had to write an API that interfaced with some
 hardware, which was something relatively new to me. Most of my work in the
 past has been either standard client-side GUI applications or web
-applications. I have yet to have written any applications to talk over a
+applications. I have yet to have written any applications that talk over a
 serial port. Even with this new project, I didn't have to talk over ports
-because the hardware did have a relatively nice .NET SDK for it. The primary
+because the hardware had a relatively nice .NET SDK for it. The primary
 flaw with the SDK was that it still had quite a few methods that only returned
 byte arrays. The documentation for those byte arrays was specified in a table
 of bits... in other words, if the second bit in the fourth byte is on, then one
@@ -139,8 +139,8 @@ Format-Table -AutoSize -Property *`. The `AutoSize` flag informs Powershell to
 use as little space as possible and the `Property *` flag tells Powershell to
 output *all* properties as columns... if you don't do this, Powershell will
 only output some of the columns. The script also has a parameter if you want
-to specify the row length. If you'd rather work with the data, you could pipe
-the output to `Export-Csv`.
+to specify the row length. If you'd rather work with the data in something like 
+Excel, you could pipe the output to `Export-Csv`.
 
 Check out the below sample output:
 
@@ -216,7 +216,7 @@ Usage then would be:
 
 I'm not particularly happy with the method names and I haven't come up with a
 great way to specify the row length... as it stands now, my extensions are
-using the row length of 8 (`BYTE_LENTH`). I would guess the best way to handle
+using the row length of 8 (`BYTE_LENGTH`). I would guess the best way to handle
 it would be to wrap the BitArray class instead of actually using extension
 methods.
 
@@ -239,6 +239,6 @@ Try clicking one of the bits. It's awesome.
 It flips the bit for you! I had no idea calc could do that! One of the things
 I really like about some of the "programmer" features of calc is that you can
 now visually see what happens when you right or left shift bits (Lsh and Rsh
-respectively). Turns out it is a really good tool for visually bit operations.
-Not only that, but it is also good at helping explain things like ["Two's
-complement"](http://en.wikipedia.org/wiki/Two's_complement).
+respectively). Turns out it is a really good tool for visually observing bit 
+operations. Not only that, but it is also good at helping explain things like 
+["Two's complement"](http://en.wikipedia.org/wiki/Two's_complement).
