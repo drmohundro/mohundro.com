@@ -114,11 +114,11 @@ ul, li {
   list-style-type: none;
 }
 code {
-  font-family: 'Inconsolata', 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
-  font-size: 20px;
+  font-family: 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+  font-size: 14px;
+  line-height: 20px;
 }
 pre {
-  padding: 20px;
   width: 630px;
   overflow: auto;
 }

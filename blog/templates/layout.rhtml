@@ -2,8 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/github.css">
     <link rel="alternate" type="application/atom+xml" title="David Mohundro" href="http://feeds.feedburner.com/DavidMohundro/" />
-    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     <script src="/js/head.min.js"></script>
@@ -47,6 +47,11 @@
         <div class="clear" />
       </footer>
     </div>
+    <script type="text/javascript">
+      head.js('/js/highlight.pack.js', function() {
+        hljs.initHighlightingOnLoad();
+      });
+    </script>
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
