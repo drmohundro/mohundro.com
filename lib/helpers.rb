@@ -15,8 +15,6 @@ class RedirectHelper
   end
 
   def find_path_by_guid(guid)
-    toto = get_toto
-    
     matched_article = get_articles.select { |article| article[:guid] == guid }
 
     if matched_article[0].nil?
