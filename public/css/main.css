@@ -50,8 +50,7 @@ a:hover {
   text-decoration: underline;
 }
 h1 {
-  margin: 15px 0 15px 0;
-  font-weight: normal;
+  font-size: 32px;
 }
 h1:before {
   content: '\00bb' " "
@@ -88,11 +87,8 @@ nav > ul > li {
 .post:last-child {
   margin-bottom: 10px;
 }
-.post p {
-  margin: 10px 0;
-}
 .post .more {
-  margin-top: -10px;
+  margin-top: -20px;
   margin-right: 30px;
   font-style: italic;
   text-align: right;
@@ -153,4 +149,13 @@ img.photo {
   -webkit-box-shadow: 10px 10px 5px #888;
   box-shadow: 10px 10px 5px #888;
   margin: 15px;
+}
+#scrolling-header {
+  color: #ccc;
+  font-size: 23px;
+  line-height: 30px;
+  position: fixed;
+  top: 75px;
+  text-align: right;
+  width: 180px;
 }

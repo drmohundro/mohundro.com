@@ -5,8 +5,8 @@
     <link rel="stylesheet" type="text/css" href="/css/github.css">
     <link rel="alternate" type="application/atom+xml" title="David Mohundro" href="http://feeds.feedburner.com/DavidMohundro/" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/js/modernizr.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <script src="/js/head.min.js"></script>
     <title>
       <% if @path == 'index' || !defined? title %>
         David Mohundro
@@ -47,11 +47,9 @@
         <div class="clear" />
       </footer>
     </div>
-    <script type="text/javascript">
-      head.js('/js/highlight.pack.js', function() {
-        hljs.initHighlightingOnLoad();
-      });
-    </script>
+    <script type="text/javascript" src="/js/highlight.pack.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/application.js"></script>
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
