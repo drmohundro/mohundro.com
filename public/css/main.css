@@ -110,9 +110,6 @@ h1, h2, h3, h4 {
   margin: 0;
   font-weight: 600;
 }
-ul, li {
-  list-style-type: none;
-}
 code {
   font-family: 'Bitstream Vera Sans', 'Monaco', Courier, mono;
   font-size: 14px;
