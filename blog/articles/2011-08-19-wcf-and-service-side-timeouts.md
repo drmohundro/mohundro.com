@@ -21,7 +21,7 @@ That is an eternity when you're talking about a user browsing a web page. What i
 web page is calling a WCF service that is calling a web service? You might
 trust your service, but do you trust the web service you're calling?
 
-# What happens when service calls go CRAZY
+## What happens when service calls go CRAZY
 
 Let's up the stakes here - WCF services default to allowing only 10
 concurrent calls at a time. See, `maxConcurrentSessions`. [Here's the details from
@@ -78,7 +78,7 @@ we knew, it was an external service that wasn't returning. It was really a
 vicious hang cycle from which there was no return. Well, that was overly
 dramatic, but you get the point.
 
-# The solution... maybe?
+## The solution... maybe?
 
 One of my colleagues decided to take it upon himself to solve this. He
 ended up writing his very own timeout monitor... or what we affectionately
@@ -151,7 +151,7 @@ a custom ServiceHost and we add our custom behavior in the OnOpening method.
 The above details could be used to hook in just about any behaviors around WCF
 invocation, including pre and post call.
 
-# So, how does it work?
+## So, how does it work?
 
 Well, with all of that work, you'd think it would fix our problems, right? It
 did, indirectly - it turns out that most of the cases that we were interested
@@ -174,7 +174,7 @@ there.
 By ensuring that all of our SQL calls and service calls had appropriate
 timeouts on them, we caught 99% of the problem areas.
 
-# Then... what about thread abort?
+## Then... what about thread abort?
 
 By the time we had properly coded timeouts around our problem areas, we had
 already coded our thread abort solution. I didn't mention how that went for
@@ -196,7 +196,7 @@ with performance problems had we not started down the thread abort path. The
 thread abort solution *would* have helped us catch our horrible infinite loop
 example above... though thankfully we don't have any code like that!
 
-# Wrapping up
+## Wrapping up
 
 I've been trying to think of other things that we could have done to have
 prevented this issue. 
