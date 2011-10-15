@@ -2,10 +2,10 @@
 title: //BUILD/ Windows Conference
 date: 2011/10/14
 
-So, last week I was able to attend th BUILD Windows conference in Anaheim. I'm
-guessing you heard something about it. The last time Microsoft held a
-conference at the convention center in Anaheim was when it announced Windows 95
-\- this conference was an attempt to show that Windows was going to
+So, a few weeks ago I was able to attend the BUILD Windows conference in
+Anaheim. I'm guessing you heard something about it. The last time Microsoft
+held a conference at the convention center in Anaheim was when it announced
+Windows 95 \- this conference was an attempt to show that Windows was going to
 revolutionize things again. I've got a lot of thoughts that I want to talk
 about, so I'll probably have to break this into multiple posts.
 
@@ -25,16 +25,16 @@ So, the conference...
 If you attended the conference or at least visited the BUILD site, you likely
 saw that there was a preconference slot on the calendar. So, my group all got
 flights for Sunday so that we would be there for the preconference sessions...
-which were all canceled. So, we just wanted around Anaheim all day Monday. It
+which were all canceled. So, we just walked around Anaheim all day Monday. It
 was a little annoying given that it would have cost a lot of money to change
 travel plans and all that, but it turned out alright. We spent most of the day
 coding and discussing future development options. We had planned on attempting
-to build a Windows Phone 7 application, but it took forever to actually get
-the Windows Phone 7 SDK installed. Oh well. We did enThat night,  up walking
-around the area and into Downtown Disney. That night, a group of people all
-went to the Cheesecake factory for a
-[nerddinner](http://www.nerddinner.com/5027). You'll note that while only 2
-people RSVP'd on the site, at least 15-20 people showed up!
+to build a Windows Phone 7 application, but it took forever to actually get the
+Windows Phone 7 SDK installed. Oh well. We did end up walking around the area
+and into Downtown Disney and, later that night, a group of people all went to
+the Cheesecake factory for a [nerddinner](http://www.nerddinner.com/5027).
+You'll note that while only 2 people RSVP'd on the site, at least 15-20 people
+showed up!
 
 ## Keynotes galore...
 
@@ -54,7 +54,7 @@ say that people were excited. There were a few people who currently have iPads
 that were showing a lot of interest in the Windows 8 tablet. Something
 interesting for me was that, at least for the first day, the attendees were
 not the primary audience. The BUILD conference keynotes for day 1 really
-served as marketing for consumers and tech inthusiasts. My take is that this
+served as marketing for consumers and tech enthusiasts. My take is that this
 is Microsoft trying to take back some of the consumer appeal that Apple has
 been able to win over the last few years.
 
@@ -66,21 +66,22 @@ nice.
 
 [Jensen Harris did give a keynote presentation on the traits of a great Metro
 style application](http://channel9.msdn.com/events/BUILD/BUILD2011/BPS-1004)
-that was good. My take on the presentation is that it was more of a demo on
-how to actually *use* Windows 8 from a usability perspective. I believe that
-is where the term "Charms" showed up, which is just an awful name in my
-opinion. I'm all for getting away from the really technical names for things
-(think Control Panel, System Tray, etc.), but *Charms*? How many Lucky Charms
-jokes are we going to hear? Also, I do have some concerns about the usability
-of parts of Windows 8. For example, the app bar can only be shown if you swipe
-from the top or bottom. If you know it, then it makes sense I guess, but if
-you were to just walk up to one of these devices in a store, would you know to
-do that? At least with all of the iDevices out there, the primary
-functionality for applications is almost all visible. Sure, there are often
-gestures like holding down on icons to move or delete applications, but this
-isn't a *common action* for users. In Metro Internet Explorer, browsing *is a
-common action*, but you have to pull up the app bar to type in a new address.
-I'm planning on a separate post for Windows 8, so I better stop :-)
+that was good. My take on the presentation is that it was more of a demo on how
+to actually *use* Windows 8 from a usability perspective. I believe that is
+where the term "Charms" showed up, which is just an awful name in my opinion.
+I'm all for getting away from the really technical names for things (think
+Control Panel, System Tray, etc.), but *Charms*? How many Lucky Charms jokes
+are we going to hear? Also, I do have some concerns about the usability of
+parts of Windows 8. For example, the app bar can only be shown if you swipe
+from the top or bottom. If you're aware of the functionality, then it makes
+sense I guess, but if you were to just walk up to one of these devices in a
+store, would you know to do that? At least with all of the iDevices out there,
+the primary functionality for applications is almost all visible. Sure, there
+are often gestures like holding down on icons to move or delete applications,
+but this isn't a *common action* for users. In Metro Internet Explorer,
+browsing *is a common action*, but you have to pull up the app bar to type in a
+new address.  I'm planning on a separate post for Windows 8, so I better stop
+:-)
 
 The other two presentations of the day were [Platform for Metro style
 apps](http://channel9.msdn.com/events/BUILD/BUILD2011/BPS-1005) and [Tools for
@@ -103,7 +104,7 @@ again](http://channel9.msdn.com/events/BUILD/BUILD2011/KEY-0002), though it
 was more of a stream of shorter presentations. We got to see Visual Studio 11,
 ScottGu finally came on stage and we saw a lot more about the developer side
 of Windows 8. It was more appropriate for developers than the first day was. I
-thought that Steve Ballmer's closing words went over well - he even gave a
+thought that Steve Ballmer's closing words went over well - he even gave an
 homage to his famous "Developers, developers, developers" thing from a few
 years back.
 
@@ -176,7 +177,7 @@ building Metro applications.
 So, enough about the conference, though... *how's the tablet*? It's hard to
 say. The most important thing to remember about Windows 8 is that it is a
 developer preview - __NOT__ a beta. Betas are occasionally buggy. Developer
-previews are... more than occassionally buggy. I let my wife try out the
+previews are... more than occasionally buggy. I let my wife try out the
 tablet and she was so annoyed that she stopped using it. My favorite
 application so far is OneNote, simply because I'm finally getting to try a
 stylus and see how the Ink support is... and that has nothing at all to do
