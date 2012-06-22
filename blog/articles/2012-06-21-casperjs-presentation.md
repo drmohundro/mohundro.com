@@ -2,10 +2,10 @@
 title: CasperJS Presentation
 date: 2012/06/21
 
-It's been a good 4 years since I last gave my last public presentation in
-[Memphis on PowerShell](/blog/2008/09/30/slides-and-notes-from-mnug-talk/), so
-I figured it was time to give another talk. Tonight, I gave a short talk on
-[CasperJS](http://casperjs.org/) at the [Memphis Java User
+It's been a good 4 years since I last gave a public presentation in
+[Memphis](/blog/2008/09/30/slides-and-notes-from-mnug-talk/) (it was on
+PowerShell), so I figured it was time to give another talk. Tonight, I gave a
+short talk on [CasperJS](http://casperjs.org/) at the [Memphis Java User
 Group](http://www.memphisjug.org/event/show/36).
 
 If you're unfamiliar with CasperJS, I like to think of it as a really nice
