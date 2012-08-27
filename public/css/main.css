@@ -15,22 +15,22 @@ body {
   border-radius: 15px;
 }
 header, footer, section, article {
-	display: block;
+  display: block;
 }
 #content {
 }
 #by {
-	font-style: italic;
+  font-style: italic;
   margin-right: 5px;
-	font-size: 28px;
+  font-size: 28px;
 }
 #caption {
-	position: absolute;
-	font-size: 24px;
-	margin: -135px 0 0 70px;
+  position: absolute;
+  font-size: 24px;
+  margin: -135px 0 0 70px;
 }
 #path {
-	color: #b53131;
+  color: #b53131;
 }
 .date {
   font-style: italic;
@@ -77,16 +77,16 @@ nav > ul > li {
   padding: 0px 15px 0px 15px;
 }
 .post header {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .post .body p:first-child {
-	margin-top: 0;
+  margin-top: 0;
 }
 .post .body p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 .post {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .post:last-child {
   margin-bottom: 10px;
@@ -102,8 +102,8 @@ nav > ul > li {
 }
 .more a:hover { text-decoration: underline }
 #fullpage > header {
-	display: block;
-	margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 h1, h2, h3, h4 {
   display: inline;
@@ -131,10 +131,10 @@ blockquote .attributed {
   padding-top: 15px;
   text-align: left;
   margin-left: 10px;
-	font-style: italic;
+  font-style: italic;
   font-size: 18px;
   color: #888;
-}
+
 #fullpage > footer section {
   float: left; 
   width: 275px;
