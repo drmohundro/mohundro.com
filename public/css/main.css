@@ -82,7 +82,10 @@ blockquote .attributed {
         width: 350px;
         text-align: right;
       }
-header, footer, section, article {
+header,
+footer,
+section,
+article {
   display: block;
 }
 .date {
