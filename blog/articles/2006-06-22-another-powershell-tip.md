@@ -13,5 +13,5 @@ You could try this:
 
     PS C:\Dev>dir -recurse -include *.sln . | foreach { $_.FullName }
     
-This builds on my [post](http://feeds.feedburner.com/DavidMohundro?m=63) from yesterday.
+This builds on my [post](/blog/2006/06/21/why-i-love-powershell-part-i-dont-know/) from yesterday.
 
