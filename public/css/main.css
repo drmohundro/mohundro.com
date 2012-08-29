@@ -7,7 +7,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   width: 720px;
-  background-color: #2B2B2B;
+  background: #2B2B2B url(/images/low_contrast_linen.png)
 }
 h1 {
   font-size: 1.4em;
