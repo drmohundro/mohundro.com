@@ -12,7 +12,7 @@ If you're unfamiliar with CasperJS, I like to think of it as a really nice
 wrapper library around [PhantomJS](http://phantomjs.org/), which is a headless
 WebKit engine. If you know Chrome, you know WebKit... WebKit is just the open
 source backing project for Chrome. PhantomJS lets you drive Chrome in an
-automated way with JavaScript. CasperJS is a libary to provide syntantic sugar
+automated way with JavaScript. CasperJS is a library to provide syntactic sugar
 around PhantomJS. It also provides methods to let you write integration tests
 for your web stack.
 
