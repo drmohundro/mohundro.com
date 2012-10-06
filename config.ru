@@ -1,3 +1,7 @@
+require 'bundler'
+
+Bundler.require
+
 require 'toto'
 require 'rack-rewrite'
 
