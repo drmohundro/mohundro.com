@@ -55,11 +55,11 @@ use Rack::Rewrite do
     "/blog/month?#{year}-#{month}"
   }
 
-  #if ENV['RACK_ENV'] == 'production'
-    #r301 %r{.*}, 'http://mohundro.com$&', :if => Proc.new {|rack_env|
-      #rack_env['SERVER_NAME'] != 'mohundro.com'
-    #}
-  #end
+  if ENV['RACK_ENV'] == 'production'
+    r301 %r{.*}, 'http://mohundro.com$&', :if => Proc.new {|rack_env|
+      rack_env['SERVER_NAME'] != 'mohundro.com'
+    }
+  end
 end
 
 toto = Toto::Server.new do
