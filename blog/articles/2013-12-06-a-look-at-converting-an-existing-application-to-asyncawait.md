@@ -14,11 +14,12 @@ Basically, you implement Caliburn's `IResult` and then any methods on your view 
 
 Below is a snippet of the code from one of our view models:
 
+    ```cs
     var otherServers = allServers.Except(initialServers).ToList();
 
     // copy from build server (threaded)
     var firstCopyMessage = string.Join("\n", initialServers.Select(
-    s => string.Format("Copying {0} to {1}...", buildToCopy.Name, s.Name)));
+        s => string.Format("Copying {0} to {1}...", buildToCopy.Name, s.Name)));
     Busy(firstCopyMessage);
     yield return new BulkCopyFromBuildServerAction(initialServers, buildToCopy);
 
@@ -42,6 +43,7 @@ And, of course, the `BulkUnzipAction` will unzip the compressed build artifact o
 
 Here is the code for `BulkCopyFromBuildServerAction`:
 
+    ```cs
     public class BulkCopyFromBuildServerAction : AsyncResult
     {
         private readonly DeploymentBundle _bundleToDeploy;
@@ -67,6 +69,7 @@ I was concerned that it would take a lot of work to rip out all of the IResult a
 
 The second was to remove the `yield return` calls and basically inline the work that the actions were doing. I might end up reintroducing the actions as a refactoring option, but it was less code at the time to just bring the action code over.
 
+    ```cs
     var otherServers = allServers.Except(initialServers).ToList();
 
     // copy from build server (threaded)
