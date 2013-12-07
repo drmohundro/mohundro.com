@@ -43,7 +43,7 @@ it may not be long before you've filled up those 10 concurrent sessions.
 Let's assume that the horrible service in question is written with an infinite
 loop. Sort of like this:
 
-<code class="cs">
+    ```cs
     public class TestServiceImpl : ITestService
     {
         public TestResult TestIt(TestArgs args)
@@ -60,7 +60,6 @@ loop. Sort of like this:
             return new TestResult {Result = "Args were " + args.Args};
         }
     }
-</code>
 
 Will WCF do anything to help you out? Not really, at least from the
 service side. You can configure the `receiveTimeout`, `sendTimeout`,
@@ -94,6 +93,7 @@ caught and is reset, so that a true `TimeoutException` can be thrown instead.
 
 Usage looks like this:
 
+    ```cs
     Run.For(10.Seconds(), () => DoSomeStuff());
 
 Basically, you pass in how long it should run (we've made it a little more
@@ -110,6 +110,7 @@ which can be used to decorate service operations on the service contracts.
 
 So, the invoke method of our custom IOperationInvoker looks like this:
 
+    ```cs
     public object Invoke(object instance, object[] inputs, out object[] outputs)
     {
         object[] inputOutputs = null;
@@ -126,6 +127,7 @@ So, the invoke method of our custom IOperationInvoker looks like this:
 If we were to hook up our custom behavior directly to a service contract, it
 would look like this:
 
+    ```cs
     [ServiceContract]
     public interface IAmAnAwesomeServiceContract
     {
@@ -137,6 +139,7 @@ would look like this:
 However, we would rather it happen for all of our services, so we implemented
 a custom ServiceHost and we add our custom behavior in the OnOpening method.
 
+    ```cs
     protected override void OnOpening()
     {
         foreach (var op in Description.Endpoints
