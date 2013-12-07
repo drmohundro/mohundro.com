@@ -1,5 +1,7 @@
 class Site
   def call(env)
+    @env = env
+
     path = env['PATH_INFO'].gsub! '/', ''
     status, content = get_status_and_content(path)
 
@@ -21,6 +23,10 @@ class Site
     }.join
   end
 
+  def env
+    @env
+  end
+
   private
 
   def get_status_and_content(path)
@@ -36,7 +42,7 @@ class Site
 
     return http_return, render(full_path)
   end
-  
+
   def render(path)
     content = to_html(path)
     to_html("#{File.dirname(__FILE__)}/../blog/templates/layout.rhtml", &Proc.new { content })
