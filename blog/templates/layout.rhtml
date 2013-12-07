@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
   <head><%
-      req = Rack::Request.new(env)
-      FEED_URL = (req.host == 'localhost') ? '/blog/index.xml' : 'http://feeds.feedburner.com/DavidMohundro/'
+      FEED_URL = 'http://feeds.feedburner.com/DavidMohundro/'
     %>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/monokai.css">
