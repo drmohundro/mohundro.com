@@ -1,14 +1,17 @@
 <!doctype html>
 <html>
-  <head>
+  <head><%
+      req = Rack::Request.new(env)
+      FEED_URL = (req.host == 'localhost') ? '/blog/index.xml' : 'http://feeds.feedburner.com/DavidMohundro/'
+    %>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/github.css">
-    <link rel="alternate" type="application/atom+xml" title="David Mohundro" href="http://feeds.feedburner.com/DavidMohundro/" />
+    <link rel="alternate" type="application/atom+xml" title="David Mohundro" href="<%= FEED_URL %>" />
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="/js/modernizr.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>
       <% if @path == 'index' || !defined? title %>
         David Mohundro
@@ -26,14 +29,14 @@
           <ul>
             <li><a href="/blog/">blog</a></li>
             <li><a href="/about/">about</a></li>
-            <li><a href="http://feeds.feedburner.com/DavidMohundro/">feed</a></li>
+            <li><a href="<%= FEED_URL %>">feed</a></li>
             <li><a href="/contact/">contact</a></li>
           </ul>
         </nav>
       </div>
 
       <section>
-        <%= yield %> 
+        <%= yield %>
       </section>
 
       <footer>
