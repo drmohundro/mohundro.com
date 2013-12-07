@@ -7,4 +7,4 @@ was built on [toto](https://github.com/cloudhead/toto). To see more details
 about the site, check out my [blog
 post](http://mohundro.com/blog/2010/12/23/the-new-blog-is-live/).
 
-&copy; David Mohundro 2011
+&copy; David Mohundro 2013
