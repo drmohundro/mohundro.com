@@ -50,6 +50,8 @@ code {
   line-height: 20px;
 }
 pre {
+  /* monokai background color */
+  background: #272822;
   min-width: 100%;
   overflow: auto;
 }
