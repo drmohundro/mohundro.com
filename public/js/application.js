@@ -1,4 +1,3 @@
-var foundCodeBlocks = false;
 $('pre code').each(function(idx, item) {
   var $item = $(item);
   var text = $item.text();
@@ -9,12 +8,11 @@ $('pre code').each(function(idx, item) {
     var lang = firstLine.substr(3).trim();
     var value = hljs.highlight(lang, text.substr(endOfFirstLine).trim()).value;
     $item.html(value);
+    $item.addClass(lang)
   }
 });
 
-if (!foundCodeBlocks) {
-  hljs.initHighlightingOnLoad();
-}
+hljs.initHighlightingOnLoad();
 
 // thanks to Steve Losh for place_scrolly_header - via https://bitbucket.org/sjl/stevelosh/src/c1058fd46641/media/js/sjl.js
 var h2s = null;
