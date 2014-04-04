@@ -8,7 +8,7 @@ $('pre code').each(function(idx, item) {
     var lang = firstLine.substr(3).trim();
     var value = hljs.highlight(lang, text.substr(endOfFirstLine).trim()).value;
     $item.html(value);
-    $item.addClass(lang)
+    $item.addClass(lang);
   }
 });
 
