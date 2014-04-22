@@ -39,7 +39,7 @@ Wow, do I wish I had known about this earlier. This thing is great! With a few e
       Public BillDate As DateTime
     End Class
 
-At each Debugger.Break line, I checked my values and this thing is great. records(0).BillNumber is "123456789  " and records(0).BillDate is a converted DateTime set to 1/1/2005.
+At each `Debugger.Break` line, I checked my values and this thing is great. `records(0).BillNumber` is "123456789  " and `records(0).BillDate` is a converted `DateTime` set to 1/1/2005.
 
 If you deal with fixed-length or delimited files on a regular basis, this library might be a great option for you.
 

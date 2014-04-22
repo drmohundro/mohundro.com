@@ -5,7 +5,7 @@ date: 2006/03/24
 categories: .net;programming
 guid: f6656e1f-2a92-4156-908e-3dc0f9256272
 
-I've been using the System.Collections.Generic namespace an awful lot lately. I really like it, too. I use the List&lt;T&gt; collection all the time. It is so much better than inheriting from the CollectionBase to get a type-safe collection. I won't go into the reasons here, though. This post is about Predicates. If you have a List&lt;T&gt; collection, you'll notice it exposes a Find method that takes a Predicate as an argument. A Predicate is just a delegate that takes an object of type T and returns a boolean. When you call the Find method, it will call your Predicate for each object in its collection until your Predicate returns true. Looks like a nice, clean way to search collections, right?
+I've been using the `System.Collections.Generic` namespace an awful lot lately. I really like it, too. I use the `List<T>` collection all the time. It is so much better than inheriting from the `CollectionBase` to get a type-safe collection. I won't go into the reasons here, though. This post is about `Predicates`. If you have a `List<T>` collection, you'll notice it exposes a `Find` method that takes a `Predicate` as an argument. A `Predicate` is just a delegate that takes an object of type `T` and returns a boolean. When you call the `Find` method, it will call your `Predicate` for each object in its collection until your `Predicate` returns true. Looks like a nice, clean way to search collections, right?
 
 Well, if you're using C# anyway.
 
@@ -71,7 +71,7 @@ C# :
 
 Because of features like this, I am really looking forward to the next release of VB. Of course, with LINQ, will I even care about predicates then?
 
-I would be very interested to know if anyone has any other suggestions on ways to effectively use the predicate model in VB.
+I would be very interested to know if anyone has any other suggestions on ways to effectively use the `Predicate` model in VB.
 
 **UPDATE:** Wow, go [Paul Stovell](http://paulstovell.net/)! Instead of complaining like I did, Paul actually did something to get around this limitation in the current version of VB.NET and created an implementation of ["Almost-anonymous" methods](http://www.paulstovell.net/blog/index.php/almost-anonymous-methods-in-visual-basic-net/)! His method also shows how to use the Widening overloaded operator in VB.NET, which I haven't seen much of. Cool!
 
