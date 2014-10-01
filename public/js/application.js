@@ -1,17 +1,3 @@
-$('pre code').each(function(idx, item) {
-  var $item = $(item);
-  var text = $item.text();
-  var endOfFirstLine = text.indexOf('\n');
-  var firstLine = text.substr(0, endOfFirstLine);
-
-  if (firstLine.substr(0, 3) === '```') {
-    var lang = firstLine.substr(3).trim();
-    var value = hljs.highlight(lang, text.substr(endOfFirstLine).trim()).value;
-    $item.html(value);
-    $item.addClass(lang);
-  }
-});
-
 hljs.initHighlightingOnLoad();
 
 // thanks to Steve Losh for place_scrolly_header - via https://bitbucket.org/sjl/stevelosh/src/c1058fd46641/media/js/sjl.js

@@ -1,4 +1,4 @@
---- 
+---
 title: WCF and service-side Timeouts
 date: 2011/08/19
 
@@ -16,7 +16,7 @@ just made the wait last for the default... which in most cases is INFINITE.
 I guess circumstances change. Today, most of my code is from the web. Not only
 that, but a lot of the code that I'm writing has dependencies on external
 services (SOAP, REST, etc.). The [default timeout for ASP.NET requests is 110
-seconds (or 90 seconds in .NET 1.0 and 1.1)](http://msdn.microsoft.com/en-us/library/e1f13641.aspx). 
+seconds (or 90 seconds in .NET 1.0 and 1.1)](http://msdn.microsoft.com/en-us/library/e1f13641.aspx).
 That is an eternity when you're talking about a user browsing a web page. What if your
 web page is calling a WCF service that is calling a web service? You might
 trust your service, but do you trust the web service you're calling?
@@ -43,23 +43,24 @@ it may not be long before you've filled up those 10 concurrent sessions.
 Let's assume that the horrible service in question is written with an infinite
 loop. Sort of like this:
 
-    ```cs
-    public class TestServiceImpl : ITestService
+```cs
+public class TestServiceImpl : ITestService
+{
+    public TestResult TestIt(TestArgs args)
     {
-        public TestResult TestIt(TestArgs args)
+        var stopwatch = new Stopwatch();
+        stopwatch.Start();
+
+        // this is a contrived example, but it shows that WCF never stops this thread
+        while (true)
         {
-            var stopwatch = new Stopwatch();
-            stopwatch.Start();
-
-            // this is a contrived example, but it shows that WCF never stops this thread
-            while (true)
-            {
-                Console.WriteLine("{0}> I'm running forever...", stopwatch.Elapsed);
-            }
-
-            return new TestResult {Result = "Args were " + args.Args};
+            Console.WriteLine("{0}> I'm running forever...", stopwatch.Elapsed);
         }
+
+        return new TestResult {Result = "Args were " + args.Args};
     }
+}
+```
 
 Will WCF do anything to help you out? Not really, at least from the
 service side. You can configure the `receiveTimeout`, `sendTimeout`,
@@ -93,8 +94,9 @@ caught and is reset, so that a true `TimeoutException` can be thrown instead.
 
 Usage looks like this:
 
-    ```cs
-    Run.For(10.Seconds(), () => DoSomeStuff());
+```cs
+Run.For(10.Seconds(), () => DoSomeStuff());
+```
 
 Basically, you pass in how long it should run (we've made it a little more
 readable with some extension methods), and a delegate. When we're working with
@@ -110,46 +112,49 @@ which can be used to decorate service operations on the service contracts.
 
 So, the invoke method of our custom IOperationInvoker looks like this:
 
-    ```cs
-    public object Invoke(object instance, object[] inputs, out object[] outputs)
-    {
-        object[] inputOutputs = null;
-        object returnValue = null;
-        Run.For(_timeout, 
-            () =>
-            {
-                returnValue = _decoratedInvoker.Invoke(instance, inputs, out inputOutputs);
-            });
-        outputs = inputOutputs;
-        return returnValue;
-    }
+```cs
+public object Invoke(object instance, object[] inputs, out object[] outputs)
+{
+    object[] inputOutputs = null;
+    object returnValue = null;
+    Run.For(_timeout,
+        () =>
+        {
+            returnValue = _decoratedInvoker.Invoke(instance, inputs, out inputOutputs);
+        });
+    outputs = inputOutputs;
+    return returnValue;
+}
+```
 
 If we were to hook up our custom behavior directly to a service contract, it
 would look like this:
 
-    ```cs
-    [ServiceContract]
-    public interface IAmAnAwesomeServiceContract
-    {
-        [OperationContract]
-        [OperationTimeoutBehavior(60)]
-        OpResults GoFindSomeAwesomeStuff(OpArgs args);
-    }
+```cs
+[ServiceContract]
+public interface IAmAnAwesomeServiceContract
+{
+    [OperationContract]
+    [OperationTimeoutBehavior(60)]
+    OpResults GoFindSomeAwesomeStuff(OpArgs args);
+}
+```
 
 However, we would rather it happen for all of our services, so we implemented
 a custom ServiceHost and we add our custom behavior in the OnOpening method.
 
-    ```cs
-    protected override void OnOpening()
+```cs
+protected override void OnOpening()
+{
+    foreach (var op in Description.Endpoints
+        .SelectMany(ep => ep.Contract.Operations)
+        .Where(op => !op.Behaviors.Contains(typeof (OperationTimeoutBehavior))))
     {
-        foreach (var op in Description.Endpoints
-            .SelectMany(ep => ep.Contract.Operations)
-            .Where(op => !op.Behaviors.Contains(typeof (OperationTimeoutBehavior))))
-        {
-            op.Behaviors.Add(new OperationTimeoutBehavior());
-        }
-        base.OnOpening();
+        op.Behaviors.Add(new OperationTimeoutBehavior());
     }
+    base.OnOpening();
+}
+```
 
 The above details could be used to hook in just about any behaviors around WCF
 invocation, including pre and post call.
@@ -202,7 +207,7 @@ example above... though thankfully we don't have any code like that!
 ## Wrapping up
 
 I've been trying to think of other things that we could have done to have
-prevented this issue. 
+prevented this issue.
 
 One potential solution might have been logging (WCF provides [extensive
 tracing support](http://msdn.microsoft.com/en-us/library/ms733025.aspx)). I'm

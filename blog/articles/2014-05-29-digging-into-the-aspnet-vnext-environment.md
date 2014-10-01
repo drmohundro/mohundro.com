@@ -14,218 +14,221 @@ I followed Graeme's instructions and ended up getting Mono 3.4.1 set up on my Ma
 
 With that done, I wanted to dig a little deeper... you know, find out just what assemblies are loaded and so on. I ended up writing the below application to try some things out:
 
-    ```cs
-    using System;
-    using System.Reflection;
+```cs
+using System;
+using System.Reflection;
 
-    class Program {
-      public static void Main() {
-        DumpEnvironment();
-      }
+class Program {
+  public static void Main() {
+    DumpEnvironment();
+  }
 
-      private static void DumpEnvironment() {
-        Console.WriteLine("-- Environment --");
-        Console.WriteLine("Environment.OSVersion: {0}", Environment.OSVersion);
-        Console.WriteLine("Environment.Version: {0}", Environment.Version);
-        Console.WriteLine();
+  private static void DumpEnvironment() {
+    Console.WriteLine("-- Environment --");
+    Console.WriteLine("Environment.OSVersion: {0}", Environment.OSVersion);
+    Console.WriteLine("Environment.Version: {0}", Environment.Version);
+    Console.WriteLine();
 
-        Console.WriteLine("-- Executing Assembly --");
-        Console.WriteLine("Assembly.GetExecutingAssembly():");
-        DumpAssembly(Assembly.GetExecutingAssembly());
-        Console.WriteLine("-- Entry Assembly --");
-        Console.WriteLine("Assembly.GetEntryAssembly()");
-        DumpAssembly(Assembly.GetEntryAssembly());
+    Console.WriteLine("-- Executing Assembly --");
+    Console.WriteLine("Assembly.GetExecutingAssembly():");
+    DumpAssembly(Assembly.GetExecutingAssembly());
+    Console.WriteLine("-- Entry Assembly --");
+    Console.WriteLine("Assembly.GetEntryAssembly()");
+    DumpAssembly(Assembly.GetEntryAssembly());
 
-        Console.WriteLine("-- AppDomain Details --");
-        Console.WriteLine("AppDomain.CurrentDomain: {0}", AppDomain.CurrentDomain);
-        Console.WriteLine("AppDomain.CurrentDomain.GetAssemblies():");
+    Console.WriteLine("-- AppDomain Details --");
+    Console.WriteLine("AppDomain.CurrentDomain: {0}", AppDomain.CurrentDomain);
+    Console.WriteLine("AppDomain.CurrentDomain.GetAssemblies():");
 
-        foreach (var asm in AppDomain.CurrentDomain.GetAssemblies()) {
-          DumpAssembly(asm);
-        }
-      }
-
-      private static void DumpAssembly(Assembly asm) {
-        Console.WriteLine("  FullName: {0}", asm.FullName);
-        Console.WriteLine("  Location: {0}", asm.Location);
-        Console.WriteLine();
-      }
+    foreach (var asm in AppDomain.CurrentDomain.GetAssemblies()) {
+      DumpAssembly(asm);
     }
+  }
+
+  private static void DumpAssembly(Assembly asm) {
+    Console.WriteLine("  FullName: {0}", asm.FullName);
+    Console.WriteLine("  Location: {0}", asm.Location);
+    Console.WriteLine();
+  }
+}
+```
 
 Below is the output from a run of this program (using `k run`).
 
-    -- Environment --
-    Environment.OSVersion: Unix 13.2.0.0
-    Environment.Version: 4.0.30319.17020
+```no-highlight
+-- Environment --
+Environment.OSVersion: Unix 13.2.0.0
+Environment.Version: 4.0.30319.17020
 
-    -- Executing Assembly --
-    Assembly.GetExecutingAssembly():
-      FullName: aspnetvnext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+-- Executing Assembly --
+Assembly.GetExecutingAssembly():
+  FullName: aspnetvnext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-    -- Entry Assembly --
-    Assembly.GetEntryAssembly()
-      FullName: klr.mono.managed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.mono.managed.dll
+-- Entry Assembly --
+Assembly.GetEntryAssembly()
+  FullName: klr.mono.managed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.mono.managed.dll
 
-    -- AppDomain Details --
-    AppDomain.CurrentDomain: klr.mono.managed.dll
-    AppDomain.CurrentDomain.GetAssemblies():
-      FullName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/4.5/mscorlib.dll
+-- AppDomain Details --
+AppDomain.CurrentDomain: klr.mono.managed.dll
+AppDomain.CurrentDomain.GetAssemblies():
+  FullName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/4.5/mscorlib.dll
 
-      FullName: klr.mono.managed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.mono.managed.dll
+  FullName: klr.mono.managed, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.mono.managed.dll
 
-      FullName: System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll
+  FullName: System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll
 
-      FullName: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll
+  FullName: System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll
 
-      FullName: klr.host, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.host.dll
+  FullName: klr.host, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/klr.host.dll
 
-      FullName: Microsoft.Framework.Runtime.Infrastructure.CallContextServiceLocator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.Infrastructure.CallContextServiceLocator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.Infrastructure.IServiceProviderLocator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.Infrastructure.IServiceProviderLocator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.AssemblyNeutralAttribute, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.AssemblyNeutralAttribute, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IHost, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IHost, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IAssemblyLoaderEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IAssemblyLoaderEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IHostContainer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IHostContainer, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IApplicationEnvironment, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IApplicationEnvironment, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.ApplicationHost, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.ApplicationHost.dll
+  FullName: Microsoft.Framework.ApplicationHost, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.ApplicationHost.dll
 
-      FullName: Microsoft.Framework.Runtime, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.Runtime.dll
+  FullName: Microsoft.Framework.Runtime, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.Runtime.dll
 
-      FullName: Microsoft.Framework.Runtime.IFileMonitor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IFileMonitor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ISourceFileReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ISourceFileReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ISourceReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ISourceReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IMetadataFileReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IMetadataFileReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IMetadataReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IMetadataReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ILibraryManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ILibraryManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ILibraryInformation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ILibraryInformation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ILibraryExport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ILibraryExport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.ILibraryExportProvider, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.ILibraryExportProvider, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.Framework.Runtime.IApplicationShutdown, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IApplicationShutdown, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Newtonsoft.Json.dll
+  FullName: Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Newtonsoft.Json.dll
 
-      FullName: System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.Numerics/4.0.0.0__b77a5c561934e089/System.Numerics.dll
+  FullName: System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.Numerics/4.0.0.0__b77a5c561934e089/System.Numerics.dll
 
-      FullName: WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-      Location: /usr/local/lib/mono/gac/WindowsBase/4.0.0.0__31bf3856ad364e35/WindowsBase.dll
+  FullName: WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Location: /usr/local/lib/mono/gac/WindowsBase/4.0.0.0__31bf3856ad364e35/WindowsBase.dll
 
-      FullName: System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.IO.Compression/4.0.0.0__b77a5c561934e089/System.IO.Compression.dll
+  FullName: System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.IO.Compression/4.0.0.0__b77a5c561934e089/System.IO.Compression.dll
 
-      FullName: System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.Xaml/4.0.0.0__b77a5c561934e089/System.Xaml.dll
+  FullName: System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.Xaml/4.0.0.0__b77a5c561934e089/System.Xaml.dll
 
-      FullName: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll
+  FullName: System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll
 
-      FullName: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
-      Location: /usr/local/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll
+  FullName: Mono.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756
+  Location: /usr/local/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll
 
-      FullName: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-      Location: /usr/local/lib/mono/gac/System.Xml.Linq/4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
+  FullName: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  Location: /usr/local/lib/mono/gac/System.Xml.Linq/4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
 
-      FullName: System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+  FullName: System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
 
-      FullName: Microsoft.Framework.Runtime.Roslyn, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.Runtime.Roslyn.dll
+  FullName: Microsoft.Framework.Runtime.Roslyn, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.Framework.Runtime.Roslyn.dll
 
-      FullName: Microsoft.Framework.Runtime.IRoslynMetadataReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: Microsoft.Framework.Runtime.IRoslynMetadataReference, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
 
-      FullName: Microsoft.CodeAnalysis, Version=41.41.41.41, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.CodeAnalysis.dll
+  FullName: Microsoft.CodeAnalysis, Version=41.41.41.41, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.CodeAnalysis.dll
 
-      FullName: Microsoft.CodeAnalysis.CSharp, Version=41.41.41.41, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.CodeAnalysis.CSharp.dll
+  FullName: Microsoft.CodeAnalysis.CSharp, Version=41.41.41.41, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/Microsoft.CodeAnalysis.CSharp.dll
 
-      FullName: System.Collections.Immutable, Version=1.1.20.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/System.Collections.Immutable.dll
+  FullName: System.Collections.Immutable, Version=1.1.20.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/System.Collections.Immutable.dll
 
-      FullName: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.dll
+  FullName: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.dll
 
-      FullName: System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Resources.ResourceManager.dll
+  FullName: System.Resources.ResourceManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Resources.ResourceManager.dll
 
-      FullName: System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Collections.dll
+  FullName: System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Collections.dll
 
-      FullName: System.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Linq.dll
+  FullName: System.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Linq.dll
 
-      FullName: System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Globalization.dll
+  FullName: System.Globalization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Globalization.dll
 
-      FullName: System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.Extensions.dll
+  FullName: System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.Extensions.dll
 
-      FullName: System.Reflection.Metadata, Version=1.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/System.Reflection.Metadata.dll
+  FullName: System.Reflection.Metadata, Version=1.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /Users/mo/.kre/packages/KRE-mono45-x86.0.1-alpha-build-0475/bin/System.Reflection.Metadata.dll
 
-      FullName: System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.IO.dll
+  FullName: System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.IO.dll
 
-      FullName: System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Reflection.dll
+  FullName: System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Reflection.dll
 
-      FullName: System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Text.Encoding.dll
+  FullName: System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Text.Encoding.dll
 
-      FullName: System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Threading.dll
+  FullName: System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Threading.dll
 
-      FullName: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.InteropServices.dll
+  FullName: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Runtime.InteropServices.dll
 
-      FullName: System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-      Location: /usr/local/lib/mono/4.5/Facades/System.Reflection.Primitives.dll
+  FullName: System.Reflection.Primitives, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  Location: /usr/local/lib/mono/4.5/Facades/System.Reflection.Primitives.dll
 
-      FullName: aspnetvnext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-      Location:
+  FullName: aspnetvnext, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  Location:
+```
 
 What's interesting to me is to see the wide variety of assemblies loaded along with their locations, especially the ones that have blank locations. [Scott Hanselman's introductory post to ASP.NET vNext](http://www.hanselman.com/blog/IntroducingASPNETVNext.aspx) mentions that "the assemblies never exist on disk...because it's actually faster and easier to have the compiler do all the work in memory." This is all thanks to Roslyn. It's pretty awesome.
 
