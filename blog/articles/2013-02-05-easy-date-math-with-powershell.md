@@ -21,14 +21,16 @@ stress.
 
 So, I turn to PowerShell. Behold, the `Get-DevLunchDays.ps1` script:
 
-    $initialDate = [datetime]'2013/1/8'
+```powershell
+$initialDate = [datetime]'2013/1/8'
 
-    $rollingDate = $initialDate
+$rollingDate = $initialDate
 
-    do {
-        Write-Host $rollingDate.ToShortDateString()
-        $rollingDate = $rollingDate.AddDays(21)
-    } until ($rollingDate -ge [datetime]'2013/12/31')
+do {
+    Write-Host $rollingDate.ToShortDateString()
+    $rollingDate = $rollingDate.AddDays(21)
+} until ($rollingDate -ge [datetime]'2013/12/31')
+```
 
 I've hardcoded an initial date in the `$initialDate` variable and then I just
 script out the rest. Sure, it's simple, but it saves me time and stress!

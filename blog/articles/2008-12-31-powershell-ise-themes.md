@@ -23,47 +23,51 @@ The [$psISE variable offers up a wealth of options](http://blogs.msdn.com/powers
 
 Looks different, eh? Below is the code to get it to work:
 
-    # PowerShell ISE version of the VIM blackboard theme at 
-    # http://www.vim.org/scripts/script.php?script_id=2280
+```powershell
+# PowerShell ISE version of the VIM blackboard theme at 
+# http://www.vim.org/scripts/script.php?script_id=2280
 
-    # fonts
-    $psISE.Options.FontName = 'Consolas'
-    $psISE.Options.FontSize = 16
+# fonts
+$psISE.Options.FontName = 'Consolas'
+$psISE.Options.FontSize = 16
 
-    # output pane
-    $psISE.Options.OutputPaneBackgroundColor = '#FF2E3436'
-    $psISE.Options.OutputPaneTextBackgroundColor = '#FF2E3436'
-    $psISE.Options.OutputPaneForegroundColor = '#FFFFFFFF'
+# output pane
+$psISE.Options.OutputPaneBackgroundColor = '#FF2E3436'
+$psISE.Options.OutputPaneTextBackgroundColor = '#FF2E3436'
+$psISE.Options.OutputPaneForegroundColor = '#FFFFFFFF'
 
-    # command pane
-    $psISE.Options.CommandPaneBackgroundColor = '#FF2E3436'
+# command pane
+$psISE.Options.CommandPaneBackgroundColor = '#FF2E3436'
 
-    # script pane
-    $psISE.Options.ScriptPaneBackgroundColor = '#FF2E3436'
+# script pane
+$psISE.Options.ScriptPaneBackgroundColor = '#FF2E3436'
 
-    # tokens
-    $psISE.Options.TokenColors['Command'] = '#FFFFFF60'
-    $psISE.Options.TokenColors['Unknown'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['Member'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['Position'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['GroupEnd'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['GroupStart'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['LineContinuation'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['NewLine'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['StatementSeparator'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['Comment'] = '#FFAEAEAE'
-    $psISE.Options.TokenColors['String'] = '#FF00D42D'
-    $psISE.Options.TokenColors['Keyword'] = '#FFFFDE00'
-    $psISE.Options.TokenColors['Attribute'] = '#FF84A7C1'
-    $psISE.Options.TokenColors['Type'] = '#FF84A7C1'
-    $psISE.Options.TokenColors['Variable'] = '#FF00D42D'
-    $psISE.Options.TokenColors['CommandParameter'] = '#FFFFDE00'
-    $psISE.Options.TokenColors['CommandArgument'] = '#FFFFFFFF'
-    $psISE.Options.TokenColors['Number'] = '#FF98FE1E'
+# tokens
+$psISE.Options.TokenColors['Command'] = '#FFFFFF60'
+$psISE.Options.TokenColors['Unknown'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['Member'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['Position'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['GroupEnd'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['GroupStart'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['LineContinuation'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['NewLine'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['StatementSeparator'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['Comment'] = '#FFAEAEAE'
+$psISE.Options.TokenColors['String'] = '#FF00D42D'
+$psISE.Options.TokenColors['Keyword'] = '#FFFFDE00'
+$psISE.Options.TokenColors['Attribute'] = '#FF84A7C1'
+$psISE.Options.TokenColors['Type'] = '#FF84A7C1'
+$psISE.Options.TokenColors['Variable'] = '#FF00D42D'
+$psISE.Options.TokenColors['CommandParameter'] = '#FFFFDE00'
+$psISE.Options.TokenColors['CommandArgument'] = '#FFFFFFFF'
+$psISE.Options.TokenColors['Number'] = '#FF98FE1E'
+```
 
 To use it, I just dot the script into my PowerShell ISE profile (see the $profile variable while in PowerShell ISE) like so (where ./Themes/blackboard.ps1 is the path to the blackboard theme):
 
-    . ./Themes/blackboard.ps1
+```powershell
+. ./Themes/blackboard.ps1
+```
 
 The script is a conversion I did of the [vim blackboard theme which itself is a clone of the blackboard theme from TextMate](http://www.vim.org/scripts/script.php?script_id=2280). I'm sure it could use some tweaking, but it works for me for now.
 

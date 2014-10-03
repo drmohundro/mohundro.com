@@ -19,28 +19,32 @@ for your web stack.
 Just to give you a sample script, here is one that I demoed that verifies that
 my blog title is correct.
 
-    var casper = require('casper').create();
+```js
+var casper = require('casper').create();
 
-    casper.start('http://mohundro.com', function() {
-      this.test.assert(this.getCurrentUrl().indexOf('mohundro') !== -1, 'the url should not redirect away');
-      this.test.assertTitle('David Mohundro', 'my blog has the title of my name');
-    });
+casper.start('http://mohundro.com', function() {
+  this.test.assert(this.getCurrentUrl().indexOf('mohundro') !== -1, 'the url should not redirect away');
+  this.test.assertTitle('David Mohundro', 'my blog has the title of my name');
+});
 
-    casper.run(function() {
-      this.test.renderResults(true);
-    });
+casper.run(function() {
+  this.test.renderResults(true);
+});
+```
 
 A nicety with CasperJS is that it has native CoffeeScript support. The same
 script could be written like so:
 
-    casper = require('casper').create()
+```coffee
+casper = require('casper').create()
 
-    casper.start 'http://mohundro.com', () ->
-      @test.assert @getCurrentUrl().indexOf('mohundro') != -1, 'the url should not redirect away'
-      @test.assertTitle 'David Mohundro', 'my blog has the title of my name'
+casper.start 'http://mohundro.com', () ->
+  @test.assert @getCurrentUrl().indexOf('mohundro') != -1, 'the url should not redirect away'
+  @test.assertTitle 'David Mohundro', 'my blog has the title of my name'
 
-    casper.run () ->
-      @test.renderResults true
+casper.run () ->
+  @test.renderResults true
+```
 
 If you came out, I hope you enjoyed the talk. I've posted my slides and demos
 out on my [presentations Github

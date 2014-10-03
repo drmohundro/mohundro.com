@@ -11,7 +11,9 @@ What if you want to know the full path to all of the solutions in a sub-director
 
 You could try this:
 
-    PS C:\Dev>dir -recurse -include *.sln . | foreach { $_.FullName }
+```powershell
+dir -recurse -include *.sln . | foreach { $_.FullName }
+```
     
 This builds on my [post](/blog/2006/06/21/why-i-love-powershell-part-i-dont-know/) from yesterday.
 

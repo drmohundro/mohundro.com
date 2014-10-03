@@ -7,7 +7,9 @@ guid: c190b806-daf6-4be7-9dcd-86fc582050cd
 
 Check out this snippet:
 
-    dir -recurse -include tempproj.proj | foreach { rm $_ }
+```powershell
+dir -recurse -include tempproj.proj | foreach { rm $_ }
+```
 
 Awesome!
 

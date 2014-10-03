@@ -15,10 +15,12 @@ One of my favorite functions is incredibly simple but it highlights how you can 
 
 This also prompted me to set up the winmerge function below:
 
-    function winmerge ([string]$path1, [string]$path2) {
-      $winmergePath = "c:\program files\winmerge\winmerge.exe"
-      . $winmergePath $path1 $path2
-    }
+```powershell
+function winmerge ([string]$path1, [string]$path2) {
+  $winmergePath = "c:\program files\winmerge\winmerge.exe"
+  . $winmergePath $path1 $path2
+}
+```
 
 It allows me to quickly see the comparisons between two different files without having to preselect them with the mouse. It is simple, but quite convenient. And I also don't have to go adding all sorts of random directories to my PATH just so I can get to them more quickly.
 

@@ -24,41 +24,43 @@ having the team take just 10 minutes to look over it.
 The solution was a PowerShell script that I whipped together in about 15
 minutes. Here it is:
 
-    param (
-        $fileType = "cs",
-        $directoryToSearch = "c:\path\to\source\repo"
-    )
+```powershell
+param (
+    $fileType = "cs",
+    $directoryToSearch = "c:\path\to\source\repo"
+)
 
-    $scriptDir = (Split-Path $MyInvocation.MyCommand.Path -Parent)
-    $editor = 'C:\Program Files\Sublime Text 2\sublime_text.exe'
+$scriptDir = (Split-Path $MyInvocation.MyCommand.Path -Parent)
+$editor = 'C:\Program Files\Sublime Text 2\sublime_text.exe'
 
-    $excludedFilePaths =
-        '\.Designer\.cs',
-        '\.generated\.cs',
-        '\\Service\sReferences\\'
+$excludedFilePaths =
+    '\.Designer\.cs',
+    '\.generated\.cs',
+    '\\Service\sReferences\\'
 
-    function notIn($lookFor, $toSearch) {
-        foreach ($toExclude in $toSearch) {
-            if ($lookFor -match $toExclude) {
-                return $false
-            }
+function notIn($lookFor, $toSearch) {
+    foreach ($toExclude in $toSearch) {
+        if ($lookFor -match $toExclude) {
+            return $false
         }
-        return $true
     }
+    return $true
+}
 
-    function allFilesOfType {
-        ls -filter "*.$fileType" -recurse |
-            where { notIn $_.FullName $excludedFilePaths }
-    }
+function allFilesOfType {
+    ls -filter "*.$fileType" -recurse |
+        where { notIn $_.FullName $excludedFilePaths }
+}
 
-    Push-Location $directoryToSearch
+Push-Location $directoryToSearch
 
-    "Drum roll, please..."
+"Drum roll, please..."
 
-    $randomlySelectedFile  = allFilesOfType | Get-Random -count 1 | select -expand FullName
-    & $editor $randomlySelectedFile
+$randomlySelectedFile  = allFilesOfType | Get-Random -count 1 | select -expand FullName
+& $editor $randomlySelectedFile
 
-    Pop-Location
+Pop-Location
+```
 
 As you can see, it is pretty basic. Most of the complexity involves excluding
 Designer or generated files. Once the script determines a random file, it

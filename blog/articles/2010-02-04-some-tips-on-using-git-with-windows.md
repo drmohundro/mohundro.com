@@ -91,8 +91,10 @@ what am I doing to tell git to use color anyway? I'm using an environment
 variable tweak that I learned about via one of the [msysgit issues](http://code.google.com/p/msysgit/issues/detail?id=326&q=color&colspec=ID%20Type%20Status%20Priority%20Component%20Owner%20Summary#c5)).
 Here's the line from my powershell profile:
 
-    $env:TERM = 'cygwin'
-    $env:LESS = 'FRSX'
+```powershell
+$env:TERM = 'cygwin'
+$env:LESS = 'FRSX'
+```
 
 This line basically lies about the running terminal - "hi git, my terminal
 isn't actually powershell or cmd.exe or console2, it's actually cygwin." The

@@ -7,22 +7,24 @@ guid: 7c9325a0-6fd1-4e44-82fc-2aa2fe526e6b
 
 Here is a simple script I wrote which was inspired by [this post on terminal color highlighting](http://www.pixelbeat.org/docs/terminal_colours/) and by [ColorDiff](http://colordiff.sourceforge.net/) that does essentially the same thing.
 
-    # Out-ColorDiff.ps1
-    Process {
-        if ($_) {
-            foreach ($line in $_) {
-                if ($line -match '^[<|-]') {
-                    Write-Host -ForegroundColor red $line
-                }
-                elseif ($line -match '^[>|+]') {
-                    Write-Host -ForegroundColor green $line
-                }
-                else {
-                    Write-Host $line
-                }
+```powershell
+# Out-ColorDiff.ps1
+Process {
+    if ($_) {
+        foreach ($line in $_) {
+            if ($line -match '^[<|-]') {
+                Write-Host -ForegroundColor red $line
+            }
+            elseif ($line -match '^[>|+]') {
+                Write-Host -ForegroundColor green $line
+            }
+            else {
+                Write-Host $line
             }
         }
-    } 
+    }
+} 
+```
 
 Here is a screenshot of sample output from the script:
 

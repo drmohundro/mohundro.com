@@ -19,42 +19,52 @@ Sometimes, though, I want that information faster. Why not from Powershell? The 
 
 You can get it from WMI, though, using a command like this: 
 
-    Get-WmiObject win32_process -Filter "name like '%vim.exe'" 
+```powershell
+Get-WmiObject win32_process -Filter "name like '%vim.exe'" 
+```
 
 You can grab the command line from it by doing this: 
 
-    Get-WmiObject win32_process -Filter "name like '%vim.exe'" | select commandline 
+```powershell
+Get-WmiObject win32_process -Filter "name like '%vim.exe'" | select commandline 
+```
 
 So yeah, that works. It sure isn't quite as easy as typing this, though: 
 
-    ps *vim | select commandline 
+```powershell
+ps *vim | select commandline 
+```
 
 Sure wish I could do that. Sure glad that I can! Powershell has the ability for you to tack on your properties. It isn't quite monkey patching like in Ruby, but it's close. Here's how to do it. 
 
 You'll first need a ps1xml file to contain this information. I put mine in ~/Documents/WindowsPowerShell/TypeData/System.Diagnostics.Process.ps1xml. It will look like this:
 
-    <?xml version="1.0"?>
-    <Types>
-        <Type> 
-            <Name>System.Diagnostics.Process</Name> 
-            <Members> 
-                <ScriptProperty> 
-                    <Name>CommandLine</Name> 
-                    <GetScriptBlock> 
-                        $id = $this.Id
-                        $result = Get-WmiObject win32_process -Filter "ProcessId = $id"
-                        $result.CommandLine
-                    </GetScriptBlock> 
-                </ScriptProperty> 
-            </Members> 
-        </Type>
-    </Types>
+```xml
+<?xml version="1.0"?>
+<Types>
+    <Type> 
+        <Name>System.Diagnostics.Process</Name> 
+        <Members> 
+            <ScriptProperty> 
+                <Name>CommandLine</Name> 
+                <GetScriptBlock> 
+                    $id = $this.Id
+                    $result = Get-WmiObject win32_process -Filter "ProcessId = $id"
+                    $result.CommandLine
+                </GetScriptBlock> 
+            </ScriptProperty> 
+        </Members> 
+    </Type>
+</Types>
+```
 
 What this does is tell Powershell that, for every System.Diagnostics.Process instance it sees, add a new ScriptProperty to it with the name CommandLine. The GetScriptBlock section defines how to actually retrieve the value for the new property. In there, you just put Powershell code. So, I'm doing almost the same WMI query as before except that I'm searching by ID instead. It's faster that way.
 
 To inform Powershell about this, just run this:
 
-    Update-TypeData ~/Documents/WindowsPowerShell/TypeData/System.Diagnostics.Process.ps1xml
+```powershell
+Update-TypeData ~/Documents/WindowsPowerShell/TypeData/System.Diagnostics.Process.ps1xml
+```
 
 You'll probably want to put that in your profile so that it runs every time you start Powershell. Here's a screenshot of it in action:
 

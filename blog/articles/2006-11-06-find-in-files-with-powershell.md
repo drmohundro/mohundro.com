@@ -7,11 +7,15 @@ guid: ec5e386a-5eba-4473-b553-e5e4350e0404
 I haven't posted anything on PowerShell in a while so here's something that's
 useful. 
 
-    Get-ChildItem -Recurse -Include *.* | Select-String "text to search for"
+```powershell
+Get-ChildItem -Recurse -Include *.* | Select-String "text to search for"
+```
 
 Or, if you like things a little more abbreviated, try this: 
 
-    dir -r -i *.* | Select-String "text to search for"
+```powershell
+dir -r -i *.* | Select-String "text to search for"
+```
 
 Select-String is a cmdlet that will search files or strings, sort of like grep
 in Unix or findstr in cmd.exe. If you use the Get-ChildItem cmdlet, you can
@@ -29,11 +33,15 @@ the Get-ChildItem command and piping the output to Select-String.
 Before I began using PowerShell, I had been using a small cmd file called
 ff.cmd that used the following: 
 
-    findstr /p /s /i /c:%1 %2
+```dos
+findstr /p /s /i /c:%1 %2
+```
 
 Then I could type things like: 
 
-    ff "text to search for" .\*.*
+```dos
+ff "text to search for" .\*.*
+```
 
 But PowerShell is so much cooler now :-)
 

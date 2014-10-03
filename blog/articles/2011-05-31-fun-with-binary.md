@@ -37,22 +37,28 @@ spec has.
 
 First, in hex:
 
-    0000   de 39 00 50 d5 99 75 e4 02 50 89 dc 50 18 01 01  .9.P..u..P..P...
-    0010   cc 87 00 00                                      ....
+```no-highlight
+0000   de 39 00 50 d5 99 75 e4 02 50 89 dc 50 18 01 01  .9.P..u..P..P...
+0010   cc 87 00 00                                      ....
+```
 
 Then, in binary:
 
-    0000   11011110 00111001 00000000 01010000 11010101 10011001 01110101 11100100   .9.P..u.
-    0008   00000010 01010000 10001001 11011100 01010000 00011000 00000001 00000001   .P..P...
-    0010   11001100 10000111 00000000 00000000                                       ....
+```no-highlight
+0000   11011110 00111001 00000000 01010000 11010101 10011001 01110101 11100100   .9.P..u.
+0008   00000010 01010000 10001001 11011100 01010000 00011000 00000001 00000001   .P..P...
+0010   11001100 10000111 00000000 00000000                                       ....
+```
 
 (for those who are curious, I got this data from Wireshark)
 
 Of course, I wasn't provided my bytes in such a pretty format... byte arrays
 are going to look a lot more like this:
 
-    0xde, 0x39, 0x00, 0x50, 0xd5, 0x99, 0x75, 0xe4, 0x02, 0x50, 0x89, 0xdc, 
-    0x50, 0x18, 0x01, 0x01, 0xcc, 0x87, 0x00, 0x00
+```no-highlight
+0xde, 0x39, 0x00, 0x50, 0xd5, 0x99, 0x75, 0xe4, 0x02, 0x50, 0x89, 0xdc, 
+0x50, 0x18, 0x01, 0x01, 0xcc, 0x87, 0x00, 0x00
+```
 
 ## The Naive (and horribly non-performant) Way
 
@@ -65,72 +71,76 @@ Given the above byte array, all it took was the below snippet of Powershell
 (note that I used the 0x prefix with the hex values... there isn't any binary
 literal notation):
 
-    $bytes = [byte[]](0xde, 0x39, 0x00, 0x50, 0xd5, 0x99, 0x75, 0xe4, 0x02,
-                      0x50, 0x89, 0xdc, 0x50, 0x18, 0x01, 0x01, 0xcc, 0x87, 
-                      0x00, 0x00)
+```powershell
+$bytes = [byte[]](0xde, 0x39, 0x00, 0x50, 0xd5, 0x99, 0x75, 0xe4, 0x02,
+                  0x50, 0x89, 0xdc, 0x50, 0x18, 0x01, 0x01, 0xcc, 0x87, 
+                  0x00, 0x00)
+```
 
 Now that we've got a byte array, we can start to play around with it. I
 created the following script that I named Get-ByteTable.ps1:
 
+```
+param (
+  [Parameter(ValueFromPipeline=$true)]
+  [byte]
+  $bytes,
+
+  [int]
+  $rowLength = 8
+)
+
+begin {
+  $offset = 0
+  $bitIndex = 0
+  $byteTable = ''
+
+  Set-Variable -name LENGTH_OF_BYTE_IN_BINARY -value 8 -option constant
+
+  function To-Binary {
     param (
       [Parameter(ValueFromPipeline=$true)]
-      [byte]
-      $bytes,
-
-      [int]
-      $rowLength = 8
+      [int]$num
     )
+    [Convert]::ToString($num, 2)
+  }
 
-    begin {
-      $offset = 0
-      $bitIndex = 0
-      $byteTable = ''
-
-      Set-Variable -name LENGTH_OF_BYTE_IN_BINARY -value 8 -option constant
-
-      function To-Binary {
-        param (
-          [Parameter(ValueFromPipeline=$true)]
-          [int]$num
-        )
-        [Convert]::ToString($num, 2)
-      }
-
-      function outputByteRow {
-        if ($byteTable.Length -lt $rowLength) {
-          $byteTable = $byteTable.PadLeft($rowLength, '0')
-        }
-
-        $hexValue = "0x{0:X$($rowLength / 4)}" -f $([Convert]::ToInt64($byteTable, 2))
-
-        $bitIndex = 0
-        $table = New-Object PSObject
-
-        $table |
-          Add-Member NoteProperty 'Offset' ($offset - $rowLength) -pass |
-          Add-Member NoteProperty 'Hex' $hexValue
-
-        for (; $bitIndex -lt $rowLength; $bitIndex++) {
-          $table |
-            Add-Member NoteProperty "$bitIndex" $byteTable.Substring($bitIndex, 1)
-        }
-
-        $table
-      }
+  function outputByteRow {
+    if ($byteTable.Length -lt $rowLength) {
+      $byteTable = $byteTable.PadLeft($rowLength, '0')
     }
 
-    process {
-      if ($byteTable.Length -ge $rowLength) {
-        outputByteRow
-        $byteTable = ''
-      }
+    $hexValue = "0x{0:X$($rowLength / 4)}" -f $([Convert]::ToInt64($byteTable, 2))
 
-      $byteTable = $byteTable + ($bytes | To-Binary).PadLeft(8, '0')
+    $bitIndex = 0
+    $table = New-Object PSObject
 
-      $offset += $LENGTH_OF_BYTE_IN_BINARY
+    $table |
+      Add-Member NoteProperty 'Offset' ($offset - $rowLength) -pass |
+      Add-Member NoteProperty 'Hex' $hexValue
+
+    for (; $bitIndex -lt $rowLength; $bitIndex++) {
+      $table |
+        Add-Member NoteProperty "$bitIndex" $byteTable.Substring($bitIndex, 1)
     }
 
-    end {}
+    $table
+  }
+}
+
+process {
+  if ($byteTable.Length -ge $rowLength) {
+    outputByteRow
+    $byteTable = ''
+  }
+
+  $byteTable = $byteTable + ($bytes | To-Binary).PadLeft(8, '0')
+
+  $offset += $LENGTH_OF_BYTE_IN_BINARY
+}
+
+end {}
+```
 
 Basically, the usage is just `$bytes | Get-ByteTable.ps1`. Now, the issue then
 is output formatting... that just dumps the list of PSObjects out and the
@@ -144,14 +154,16 @@ Excel, you could pipe the output to `Export-Csv`.
 
 Check out the below sample output:
 
-    > $bytes | Get-ByteTable.ps1 -rowlength 32 | Format-Table -AutoSize -Property *
+```no-highlight
+> $bytes | Get-ByteTable.ps1 -rowlength 32 | Format-Table -AutoSize -Property *
 
-    Offset Hex        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
-    ------ ---        - - - - - - - - - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-         0 0xDE390050 1 1 0 1 1 1 1 0 0 0 1  1  1  0  0  1  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0
-        32 0xD59975E4 1 1 0 1 0 1 0 1 1 0 0  1  1  0  0  1  0  1  1  1  0  1  0  1  1  1  1  0  0  1  0  0
-        64 0x025089DC 0 0 0 0 0 0 1 0 0 1 0  1  0  0  0  0  1  0  0  0  1  0  0  1  1  1  0  1  1  1  0  0
-        96 0x50180101 0 1 0 1 0 0 0 0 0 0 0  1  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  1
+Offset Hex        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+------ ---        - - - - - - - - - - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+     0 0xDE390050 1 1 0 1 1 1 1 0 0 0 1  1  1  0  0  1  0  0  0  0  0  0  0  0  0  1  0  1  0  0  0  0
+    32 0xD59975E4 1 1 0 1 0 1 0 1 1 0 0  1  1  0  0  1  0  1  1  1  0  1  0  1  1  1  1  0  0  1  0  0
+    64 0x025089DC 0 0 0 0 0 0 1 0 0 1 0  1  0  0  0  0  1  0  0  0  1  0  0  1  1  1  0  1  1  1  0  0
+    96 0x50180101 0 1 0 1 0 0 0 0 0 0 0  1  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  1
+```
 
 We can use this table to line up our values with what we saw from the TCP
 header protocol. For example, bits 0-15 make up our source port. In the table
@@ -179,40 +191,44 @@ in a tabular structure, too. Actually treating the one array in a tabular way
 is easy (i.e. rowLength * rowIndex + columnIndex = actualIndex) and is best
 served via extension methods as shown below:
 
-    // Note that I've set a constant BYTE_LENGTH below, which effectively
-    // serves as the row length... it would be easy enough to specify a 
-    // different row length via another parameter.
-    internal static class Extensions
+```cs
+// Note that I've set a constant BYTE_LENGTH below, which effectively
+// serves as the row length... it would be easy enough to specify a 
+// different row length via another parameter.
+internal static class Extensions
+{
+  private const int BYTE_LENGTH = 8;
+
+  public static IEnumerable<bool> GetRowBits(this BitArray bits, int row)
+  {
+    var startIndex = BYTE_LENGTH * row;
+    var endIndex = startIndex + BYTE_LENGTH;
+    for (var i = startIndex; i < endIndex; i++)
     {
-      private const int BYTE_LENGTH = 8;
-
-      public static IEnumerable<bool> GetRowBits(this BitArray bits, int row)
-      {
-        var startIndex = BYTE_LENGTH * row;
-        var endIndex = startIndex + BYTE_LENGTH;
-        for (var i = startIndex; i < endIndex; i++)
-        {
-          yield return bits[i];
-        }
-      }
-
-      public static void Set(this BitArray bits, int rowIndex, int columnIndex, bool value)
-      {
-        var startIndex = BYTE_LENGTH * rowIndex;
-        bits.Set(startIndex + columnIndex, value);
-      }
+      yield return bits[i];
     }
+  }
+
+  public static void Set(this BitArray bits, int rowIndex, int columnIndex, bool value)
+  {
+    var startIndex = BYTE_LENGTH * rowIndex;
+    bits.Set(startIndex + columnIndex, value);
+  }
+}
+```
 
 Usage then would be:
 
-    // assume bytes is an already populated byte array.
-    var bits = new BitArray(bytes);
+```cs
+// assume bytes is an already populated byte array.
+var bits = new BitArray(bytes);
 
-    // to get the bit at 0,4
-    var bit = bits.GetRowBits(0).ElementAt(4);
+// to get the bit at 0,4
+var bit = bits.GetRowBits(0).ElementAt(4);
 
-    // to set the bit at 5,4 ON
-    bits.Set(5, 4, true);
+// to set the bit at 5,4 ON
+bits.Set(5, 4, true);
+```
 
 I'm not particularly happy with the method names and I haven't come up with a
 great way to specify the row length... as it stands now, my extensions are
