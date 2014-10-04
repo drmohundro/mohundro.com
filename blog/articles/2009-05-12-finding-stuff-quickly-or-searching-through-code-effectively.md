@@ -5,6 +5,10 @@ date: 2009/05/12
 categories: powershell;utilities
 guid: 83ba3e37-c3e9-402c-9a13-7cfcb306c007
 
+__UPDATE__ - I ended up posting my version of the Find-String script on GitHub. Check out the latest [Find-String news at GitHub](https://github.com/drmohundro/find-string).
+
+---
+
 I [blogged a while back about finding in files with PowerShell](/blog/2006/11/06/find-in-files-with-powershell/) and I wanted to share an update on that. 
 
 The original post highlighted using a combination of Get-ChildItem and Select-String to quickly find things. It works fine, but the output isn't the easiest to read, because the found text isn't highlighted in any way.
