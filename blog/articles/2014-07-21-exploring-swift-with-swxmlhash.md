@@ -91,11 +91,8 @@ Given the following XML (which is a snippet of the [sample XML from MSDN's XML s
 The following parsing options are allowed...
 
 ```swift
-// instantiate your SWXMLHash instance
-let parser = SWXMLHash()
-
 // begin parsing
-let xml = parser.parse(xmlToParse)
+let xml = SWXMLHash.parse(xmlToParse)
 
 // will return "Test Title Header"
 xml["root"]["header"]["title"].element?.text
