@@ -10,7 +10,7 @@ require 'helpers'
 require 'site'
 
 # Rack config
-use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico'], :root => 'public'
+use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico', '/robots.txt', '/google2ac14dbe775dc33a.html'], :root => 'public'
 use Rack::CommonLogger
 
 if ENV['RACK_ENV'] == 'development'
