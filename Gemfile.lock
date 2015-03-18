@@ -1,27 +1,31 @@
+GIT
+  remote: git://github.com/drmohundro/toto.git
+  revision: db92f0fec7a1aee4038633082878adaf9a9ea170
+  specs:
+    toto (0.4.9)
+      builder (= 3.2.2)
+      rack (= 1.5.2)
+      redcarpet (= 3.2.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
     builder (3.2.2)
-    daemons (1.1.9)
-    eventmachine (1.0.3)
+    daemons (1.2.2)
+    eventmachine (1.0.7)
     rack (1.5.2)
-    rack-rewrite (1.5.0)
-    rdiscount (2.1.7.1)
-    thin (1.6.2)
-      daemons (>= 1.0.9)
-      eventmachine (>= 1.0.0)
-      rack (>= 1.0.0)
-    toto (0.4.9)
-      builder
-      rack
-      rdiscount
+    rack-rewrite (1.5.1)
+    redcarpet (3.2.2)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   builder (~> 3.2.2)
-  rack-rewrite (~> 1.5.0)
-  rdiscount (~> 2.1.7.1)
+  rack-rewrite (~> 1.5.1)
   thin
-  toto (= 0.4.9)
+  toto!

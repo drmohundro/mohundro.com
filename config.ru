@@ -71,8 +71,8 @@ toto = Toto::Server.new do
   set :title,     'David Mohundro'
   set :root,      'index'
   set :prefix,    'blog'
-  set :date,      lambda {|now| now.strftime("%B #{now.day.ordinal} %Y") }
-  set :markdown,  :smart
+  set :date,      -> (now) { now.strftime("%B #{now.day.ordinal} %Y") }
+  set :markdown,  [ :smart, :fenced_code_blocks ]
   set :url,       'http://mohundro.com/'
   set :disqus,    'mohundro'
   # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
