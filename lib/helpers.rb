@@ -1,24 +1,25 @@
 class RedirectHelper
   def convert_legacy_slug(dasblog_slug)
-    val = dasblog_slug.gsub(/::/, '/').
-      gsub(/([A-Z]+)([A-Z][a-z])/,'\1-\2').
-      gsub(/([a-z\d])([A-Z])/,'\1-\2').
-      downcase
+    val = dasblog_slug
+          .gsub(/::/, '/')
+          .gsub(/([A-Z]+)([A-Z][a-z])/, '\1-\2')
+          .gsub(/([a-z\d])([A-Z])/, '\1-\2')
+          .downcase
 
-    singular_compound_words().each do |word|
+    singular_compound_words.each do |word|
       val.gsub! word, word.gsub('-', '')
     end
-    
+
     fix_other_links val
 
     val
   end
 
   def find_path_by_guid(guid)
-    matched_article = get_articles.select { |article| article[:guid] == guid }
+    matched_article = all_articles.select { |article| article[:guid] == guid }
 
     if matched_article[0].nil?
-      "/404/"
+      '/404/'
     else
       matched_article[0].path
     end
@@ -26,13 +27,13 @@ class RedirectHelper
 
   private
 
-  def get_articles
-    (get_toto.site.class.articles 'md').map do |article|
+  def all_articles
+    (build_toto.site.class.articles 'md').map do |article|
       Toto::Article.new(article, config).load
     end
   end
 
-  def get_toto
+  def build_toto
     Toto::Paths[:templates] = 'blog/templates'
     Toto::Paths[:pages] = 'blog/templates/pages'
     Toto::Paths[:articles] = 'blog/articles'
@@ -42,9 +43,9 @@ class RedirectHelper
 
   def config
     {
-      :root => 'index',
-      :prefix => 'blog',
-      :ext => 'md'
+      root: 'index',
+      prefix: 'blog',
+      ext: 'md'
     }
   end
 

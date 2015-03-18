@@ -10,7 +10,7 @@ require 'helpers'
 require 'site'
 
 # Rack config
-use Rack::Static, :urls => ['/css', '/js', '/images', '/favicon.ico', '/robots.txt', '/google2ac14dbe775dc33a.html'], :root => 'public'
+use Rack::Static, urls: ['/css', '/js', '/images', '/favicon.ico', '/robots.txt', '/google2ac14dbe775dc33a.html'], root: 'public'
 use Rack::CommonLogger
 
 if ENV['RACK_ENV'] == 'development'
@@ -23,42 +23,41 @@ use Rack::Rewrite do
     (\d{2})/  # month
     (\d{2})/  # day
     (\w+?)    # slug
-    \.aspx$}x, lambda { |match, rack_env|
+    \.aspx$}x, lambda do |match, rack_env|
 
     helper = RedirectHelper.new
-
     year, month, day, slug = match[1], match[2], match[3], helper.convert_legacy_slug(match[4])
     "/blog/#{year}/#{month}/#{day}/#{slug}/"
-  }
+  end
 
-  r301 %r{/blog/CategoryView,category,(\w+?)\.aspx}, lambda { |match, rack_env|
+  r301 %r{/blog/CategoryView,category,(\w+?)\.aspx}, lambda do |match, rack_env|
     category = match[1].downcase
     "/blog/categories?#{category}"
-  }
+  end
 
-  r301 %r{/blog/(PermaLink|CommentView),guid,(.+?)\.aspx}, lambda { |match, rack_env|
+  r301 %r{/blog/(PermaLink|CommentView),guid,(.+?)\.aspx}, lambda do |match, rack_env|
     helper = RedirectHelper.new
 
     guid = match[2]
     helper.find_path_by_guid guid
-  }
+  end
 
-  r301 %r{/blog/CommentView\.aspx\?guid=(.+)}, lambda { |match, rack_env|
+  r301 %r{/blog/CommentView\.aspx\?guid=(.+)}, lambda do |match, rack_env|
     helper = RedirectHelper.new
 
     guid = match[1]
     helper.find_path_by_guid guid
-  }
+  end
 
-  r301 %r{blog/default,month,(\d{4})-(\d{2}).aspx}, lambda { |match, rack_env |
+  r301 %r{blog/default,month,(\d{4})-(\d{2}).aspx}, lambda do |match, rack_env |
     year, month = match[1], match[2]
     "/blog/month?#{year}-#{month}"
-  }
+  end
 
   if ENV['RACK_ENV'] == 'production'
-    r301 %r{.*}, 'http://mohundro.com$&', :if => Proc.new {|rack_env|
+    r301 %r{.*}, 'http://mohundro.com$&', if: Proc.new do |rack_env|
       rack_env['SERVER_NAME'] != 'mohundro.com'
-    }
+    end
   end
 end
 
@@ -75,10 +74,10 @@ toto = Toto::Server.new do
   set :markdown,  [ :smart, :fenced_code_blocks ]
   set :url,       'http://mohundro.com/'
   set :disqus,    'mohundro'
-  # set :summary,   :max => 150, :delim => /~/                # length of article summary and delimiter
+  # set :summary,   max: 150, delim: /~/                # length of article summary and delimiter
   set :ext,       'md'
   # set :cache,      28800                                    # cache duration, in seconds
-  set :error,     lambda { |env| Site.new.not_found }
+  set :error,     -> (env) { Site.new.not_found }
 end
 
 app = Rack::Builder.new do

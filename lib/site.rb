@@ -5,7 +5,7 @@ class Site
     path = env['PATH_INFO'].gsub! '/', ''
     status, content = get_status_and_content(path)
 
-    [status, {"Content-Type" => "text/html"}, [content]]
+    [status, { 'Content-Type' => 'text/html' }, [content]]
   end
 
   def not_found
@@ -35,7 +35,7 @@ class Site
 
     full_path = qualify_path path
 
-    if !File.exists? full_path
+    unless File.exist? full_path
       http_return = 404
       full_path = qualify_path '404'
     end
@@ -48,7 +48,7 @@ class Site
     to_html("#{File.dirname(__FILE__)}/../blog/templates/layout.rhtml", &Proc.new { content })
   end
 
-  def to_html(path, &blk)
+  def to_html(path)
     ERB.new(File.read(path)).result(binding)
   end
 
