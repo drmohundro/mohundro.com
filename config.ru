@@ -55,9 +55,9 @@ use Rack::Rewrite do
   }
 
   if ENV['RACK_ENV'] == 'production'
-    r301 %r{.*}, 'http://mohundro.com$&', if: Proc.new do |rack_env|
+    r301 %r{.*}, 'http://mohundro.com$&', if: (Proc.new do |rack_env|
       rack_env['SERVER_NAME'] != 'mohundro.com'
-    end
+    end)
   end
 end
 
