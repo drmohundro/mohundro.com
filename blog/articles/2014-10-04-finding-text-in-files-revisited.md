@@ -110,8 +110,8 @@ Usage:
 
 ```powershell
 # relevant options:
-#   --context   = [x,y] where x is number of lines before and y is number of lines after
-Find-String jQuery *.js --context 0,3
+#   -context   = [x,y] where x is number of lines before and y is number of lines after
+Find-String jQuery *.js -context 0,3
 ```
 
 To install, I'd first install [PsGet](http://psget.net/) and then you can just run `Install-Module Find-String`.
